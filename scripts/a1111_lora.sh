@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # cd to the modelsdirectory
-if [[ -n "#SD_lora" ]]; then
-    cd "$SD_lora"
+if [[ -n "$SD_lora" ]]; then
+    cd "$SD_lora" || return
 else
-    cd /workspace/stable-diffusion-webui/models/Lora
+    cd /workspace/stable-diffusion-webui/models/Lora || return
 fi
 
 

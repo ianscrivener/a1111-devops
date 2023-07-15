@@ -2,9 +2,9 @@
 
 # cd to the modelsdirectory
 if [[ -n "$SD_models" ]]; then
-    cd "$SD_models"
+    cd "$SD_models"|| return
 else
-    cd /workspace/stable-diffusion-webui/models/Stable-diffusion
+    cd /workspace/stable-diffusion-webui/models/Stable-diffusion || return
 fi
 
 rm *.txt
