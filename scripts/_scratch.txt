@@ -1,0 +1,3 @@
+env | grep RUNPOD
+
+wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/scripts/podman01.sh | bash
