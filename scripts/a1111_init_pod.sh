@@ -1,18 +1,20 @@
-apt get update
+apt update
 apt install unzip nano git-lfs aria2c jq python3 python3-pip git -y
-pip install --upgrade pip setuptools wheel
+#pip install --upgrade pip setuptools wheel
 
-export SD_models="/workspace/StableDiffusion/models/Stable-diffusion"
-export SD_lora="/workspace/StableDiffusion/models/Lora"
-export SD_extensions="/workspace/StableDiffusion/extensions"
-export SD_embeddings="/workspace/StableDiffusion/embeddings"
-export SD_lycoris="/workspace/StableDiffusion/models/LyCORIS"
-export SD_vae="/workspace/StableDiffusion/models/VAE"
+export SD_models="/workspace/stable-diffusion-webui/models/Stable-diffusion"
+export SD_lora="/workspace/stable-diffusion-webui/models/Lora"
+export SD_extensions="/workspace/stable-diffusion-webui/extensions"
+export SD_embeddings="/workspace/stable-diffusion-webui/embeddings"
+export SD_lycoris="/workspace/stable-diffusion-webui/models/LyCORIS"
+export SD_vae="/workspace/stable-diffusion-webui/models/VAE"
+
+env | grep SD_
 
 # output directories
-  mkdir -p /workspace/a1111_outputs
-  rm -rf /workspace/StableDiffusion/outputs
-  ln -s /workspace/a1111_outputs /workspace/StableDiffusion/outputs
+mkdir -p /workspace/a1111_outputs
+rm -rf /workspace/stable-diffusion-webui/outputs
+ln -s /workspace/a1111_outputs /workspace/stable-diffusion-webui/outputs
 
 #mkdir -p /workspace/a1111/models
 #mkdir -p /workspace/a1111/extentions

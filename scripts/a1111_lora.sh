@@ -4,7 +4,7 @@
 if [[ -n "#SD_lora" ]]; then
     cd "$SD_lora"
 else
-    cd /workspace/StableDiffusion/models/Lora
+    cd /workspace/stable-diffusion-webui/models/Lora
 fi
 
 
