@@ -1,0 +1,372 @@
+{
+    "id": 67520,
+    "modelId": 63006,
+    "name": "v1.0",
+    "createdAt": "2023-05-10T22:47:14.883Z",
+    "updatedAt": "2023-05-10T23:32:12.406Z",
+    "trainedWords": [
+        "ememyers"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "stats": {
+        "downloadCount": 555,
+        "ratingCount": 1,
+        "rating": 5
+    },
+    "model": {
+        "name": "ememyers",
+        "type": "LORA",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "ememyers-20.safetensors",
+            "id": 47249,
+            "sizeKB": 18561.1240234375,
+            "type": "Model",
+            "metadata": {
+                "fp": null,
+                "size": null,
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-05-10T22:50:45.975Z",
+            "hashes": {
+                "AutoV1": "DE2F2560",
+                "AutoV2": "B4A9D9B589",
+                "SHA256": "B4A9D9B589396A87725206A8F7A1470ED4FF783BF2D80ABD953A186FE7B5718C",
+                "CRC32": "A0EFE707",
+                "BLAKE3": "61D0EB75E82A6A36E9E2A78E171E0B7FDF9D4C9C95CBED6FE4B9D89874BF2522"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/67520"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6ff23356-9d93-4ac5-8b62-3a719f748780/width=450/750593.jpeg",
+            "nsfw": "None",
+            "width": 512,
+            "height": 768,
+            "hash": "UZGb}2kqOss;~TRjX8VsyDnhxaWCTfs:xFW;",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3757149583,
+                "Model": "Realistic_Vision_V1.4",
+                "steps": 150,
+                "hashes": {
+                    "model": "21c6d51e3e"
+                },
+                "prompt": "a woman sitting on a blue couch in front of a blue chair and a cityscape in the background, <lora:ememyers-20:0.9>, ememyers,, highlight hair,  looking at the camera, dslr, ultra quality, sharp focus, tack sharp, dof, film grain, Fujifilm XT3, crystal clear, 8K UHD, highly detailed glossy eyes, high detailed skin, skin pores",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "21c6d51e3e",
+                        "name": "Realistic_Vision_V1.4",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "21c6d51e3e",
+                "negativePrompt": "disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w, disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ec65bace-58a3-4f92-a30e-a51b2c7b263d/width=450/751464.jpeg",
+            "nsfw": "None",
+            "width": 512,
+            "height": 768,
+            "hash": "UUHU:=adX5RP~pInkSbFk=NFIURj_3RiV@oI",
+            "meta": {
+                "Size": "512x768",
+                "seed": 4200191299,
+                "Model": "Realistic_Vision_V1.4",
+                "steps": 150,
+                "hashes": {
+                    "model": "21c6d51e3e"
+                },
+                "prompt": "a photo of a woman with brown hair, <lora:ememyers-20:1>, ememyers, highlight hair,  looking at the camera, dslr, ultra quality, sharp focus, tack sharp, dof, film grain, Fujifilm XT3, crystal clear, 8K UHD, highly detailed glossy eyes, high detailed skin, skin pores",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "21c6d51e3e",
+                        "name": "Realistic_Vision_V1.4",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "21c6d51e3e",
+                "negativePrompt": "disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w, disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w",
+                "ControlNet Model": "control_v11p_sd15_openpose [cab727d4]",
+                "ControlNet Weight": "1",
+                "ControlNet Enabled": "True",
+                "ControlNet Ending Step": "1",
+                "ControlNet Resize Mode": "Crop and Resize",
+                "ControlNet Control Mode": "Balanced",
+                "ControlNet Preprocessor": "openpose_face",
+                "ControlNet Pixel Perfect": "False",
+                "ControlNet Starting Step": "0",
+                "ControlNet Preprocessor Parameters": "\"(512, 64, 64)\""
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/18c9ee31-f99c-4e9f-9584-7818012ce7cc/width=450/751604.jpeg",
+            "nsfw": "Soft",
+            "width": 512,
+            "height": 768,
+            "hash": "UBMsAon4_M0L00D%~U0f%~-;=G%2[moer?xG",
+            "meta": {
+                "Size": "512x768",
+                "seed": 574310481,
+                "Model": "uberRealisticPornMerge_urpmv13",
+                "steps": 81,
+                "hashes": {
+                    "model": "f93e6a50ac"
+                },
+                "prompt": "a photo of a petite young woman with brown hair,, taking a selfie naked, nude, ememyers,  <lora:ememyers-20:0.7>",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "f93e6a50ac",
+                        "name": "uberRealisticPornMerge_urpmv13",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "f93e6a50ac",
+                "needsReview": "poi",
+                "negativePrompt": "disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w, disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w",
+                "ControlNet Model": "control_v11p_sd15_canny [d14c016b]",
+                "ControlNet Weight": "1",
+                "ControlNet Enabled": "True",
+                "ControlNet Ending Step": "1",
+                "ControlNet Resize Mode": "Crop and Resize",
+                "ControlNet Control Mode": "Balanced",
+                "ControlNet Preprocessor": "canny",
+                "ControlNet Pixel Perfect": "False",
+                "ControlNet Starting Step": "0",
+                "ControlNet Preprocessor Parameters": "\"(512, 100, 200)\""
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3853983e-fd74-4c4b-bfb0-0f42f2f97613/width=450/751743.jpeg",
+            "nsfw": "Soft",
+            "width": 512,
+            "height": 768,
+            "hash": "UXK1Bu?b9uf+9^xuWAWV%hWCsms:~Wt7RPoK",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2827482353,
+                "Model": "Realistic_Vision_V1.4",
+                "steps": 62,
+                "hashes": {
+                    "model": "21c6d51e3e"
+                },
+                "prompt": "a photo of a petite young woman with brown hair, ememyers,  <lora:ememyers-20:0.7>,, highlight hair,  looking at the camera, dslr, ultra quality, sharp focus, tack sharp, dof, film grain, Fujifilm XT3, crystal clear, 8K UHD, highly detailed glossy eyes, high detailed skin, skin pores",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "21c6d51e3e",
+                        "name": "Realistic_Vision_V1.4",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "21c6d51e3e",
+                "needsReview": "poi",
+                "negativePrompt": "disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w",
+                "ControlNet Model": "control_v11p_sd15_canny [d14c016b]",
+                "ControlNet Weight": "1",
+                "ControlNet Enabled": "True",
+                "ControlNet Ending Step": "1",
+                "ControlNet Resize Mode": "Crop and Resize",
+                "ControlNet Control Mode": "Balanced",
+                "ControlNet Preprocessor": "canny",
+                "ControlNet Pixel Perfect": "False",
+                "ControlNet Starting Step": "0",
+                "ControlNet Preprocessor Parameters": "\"(512, 100, 200)\""
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e7fbe0bb-1f80-4b81-8603-0fd064f17591/width=450/750802.jpeg",
+            "nsfw": "None",
+            "width": 1920,
+            "height": 3939,
+            "hash": "UnKn3m_N?v?bt7j[jtfkozjsayayt7ayj[j[",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1284222792,
+                "Model": "Realistic_Vision_V1.4",
+                "steps": 50,
+                "Script": "X/Y/Z plot",
+                "X Type": "Steps",
+                "Y Type": "Prompt S/R",
+                "hashes": {
+                    "model": "21c6d51e3e"
+                },
+                "prompt": "a photo of a woman with brown hair, <lora:ememyers-20:0.6>, ememyers, highlight hair,  looking at the camera, dslr, ultra quality, sharp focus, tack sharp, dof, film grain, Fujifilm XT3, crystal clear, 8K UHD, highly detailed glossy eyes, high detailed skin, skin pores",
+                "sampler": "DPM++ 2M Karras",
+                "X Values": "\"50, 100, 150\"",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "21c6d51e3e",
+                        "name": "Realistic_Vision_V1.4",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "21c6d51e3e",
+                "ememyers-20": "1>\"",
+                "negativePrompt": "disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w, disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e121d5d-98f0-4614-8e85-a03f14ef5b9f/width=450/750594.jpeg",
+            "nsfw": "None",
+            "width": 512,
+            "height": 768,
+            "hash": "UZG8~2wHXnoz%fI@XSxa~B$*S$ozT0W;ogae",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3757149581,
+                "Model": "Realistic_Vision_V1.4",
+                "steps": 150,
+                "hashes": {
+                    "model": "21c6d51e3e"
+                },
+                "prompt": "a woman sitting on a blue couch in front of a blue chair and a cityscape in the background, <lora:ememyers-20:0.9>, ememyers,, highlight hair,  looking at the camera, dslr, ultra quality, sharp focus, tack sharp, dof, film grain, Fujifilm XT3, crystal clear, 8K UHD, highly detailed glossy eyes, high detailed skin, skin pores",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "21c6d51e3e",
+                        "name": "Realistic_Vision_V1.4",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "21c6d51e3e",
+                "negativePrompt": "disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w, disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2fc4aa3b-155d-48b8-a48c-be1ce7cc63f9/width=450/750603.jpeg",
+            "nsfw": "None",
+            "width": 512,
+            "height": 768,
+            "hash": "UVFrkq^*E,Rj~B$xIpRjI:kC$%s:9vSP%2oz",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3833204693,
+                "Model": "Realistic_Vision_V1.4",
+                "steps": 150,
+                "hashes": {
+                    "model": "21c6d51e3e"
+                },
+                "prompt": "a woman sitting on a blue couch in front of a blue chair and a cityscape in the background, <lora:ememyers-20:0.9>, ememyers,, highlight hair,  looking at the camera, dslr, ultra quality, sharp focus, tack sharp, dof, film grain, Fujifilm XT3, crystal clear, 8K UHD, highly detailed glossy eyes, high detailed skin, skin pores",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "21c6d51e3e",
+                        "name": "Realistic_Vision_V1.4",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "21c6d51e3e",
+                "negativePrompt": "disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w, disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w",
+                "ControlNet Model": "control_v11p_sd15_openpose [cab727d4]",
+                "ControlNet Weight": "1",
+                "ControlNet Enabled": "True",
+                "ControlNet Ending Step": "1",
+                "ControlNet Resize Mode": "Crop and Resize",
+                "ControlNet Control Mode": "Balanced",
+                "ControlNet Preprocessor": "openpose_face",
+                "ControlNet Pixel Perfect": "False",
+                "ControlNet Starting Step": "0",
+                "ControlNet Preprocessor Parameters": "\"(512, 64, 64)\""
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5d53b159-178a-4833-a850-afcb1fa12ae3/width=450/750635.jpeg",
+            "nsfw": "None",
+            "width": 512,
+            "height": 768,
+            "hash": "UIIh1:RpcD?v0L?wNZt7~qt8?Ht7?^XAxa%g",
+            "meta": {
+                "Size": "512x768",
+                "seed": 4178488440,
+                "Model": "Realistic_Vision_V1.4",
+                "steps": 150,
+                "hashes": {
+                    "model": "21c6d51e3e"
+                },
+                "prompt": "a photo of a woman with brown hair, <lora:ememyers-20:0.9>, ememyers, highlight hair,  looking at the camera, dslr, ultra quality, sharp focus, tack sharp, dof, film grain, Fujifilm XT3, crystal clear, 8K UHD, highly detailed glossy eyes, high detailed skin, skin pores",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "21c6d51e3e",
+                        "name": "Realistic_Vision_V1.4",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "21c6d51e3e",
+                "negativePrompt": "disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w, disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w",
+                "ControlNet Model": "control_v11p_sd15_openpose [cab727d4]",
+                "ControlNet Weight": "1",
+                "ControlNet Enabled": "True",
+                "ControlNet Ending Step": "1",
+                "ControlNet Resize Mode": "Crop and Resize",
+                "ControlNet Control Mode": "Balanced",
+                "ControlNet Preprocessor": "openpose_face",
+                "ControlNet Pixel Perfect": "False",
+                "ControlNet Starting Step": "0",
+                "ControlNet Preprocessor Parameters": "\"(512, 64, 64)\""
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e9267ac9-e5ae-4ccd-9921-377acbde0d3f/width=450/750642.jpeg",
+            "nsfw": "None",
+            "width": 512,
+            "height": 768,
+            "hash": "UHKm|U02AXM{004oxsxa?^M{%1%L.8jE%Mbc",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2750113427,
+                "Model": "Realistic_Vision_V1.4",
+                "steps": 50,
+                "hashes": {
+                    "model": "21c6d51e3e"
+                },
+                "prompt": "a photo of a woman with brown hair, <lora:ememyers-20:1>, ememyers, highlight hair,  looking at the camera, dslr, ultra quality, sharp focus, tack sharp, dof, film grain, Fujifilm XT3, crystal clear, 8K UHD, highly detailed glossy eyes, high detailed skin, skin pores",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "21c6d51e3e",
+                        "name": "Realistic_Vision_V1.4",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "21c6d51e3e",
+                "negativePrompt": "disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w, disfigured, ugly, bad, immature, cartoon, anime, 3d, painting, b&w",
+                "ControlNet Model": "control_v11p_sd15_canny [d14c016b]",
+                "ControlNet Weight": "1",
+                "ControlNet Enabled": "True",
+                "ControlNet Ending Step": "1",
+                "ControlNet Resize Mode": "Crop and Resize",
+                "ControlNet Control Mode": "Balanced",
+                "ControlNet Preprocessor": "canny",
+                "ControlNet Pixel Perfect": "False",
+                "ControlNet Starting Step": "0",
+                "ControlNet Preprocessor Parameters": "\"(512, 100, 200)\""
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/67520"
+}

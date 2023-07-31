@@ -1,0 +1,195 @@
+{
+    "id": 11192,
+    "modelId": 9432,
+    "name": "IPV1",
+    "createdAt": "2023-02-16T13:18:27.751Z",
+    "updatedAt": "2023-02-28T08:18:13.702Z",
+    "trainedWords": [
+        "1boy, penis, imminent penetration, lying, on back, spread legs."
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "stats": {
+        "downloadCount": 52737,
+        "ratingCount": 44,
+        "rating": 5
+    },
+    "model": {
+        "name": "POV Imminent Penetration [1 MB]",
+        "type": "LORA",
+        "nsfw": true,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "IPV1.safetensors",
+            "id": 10458,
+            "sizeKB": 925.4716796875,
+            "type": "Model",
+            "metadata": {
+                "fp": "fp16",
+                "size": "full",
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-02-16T13:20:48.607Z",
+            "hashes": {
+                "AutoV2": "F5F6B86957",
+                "SHA256": "F5F6B86957B6196EE134F511D016101A1E3E8A684FDE2875694B061CE893278E",
+                "CRC32": "26313565",
+                "BLAKE3": "8FC33F0567B34810D55C4CC8864FCB9A1614CC298CA17771707D6EAF1E4F5D8C"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/11192"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/08b71cd9-7e1d-4580-86f6-15445559fb00/width=450/107818.jpeg",
+            "nsfw": "X",
+            "width": 737,
+            "height": 745,
+            "hash": "UDJ%,+NH00js00Rj^+of00Rj~qWCELR*4.Io",
+            "meta": {
+                "seed": 1239692164,
+                "steps": 25,
+                "prompt": "beautiful, masterpiece, best quality, extremely detailed face, perfect lighting, 1girl, solo,  <lora:IPV1:0.9>, 1boy, penis, imminent penetration, lying, on back, spread legs, pov, leg grab",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "negativePrompt": "(low quality, worst quality:1.4),(bad_prompt:0.8), (monochrome:1.1), (greyscale)"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2db51c2d-31d1-4261-ca06-8b6712785b00/width=450/107852.jpeg",
+            "nsfw": "X",
+            "width": 740,
+            "height": 739,
+            "hash": "UHI4qu00JR%M~V9Gt7oyM_%2R.R%~VRjIpt7",
+            "meta": {
+                "seed": 3950752891,
+                "steps": 25,
+                "prompt": "beautiful, masterpiece, best quality, extremely detailed face, perfect lighting, 1girl, solo,  <lora:IPV1:0.9>, 1boy, penis, imminent penetration, <lora:POVDoggy:0.5>, from behind",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "negativePrompt": "(low quality, worst quality:1.4),(bad_prompt:0.8), (monochrome:1.1), (greyscale)"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e58a8182-275f-49a8-83d9-1b27e53d6900/width=450/107955.jpeg",
+            "nsfw": "X",
+            "width": 741,
+            "height": 746,
+            "hash": "UGGRbq%M00IU57t74.R%9aj[-oR*~Wxt-pV@",
+            "meta": {
+                "seed": 3368306887,
+                "steps": 25,
+                "prompt": "beautiful, masterpiece, best quality, extremely detailed face, perfect lighting, 1girl, solo,  <lora:IPV1:0.9>, 1boy, penis, imminent penetration, spread legs,  <lora:PSCowgirl:0.4>, squatting, white hair, very short hair, yellow eyes",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "negativePrompt": "(low quality, worst quality:1.4),(bad_prompt:0.8), (monochrome:1.1), (greyscale)"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/80875f1f-8842-4870-0870-0d0c96d38a00/width=450/107956.jpeg",
+            "nsfw": "X",
+            "width": 739,
+            "height": 744,
+            "hash": "UMJ7zMof?Gxt?^WVE1oft7aeD*kCjFj[enj[",
+            "meta": {
+                "seed": 2225170062,
+                "steps": 25,
+                "prompt": "beautiful, masterpiece, best quality, extremely detailed face, perfect lighting, 1girl, solo,  <lora:IPV1:0.9>, 1boy, penis, imminent penetration, spread legs,  <lora:PSCowgirl:0.4>, squatting",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "negativePrompt": "(low quality, worst quality:1.4),(bad_prompt:0.8), (monochrome:1.1), (greyscale)"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ad559e2e-8926-4b6a-7ff2-4d59b37eae00/width=450/107822.jpeg",
+            "nsfw": "X",
+            "width": 739,
+            "height": 744,
+            "hash": "UQI|{^~VkUxt?a%L?GxaadjZt7t7%1axE2t7",
+            "meta": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3e2ef3f9-0c9a-4c59-17dd-3afb4691e500/width=450/107823.jpeg",
+            "nsfw": "X",
+            "width": 743,
+            "height": 746,
+            "hash": "UNKAc-~VI:-pEgtRxuay00IoxajsMyIVeoW.",
+            "meta": {
+                "seed": 3936614688,
+                "steps": 25,
+                "prompt": "beautiful, masterpiece, best quality, extremely detailed face, perfect lighting, 1girl, solo,  <lora:IPV1:0.9>, 1boy, penis, imminent penetration, lying, on back, spread legs, arms up, armpits, completely nude, large breasts, nipples, large penis, short hair, messy hair, angry, blush, leg grab",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "negativePrompt": "(low quality, worst quality:1.4),(bad_prompt:0.8), (monochrome:1.1), (greyscale)"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e937eb60-874b-4f47-3aad-2ab69a772e00/width=450/107851.jpeg",
+            "nsfw": "X",
+            "width": 743,
+            "height": 743,
+            "hash": "UAJaWY000Lt803D%_2Rk00~q=^xa^*?b00oe",
+            "meta": {
+                "seed": 4270835951,
+                "steps": 25,
+                "prompt": "beautiful, masterpiece, best quality, extremely detailed face, perfect lighting, 1girl, solo,  <lora:IPV1:0.9>, 1boy, penis, imminent penetration, <lora:POVDoggy:0.5>, from behind",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "negativePrompt": "(low quality, worst quality:1.4),(bad_prompt:0.8), (monochrome:1.1), (greyscale)"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/72878614-04ef-4c4b-bc62-2c9793e52f00/width=450/107954.jpeg",
+            "nsfw": "X",
+            "width": 746,
+            "height": 746,
+            "hash": "UHL3_njq4--;00xW${RjM{~V^*-p-;a|-:xu",
+            "meta": {
+                "seed": 2308462191,
+                "steps": 25,
+                "prompt": "beautiful, masterpiece, best quality, extremely detailed face, perfect lighting, 1girl, solo,  <lora:IPV1:0.9>, 1boy, penis, imminent penetration, lying, on back,  spread legs, arms up, large penis, huge breasts, nipple, blue hair, ponytail, shirt, white shirt, bottomless,  looking at viewer,   <lora:KEStyle:0.4>",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "negativePrompt": "(low quality, worst quality:1.4),(bad_prompt:0.8), (monochrome:1.1), (greyscale)"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8d65ddf1-df16-4530-83db-5ff593cbf100/width=450/107821.jpeg",
+            "nsfw": "X",
+            "width": 741,
+            "height": 745,
+            "hash": "UZK^Qt~pEM$*.8?bt7niEM%M%MM{-pW=R+R*",
+            "meta": {
+                "seed": 1801474904,
+                "steps": 25,
+                "prompt": "beautiful, masterpiece, best quality, extremely detailed face, perfect lighting, 1girl, solo,  <lora:IPV1:0.9>, 1boy, penis, imminent penetration, lying, on back, spread legs, huge penis, red hair, long hair, ponytail, large breasts, puffy nipples, nude, completely nude, indoors, train interior",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "negativePrompt": "(low quality, worst quality:1.4),(bad_prompt:0.8), (monochrome:1.1), (greyscale)"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e12597f7-9ec8-41d7-7d70-5a3cee872800/width=450/107820.jpeg",
+            "nsfw": "X",
+            "width": 740,
+            "height": 742,
+            "hash": "UUI4kaj[9Zj[D%ayIVWC~VoLE2ay0eoeNHR*",
+            "meta": {
+                "seed": 343203564,
+                "steps": 25,
+                "prompt": "beautiful, masterpiece, best quality, extremely detailed face, perfect lighting, 1girl, solo,  <lora:IPV1:0.9>, 1boy, penis, imminent penetration, lying, on back, spread legs, closed eyes, blush, full-face blush, medium breasts, cum, cum on body,\n <lora:Afrobull:0.6>",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "negativePrompt": "(low quality, worst quality:1.4),(bad_prompt:0.8), (monochrome:1.1), (greyscale)"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/11192"
+}

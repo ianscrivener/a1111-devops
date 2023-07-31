@@ -1,0 +1,200 @@
+{
+    "id": 77925,
+    "modelId": 73209,
+    "name": "v1.0",
+    "createdAt": "2023-05-22T14:55:18.257Z",
+    "updatedAt": "2023-06-24T06:19:10.563Z",
+    "trainedWords": [
+        "Scarlett_Johansson"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "stats": {
+        "downloadCount": 1381,
+        "ratingCount": 1,
+        "rating": 5
+    },
+    "model": {
+        "name": "Scarlett Johansson",
+        "type": "LORA",
+        "nsfw": false,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "scarlett_johansson.safetensors",
+            "id": 53642,
+            "sizeKB": 147570.712890625,
+            "type": "Model",
+            "metadata": {
+                "fp": null,
+                "size": null,
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-05-22T15:01:45.022Z",
+            "hashes": {
+                "AutoV1": "7D567E7B",
+                "AutoV2": "3BB5E62523",
+                "SHA256": "3BB5E625236D9CE08A68944D82005368AE2347E4832817090005632A1DF5AFC2",
+                "CRC32": "3356432B",
+                "BLAKE3": "474F3F667651E4DE50BC77CDD0418724E8B8B3023853CB408667D467285AA539"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/77925"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/56affbf4-6de3-4d59-83a8-b4940b017c2f/width=450/873832.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1024,
+            "hash": "ULJQ.rxu5q-;~VRj%2t7XRIUVsMxtls:%3M{",
+            "meta": {
+                "Size": "1024x1024",
+                "seed": 1985055518,
+                "Model": "chilloutmix_NiPrunedFp32Fix",
+                "model": "control_v11f1e_sd15_tile [a371b31b]",
+                "steps": 20,
+                "hashes": {
+                    "model": "fc2511737a"
+                },
+                "prompt": "best quality, scarlett_johansson, 1girl, solo, short hair, looking at viewer, jacket, smile, blonde hair, jewelry, upper body, earrings, parted lips, blurry background, realistic, red lips",
+                "weight": "1",
+                "Version": "v1.2.1",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 1,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_NiPrunedFp32Fix",
+                        "type": "model"
+                    },
+                    {
+                        "hash": "8b79796baac2",
+                        "name": "scarlett_johansson",
+                        "type": "lora",
+                        "weight": null
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "resize mode": "Crop and Resize",
+                "control mode": "ControlNet is more important",
+                "\"preprocessor": "tile_resample",
+                "pixel perfect": "True",
+                "AddNet Enabled": "True",
+                "AddNet Model 1": "scarlett_johansson(8b79796baac2)",
+                "negativePrompt": "low quality, worst quality,  bad-hands-5,  bad-image-v2-39000,  EasyNegative,  ng_deepnegative_v1_75t",
+                "AddNet Module 1": "LoRA",
+                "starting/ending": "(0, 1)",
+                "AddNet Weight A 1": "0.6",
+                "AddNet Weight B 1": "0.6",
+                "preprocessor params": "(64, 1, 64)\""
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/404eafa3-504e-4ab4-b188-e6367946176a/width=450/873726.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1280,
+            "hash": "UKKmkJ~p14yD58o}I;-;%1IUn4RP4.xYxboy",
+            "meta": {
+                "Size": "1024x1280",
+                "seed": 2294735979,
+                "Model": "chilloutmix_NiPrunedFp32Fix",
+                "model": "control_v11f1e_sd15_tile [a371b31b]",
+                "steps": 20,
+                "hashes": {
+                    "model": "fc2511737a"
+                },
+                "prompt": "best quality, scarlett_johansson, 1girl, solo, long hair, breasts, looking at viewer, smile, blonde hair, dress, jewelry, medium breasts, upper body, earrings, parted lips, mole, blurry background, realistic, red lips",
+                "weight": "1",
+                "Version": "v1.2.1",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 2,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_NiPrunedFp32Fix",
+                        "type": "model"
+                    },
+                    {
+                        "hash": "8b79796baac2",
+                        "name": "scarlett_johansson",
+                        "type": "lora",
+                        "weight": null
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "resize mode": "Crop and Resize",
+                "control mode": "ControlNet is more important",
+                "\"preprocessor": "tile_resample",
+                "pixel perfect": "True",
+                "AddNet Enabled": "True",
+                "AddNet Model 1": "scarlett_johansson(8b79796baac2)",
+                "negativePrompt": "low quality, worst quality,  bad-hands-5,  bad-image-v2-39000,  EasyNegative,  ng_deepnegative_v1_75t",
+                "AddNet Module 1": "LoRA",
+                "starting/ending": "(0, 1)",
+                "AddNet Weight A 1": "0.6",
+                "AddNet Weight B 1": "0.6",
+                "preprocessor params": "(64, 2, 64)\""
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fa024441-c9ab-40a5-bd8b-2f61d7b72cda/width=450/873743.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1408,
+            "hash": "UCJaDq03Kh58?u^,KP?H0N~o^lx[xv^*9axu",
+            "meta": {
+                "Size": "1024x1408",
+                "seed": 1930517043,
+                "Model": "chilloutmix_NiPrunedFp32Fix",
+                "model": "control_v11f1e_sd15_tile [a371b31b]",
+                "steps": 20,
+                "hashes": {
+                    "model": "fc2511737a"
+                },
+                "prompt": "best quality, scarlett_johansson, 1girl, solo, short hair, breasts, looking at viewer, smile, blonde hair, black dress, jewelry, breasts, upper body, earrings, parted lips, blurry background, realistic, red lips",
+                "weight": "1",
+                "Version": "v1.2.1",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 2,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_NiPrunedFp32Fix",
+                        "type": "model"
+                    },
+                    {
+                        "hash": "8b79796baac2",
+                        "name": "scarlett_johansson",
+                        "type": "lora",
+                        "weight": null
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "resize mode": "Crop and Resize",
+                "control mode": "ControlNet is more important",
+                "\"preprocessor": "tile_resample",
+                "pixel perfect": "True",
+                "AddNet Enabled": "True",
+                "AddNet Model 1": "scarlett_johansson(8b79796baac2)",
+                "negativePrompt": "low quality, worst quality,  bad-hands-5,  bad-image-v2-39000,  EasyNegative,  ng_deepnegative_v1_75t",
+                "AddNet Module 1": "LoRA",
+                "starting/ending": "(0, 1)",
+                "AddNet Weight A 1": "0.6",
+                "AddNet Weight B 1": "0.6",
+                "preprocessor params": "(64, 1, 64)\""
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/77925"
+}

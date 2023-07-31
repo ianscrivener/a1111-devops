@@ -1,0 +1,369 @@
+{
+    "id": 70685,
+    "modelId": 66040,
+    "name": "v1.0",
+    "createdAt": "2023-05-14T16:49:13.439Z",
+    "updatedAt": "2023-06-08T18:07:40.465Z",
+    "trainedWords": [
+        "srfc"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "stats": {
+        "downloadCount": 1362,
+        "ratingCount": 0,
+        "rating": 0
+    },
+    "model": {
+        "name": "Better Shorts - fC \u7d27\u8eab\u77ed\u88e4",
+        "type": "LORA",
+        "nsfw": false,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "srfc-v2.safetensors",
+            "id": 49256,
+            "sizeKB": 3090.90625,
+            "type": "Model",
+            "metadata": {
+                "fp": null,
+                "size": null,
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-05-14T16:51:08.182Z",
+            "hashes": {
+                "AutoV1": "88D1F5B3",
+                "AutoV2": "AB0988FCCC",
+                "SHA256": "AB0988FCCC6D57BA4E77D9DD27B845F2565023FA0F41520F05952798595C1D50",
+                "CRC32": "F70DE3BC",
+                "BLAKE3": "D56EA5DAAE17214982F38A821FA9203A1743AB7E33547B318227A08C28436A65"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/70685"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ff5a71b9-7f5b-4ba0-b571-0f86487303cc/width=450/828540.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "USL4c}Ip_3~VOYt7$~t6ShW;s:Rk,BxaTKaz",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2714963376,
+                "Model": "fC_fCAnime-Pruned",
+                "steps": 15,
+                "hashes": {
+                    "model": "a874494078"
+                },
+                "prompt": "full body, big ass, shorts, midriff, srfc,<lora:srfc-bootyshorts-v2:1> ,pawgfc, <lora:pawgfc-v1:0.8>, white background, from behind, crop top",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "a874494078",
+                        "name": "fC_fCAnime-Pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "a874494078",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bb6693b4-9dc5-4ee5-8630-604265906970/width=450/789583.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UdJuD#VYOXg3yZr=SPS4TKxv%2xZEhs,r=Rj",
+            "meta": {
+                "Size": "512x768",
+                "seed": 356469894,
+                "Model": "anime_fCAnime0.1c",
+                "steps": 15,
+                "hashes": {
+                    "model": "fd412d65b0"
+                },
+                "prompt": "shorts, midriff, booty shorts, srfc ,<lora:srfc-v2:1>, anime absurdres illustration, drawing, (lineart:0.6), close-up portrait of beautiful smiling woman with freckles, snow-covered mountain, full body, 16mm, 35mm, vivid colors, high quality, white balance, kodak film, high detail",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fd412d65b0",
+                        "name": "anime_fCAnime0.1c",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fd412d65b0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, photo, DSLR, 3d, cell shading, octane render, cgi, unreal engine",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/92059801-7992-46ce-a3cf-3bbbdd65ae49/width=450/828539.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UXIO2.Nctl~V9un$M|NHIUoIt7M|%1RkkCs,",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2714963376,
+                "Model": "fC_fCAnime-Pruned",
+                "steps": 15,
+                "hashes": {
+                    "model": "a874494078"
+                },
+                "prompt": "full body, big ass, shorts, midriff, srfc,<lora:srfc-bootyshorts-v2:1> ,pawgfc, <lora:pawgfc-v1:0.8>, white background, from behind, crop top, (sharp focus:1.2), portrait, ((posing)),  (beautiful face:1.1), detailed eyes, luscious lips,  ((skindentation)),  (bright studio lighting:1.2), depth of field, bokeh, 4K, HDR. by (James C. Christensen:1.2|Jeremy Lipking:1.1)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "a874494078",
+                        "name": "fC_fCAnime-Pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "a874494078",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cb0d7899-dc19-44fe-8cea-8cdc11e6d70b/width=450/789212.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UsIFA3x]JAozI]R+WCae?wbbxvofNIaye.a}",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3147749148,
+                "Model": "fC_fCBlend1.0",
+                "steps": 15,
+                "hashes": {
+                    "model": "87eb06e2c1"
+                },
+                "prompt": "shorts, from_behind, pawg, srfc, <lora:srfc-v2:0.7>, portrait of beautiful smiling woman with freckles, snow-covered mountain, full body, 16mm, 35mm, vivid colors, high quality, white balance, kodak film, high detail",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "87eb06e2c1",
+                        "name": "fC_fCBlend1.0",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "87eb06e2c1",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "looking_at_viewer, dress,, bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e157c2b8-ad4f-4a33-a0fe-f4cbc9bfeec9/width=450/789211.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UIH_JJ~W=;9u^+%hb_D%~qtRM{wHKQIpE1xZ",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2591582702,
+                "Model": "fC_fCBlend1.0",
+                "steps": 15,
+                "hashes": {
+                    "model": "87eb06e2c1"
+                },
+                "prompt": "shorts, from_side, pawg, srfc, <lora:srfc-v2:0.7>, stunning intricate full color portrait, wearing a black turtleneck, epic character composition, by ilya kuvshinov, alessio albi, nina masic, sharp focus, natural lighting, subsurface scattering, f2, 35mm, film grain",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "87eb06e2c1",
+                        "name": "fC_fCBlend1.0",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "87eb06e2c1",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f1f77880-ee64-4e00-b1b6-3d7c3c2e1d6b/width=450/789213.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UAH2M|00_Mxb}Nx^nhs.00Ni4;tR~V56XAD*",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3074850167,
+                "Model": "fC_fCBlend1.0",
+                "steps": 15,
+                "hashes": {
+                    "model": "87eb06e2c1"
+                },
+                "prompt": "huge ass, slim waist, srfc,<lora:srfc-v2:1>, portrait, lake, full body, 16mm, 35mm, vivid colors, high quality, white balance, kodak film, high detail, blonde hair,, stunning intricate full color portrait, epic character composition, by ilya kuvshinov, alessio albi, nina masic, sharp focus, natural lighting, subsurface scattering, f2, 35mm, film grain",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "87eb06e2c1",
+                        "name": "fC_fCBlend1.0",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "87eb06e2c1",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2df129b9-f540-4b19-8e0f-6b2ee9e44689/width=450/789582.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UIJkQIQ85_GJ.mqu%eXot8%0nPtQKPa~;gS~",
+            "meta": {
+                "Size": "512x768",
+                "seed": 356469894,
+                "Model": "anime_fCAnime0.1c",
+                "steps": 15,
+                "hashes": {
+                    "model": "fd412d65b0"
+                },
+                "prompt": "shorts, midriff, booty shorts, srfc ,<lora:srfc-v2:1>, anime absurdres illustration, drawing, (lineart:0.6), analog style, modelshoot style, portrait of woman by Flora Borsi, style by Flora Borsi, bold, bright colours, rainbow Mohawk haircut, ((Flora Borsi))",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fd412d65b0",
+                        "name": "anime_fCAnime0.1c",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fd412d65b0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, photo, DSLR, 3d, cell shading, octane render, cgi, unreal engine",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4fa43c7e-5ede-4c02-84ab-4a659c04e4ec/width=450/789584.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UaG]Bl8^S~tl?^Mwozf+xat7R*RjS5fjaKbc",
+            "meta": {
+                "Size": "512x768",
+                "seed": 356469894,
+                "Model": "anime_fCAnime0.1c",
+                "steps": 15,
+                "hashes": {
+                    "model": "fd412d65b0"
+                },
+                "prompt": "shorts, midriff, booty shorts, srfc ,<lora:srfc-v2:1>, anime absurdres illustration, drawing, (lineart:0.6), stunning intricate full color portrait, wearing a black turtleneck, epic character composition, by ilya kuvshinov, alessio albi, nina masic, sharp focus, natural lighting, subsurface scattering, f2, 35mm, film grain",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fd412d65b0",
+                        "name": "anime_fCAnime0.1c",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fd412d65b0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, photo, DSLR, 3d, cell shading, octane render, cgi, unreal engine",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/227e64ec-fcb7-40c1-bf9e-271b38e9ccf7/width=450/789581.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UMJHK^DOO@wJ~WZ#-:IUwfn#k;kSOFoJs:Os",
+            "meta": {
+                "Size": "512x768",
+                "seed": 356469894,
+                "Model": "anime_fCAnime0.1c",
+                "steps": 15,
+                "hashes": {
+                    "model": "fd412d65b0"
+                },
+                "prompt": "shorts, midriff, booty shorts, srfc ,<lora:srfc-v2:1>, anime absurdres illustration, drawing, (lineart:0.6), High detail RAW color Photo of gorgeous woman, long_hair, (smiling:1.2), big smile, (yoga_shorts:1.1), (crop_top, tube_top:1.1), eos, skin_pores, 8k high definition, high detail eyes, highest quality, skin texture, masterpiece, best quality, 8k, perfect lighting, (sharp focus:1.2), HDR, beauty, ultra-detailed, amazing,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fd412d65b0",
+                        "name": "anime_fCAnime0.1c",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fd412d65b0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, photo, DSLR, 3d, cell shading, octane render, cgi, unreal engine",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/38d53cd6-230f-4db5-9a85-738fa90caa74/width=450/789210.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UFIERu00S|?H--afM|tQ4UWY%LxZ0g%1~Boz",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1716879715,
+                "Model": "fC_fCBlend1.0",
+                "steps": 15,
+                "hashes": {
+                    "model": "87eb06e2c1"
+                },
+                "prompt": "shorts, from_behind, pawg, srfc, <lora:srfc-v2:0.7>, cropped sweater, midriff, sweater, 1girl, detailed face, hanging laterns, illustrated",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "87eb06e2c1",
+                        "name": "fC_fCBlend1.0",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "87eb06e2c1",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "looking_at_viewer, dress,, bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger",
+                "Denoising strength": "0.5"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/70685"
+}

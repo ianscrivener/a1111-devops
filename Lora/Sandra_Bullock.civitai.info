@@ -1,0 +1,393 @@
+{
+    "id": 58628,
+    "modelId": 54261,
+    "name": "v1.0",
+    "createdAt": "2023-04-30T04:36:55.253Z",
+    "updatedAt": "2023-04-30T05:17:55.032Z",
+    "trainedWords": [],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "stats": {
+        "downloadCount": 671,
+        "ratingCount": 0,
+        "rating": 0
+    },
+    "model": {
+        "name": "Sandra Bullock",
+        "type": "LORA",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "Sandra_Bullock.safetensors",
+            "id": 41662,
+            "sizeKB": 147569.9150390625,
+            "type": "Model",
+            "metadata": {
+                "fp": null,
+                "size": null,
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-04-30T04:40:48.589Z",
+            "hashes": {
+                "AutoV1": "2B46E515",
+                "AutoV2": "4DF59F7C71",
+                "SHA256": "4DF59F7C712C01554E5C6B3AD349BAFDF4E65F7FAED38BFF9ABB2938464A3682",
+                "CRC32": "C8343AAB",
+                "BLAKE3": "0E68AD2813241641F88854851D4C94B327D5D48622E5A6299C499F73284AB6E4"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/58628"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f338d3db-f397-4c39-1d88-0d04e8701700/width=450/638653.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UUDvZc_N.8?H-pxutRxuIVRjofbHNHa|jFRj",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3733982516,
+                "steps": 35,
+                "prompt": "<lora:Sandra_Bullock:1>, <lora:epiNoiseoffset_v2:0.8> (apterus style:1.3), (dark shot:1.4), 80mm, soft light, sharp, exposure blend, medium shot, bokeh, (hdr:1.4), (film grain:1.23), high contrast, (cinematic, teal and orange:0.85), (muted colors, dim colors, soothing tones:1.3), low saturation, (hyperdetailed:1.2), (noir:0.9),(intricate details, hyperdetailed:1.15), modelshoot style, Close-up comic book illustration of a happy skinny woman, 30 years old, with short black hair, wearing fancy tech jacket standing in an airport, ((hands inside pocket)), dramatic lighting, minimalistic, flat colors, washed colors, dithering, lineart, (detailed background:1.3), old aircraft in background, (full body:1.2), (long legs), (depth of field:1.4), (detailed face:1.1), (photo realistic:1.3), symetrical, octane render, 35mm, bokeh, 9:16, (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15), (natural skin texture, hyperrealism, soft light, sharp:1.2), (detailed skin:1.2),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Sandra_Bullock",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "epiNoiseoffset_v2",
+                        "type": "lora",
+                        "weight": 0.8
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4a0812c9-fd90-4535-297e-1abfaf880700/width=450/638674.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "U3BCiL5800~B02$*~BWX01-U^iE2~UIpIVxZ",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1929676570,
+                "steps": 35,
+                "prompt": "<lora:Sandra_Bullock:1>, <lora:rmadart3NoiseoffsetSD1_v10:1>, <lora:solarpunkai_v10:1> , sexual biomechanical hacker - shaman of the sisterhood of cables wearing cable - dress made of cables with biomechanical filigree, super haute couture highly detailed eye, focus on eyes and face, highly detailed lips, highly detailed skin, bokeh, lenseflare, by Emil Melmoth, Marcin Nagraba, Rebecca Millen, shot with Hasselblad X1D - 50c",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "name": "Sandra_Bullock",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "rmadart3NoiseoffsetSD1_v10",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "solarpunkai_v10",
+                        "type": "lora",
+                        "weight": 1
+                    }
+                ],
+                "Model hash": "d9f811b059",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/59d58b9a-dc18-43d9-2a4b-e776d9f03e00/width=450/638707.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "U5AcSdE20h^jbbxaE2W=0Lay~AR*57xZ-oIp",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1929676572,
+                "steps": 35,
+                "prompt": "<lora:Sandra_Bullock:1>, <lora:rmadart3NoiseoffsetSD1_v10:1>, <lora:solarpunkai_v10:1> , sexual biomechanical hacker - shaman of the sisterhood of cables wearing cable - dress made of cables with biomechanical filigree, super haute couture highly detailed eye, focus on eyes and face, highly detailed lips, highly detailed skin, bokeh, lenseflare, by Emil Melmoth, Marcin Nagraba, Rebecca Millen, shot with Hasselblad X1D - 50c",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "name": "Sandra_Bullock",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "rmadart3NoiseoffsetSD1_v10",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "solarpunkai_v10",
+                        "type": "lora",
+                        "weight": 1
+                    }
+                ],
+                "Model hash": "d9f811b059",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8fe4b3dc-88a3-44d7-fbe3-5d0628031700/width=450/638672.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UDBf9B570g~B?GE2Ip?GEMjZxZWq9u%1%1EL",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1929676573,
+                "steps": 35,
+                "prompt": "<lora:Sandra_Bullock:1>, <lora:rmadart3NoiseoffsetSD1_v10:1>, <lora:solarpunkai_v10:1> , sexual biomechanical hacker - shaman of the sisterhood of cables wearing cable - dress made of cables with biomechanical filigree, super haute couture highly detailed eye, focus on eyes and face, highly detailed lips, highly detailed skin, bokeh, lenseflare, by Emil Melmoth, Marcin Nagraba, Rebecca Millen, shot with Hasselblad X1D - 50c",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "name": "Sandra_Bullock",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "rmadart3NoiseoffsetSD1_v10",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "solarpunkai_v10",
+                        "type": "lora",
+                        "weight": 1
+                    }
+                ],
+                "Model hash": "d9f811b059",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e2bc5f5-2bac-4dc6-dede-058f9cce4200/width=450/638673.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "U69jM.9G5=~B={xuE2xaRPkCNGRPJUV[-TkV",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3733982515,
+                "steps": 35,
+                "prompt": "<lora:Sandra_Bullock:1>, <lora:epiNoiseoffset_v2:0.8> (apterus style:1.3), (dark shot:1.4), 80mm, soft light, sharp, exposure blend, medium shot, bokeh, (hdr:1.4), (film grain:1.23), high contrast, (cinematic, teal and orange:0.85), (muted colors, dim colors, soothing tones:1.3), low saturation, (hyperdetailed:1.2), (noir:0.9),(intricate details, hyperdetailed:1.15), modelshoot style, Close-up comic book illustration of a happy skinny woman, 30 years old, with short black hair, wearing fancy tech jacket standing in an airport, ((hands inside pocket)), dramatic lighting, minimalistic, flat colors, washed colors, dithering, lineart, (detailed background:1.3), old aircraft in background, (full body:1.2), (long legs), (depth of field:1.4), (detailed face:1.1), (photo realistic:1.3), symetrical, octane render, 35mm, bokeh, 9:16, (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15), (natural skin texture, hyperrealism, soft light, sharp:1.2), (detailed skin:1.2),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Sandra_Bullock",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "epiNoiseoffset_v2",
+                        "type": "lora",
+                        "weight": 0.8
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f2c12ca-95a9-4809-f077-0ba90a5cc500/width=450/638675.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UQDSgwozNHRP~WozM|IUxuR*M{M{M|WCWBWV",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3733982517,
+                "steps": 35,
+                "prompt": "<lora:Sandra_Bullock:1>, <lora:epiNoiseoffset_v2:0.8> (apterus style:1.3), (dark shot:1.4), 80mm, soft light, sharp, exposure blend, medium shot, bokeh, (hdr:1.4), (film grain:1.23), high contrast, (cinematic, teal and orange:0.85), (muted colors, dim colors, soothing tones:1.3), low saturation, (hyperdetailed:1.2), (noir:0.9),(intricate details, hyperdetailed:1.15), modelshoot style, Close-up comic book illustration of a happy skinny woman, 30 years old, with short black hair, wearing fancy tech jacket standing in an airport, ((hands inside pocket)), dramatic lighting, minimalistic, flat colors, washed colors, dithering, lineart, (detailed background:1.3), old aircraft in background, (full body:1.2), (long legs), (depth of field:1.4), (detailed face:1.1), (photo realistic:1.3), symetrical, octane render, 35mm, bokeh, 9:16, (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15), (natural skin texture, hyperrealism, soft light, sharp:1.2), (detailed skin:1.2),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Sandra_Bullock",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "epiNoiseoffset_v2",
+                        "type": "lora",
+                        "weight": 0.8
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e7212de8-9eba-4525-08e9-8d287c110600/width=450/638676.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UBA,B@9Z0g~BnOxtEMRjtRWCs:xt57t6={Io",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3733982518,
+                "steps": 35,
+                "prompt": "<lora:Sandra_Bullock:1>, <lora:epiNoiseoffset_v2:0.8> (apterus style:1.3), (dark shot:1.4), 80mm, soft light, sharp, exposure blend, medium shot, bokeh, (hdr:1.4), (film grain:1.23), high contrast, (cinematic, teal and orange:0.85), (muted colors, dim colors, soothing tones:1.3), low saturation, (hyperdetailed:1.2), (noir:0.9),(intricate details, hyperdetailed:1.15), modelshoot style, Close-up comic book illustration of a happy skinny woman, 30 years old, with short black hair, wearing fancy tech jacket standing in an airport, ((hands inside pocket)), dramatic lighting, minimalistic, flat colors, washed colors, dithering, lineart, (detailed background:1.3), old aircraft in background, (full body:1.2), (long legs), (depth of field:1.4), (detailed face:1.1), (photo realistic:1.3), symetrical, octane render, 35mm, bokeh, 9:16, (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15), (natural skin texture, hyperrealism, soft light, sharp:1.2), (detailed skin:1.2),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Sandra_Bullock",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "epiNoiseoffset_v2",
+                        "type": "lora",
+                        "weight": 0.8
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a8c9efdf-1c46-4cb2-7087-5ec2863d1600/width=450/638711.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UNECOL02?uV@~U9ZxuxaozM{WCt7x]Rjs:NH",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1260162872,
+                "steps": 35,
+                "prompt": "<lora:Sandra_Bullock:1>, a young woman in the style of nocturne, dreamy atmosphere, dark cyan and red, i can't believe how beautiful this is, serene atmosphere, piles/stacks, flickering light, epic realistic, broken old boat in big storm, illustrated by herg, style of tin tin comics, pen and ink,art by greg rutkowski and artgerm, soft cinematic light,hdr, intricate, highly detailed, (depth of field:1.4), faded, (neutral colors:1.2), (hdr:1.4), (muted colors:1.2), hyperdetailed, (artstation:1.4), cinematic, warm lights, dramatic light, (intricate details:1.1), complex background, (rutkowski:0.66), (teal and orange:0.4), (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Sandra_Bullock",
+                        "type": "lora",
+                        "weight": 1
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/284e1681-5a66-4720-6c2a-4097878d6300/width=450/638710.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UOFh@e^*TdTJ~pofNIRjt8j[smV@X9W=xGs,",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1260162875,
+                "steps": 35,
+                "prompt": "<lora:Sandra_Bullock:1>, a young woman in the style of nocturne, dreamy atmosphere, dark cyan and red, i can't believe how beautiful this is, serene atmosphere, piles/stacks, flickering light, epic realistic, broken old boat in big storm, illustrated by herg, style of tin tin comics, pen and ink,art by greg rutkowski and artgerm, soft cinematic light,hdr, intricate, highly detailed, (depth of field:1.4), faded, (neutral colors:1.2), (hdr:1.4), (muted colors:1.2), hyperdetailed, (artstation:1.4), cinematic, warm lights, dramatic light, (intricate details:1.1), complex background, (rutkowski:0.66), (teal and orange:0.4), (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Sandra_Bullock",
+                        "type": "lora",
+                        "weight": 1
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1b1feca7-1466-4015-d565-35591756fb00/width=450/638735.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "URH-Dp}BFyNG-po$-p$Noh-p-UWBxur=M{R%",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1790997249,
+                "steps": 35,
+                "prompt": "<lora:Sandra_Bullock:1>, a sexual pink, wears a pastel costume, in the style of anaglyph filter, patrick nagel, rainbowcore, robotic expressionism, perry rhodan, john trumbull, (masterpiece:1.5) (photorealistic:1.1) (bokeh) (best quality) (detailed) (intricate) (8k) (HDR) (wallpaper) (cinematic lighting) (sharp focus on eyes)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 4.5,
+                "resources": [
+                    {
+                        "name": "Sandra_Bullock",
+                        "type": "lora",
+                        "weight": 1
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/58628"
+}

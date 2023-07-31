@@ -1,0 +1,588 @@
+{
+    "id": 70764,
+    "modelId": 66120,
+    "name": "v1.1",
+    "createdAt": "2023-05-14T18:45:36.263Z",
+    "updatedAt": "2023-06-15T06:39:54.537Z",
+    "trainedWords": [
+        "ChrstineAlexis"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "<p>revised face data</p>",
+    "stats": {
+        "downloadCount": 407,
+        "ratingCount": 1,
+        "rating": 5
+    },
+    "model": {
+        "name": "Christine Alexis",
+        "type": "LORA",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "ChristineAlexis_v1.1.safetensors",
+            "id": 49318,
+            "sizeKB": 147569.8818359375,
+            "type": "Model",
+            "metadata": {
+                "fp": null,
+                "size": null,
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-05-14T18:51:07.383Z",
+            "hashes": {
+                "AutoV1": "B05BB705",
+                "AutoV2": "4D9AF163A6",
+                "SHA256": "4D9AF163A64899A2BD87A73DC6370C735514AEB4461DD99E41298B938D101FC4",
+                "CRC32": "C586BA8A",
+                "BLAKE3": "4B43A4CB06D8BEF7EBACA6F12344F251F4A40343E735A2ADD2862B66160881AF"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/70764"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/adc78898-7a89-4f6b-8ebd-6e844fa00dea/width=450/855917.jpeg",
+            "nsfw": "None",
+            "width": 768,
+            "height": 1024,
+            "hash": "UTGkj?~WJTbbE2M{D*IVX7RjsAs:Ipt7t7t7",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "384x512",
+                "seed": 1683740534,
+                "Model": "verisimilitude_v2",
+                "model": "control_v11p_sd15_seg [e1f51eb9]",
+                "steps": 50,
+                "hashes": {
+                    "vae": "df3c506e51",
+                    "model": "79939acf90",
+                    "lora:ChristineAlexis_v1.1": "4d9af163a6"
+                },
+                "prompt": "abstract colors, texture, film grain, skin pores, dusty atmospheric haze, vignetting, intricate hasselblad dslr RAW dramatic portrait photo of <lora:ChristineAlexis_v1.1:1> ChristineAlexis the enigmatic dreamweaver, gazes into the distance with an air of quiet contemplation. Her secrets are hidden beneath the surface, like the layers of a misty morning. The soft hues of dawn embrace her delicate features, highlighting the gentle curve of her lips as they form a half-smile, hinting at the mysteries she holds. (open eyes:1.1), beautiful eyes, bokeh dof,",
+                "weight": "1",
+                "Version": "v1.2.1",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "ChristineAlexis_v1.1",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "hash": "79939acf90",
+                        "name": "verisimilitude_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "79939acf90",
+                "resize mode": "Crop and Resize",
+                "control mode": "My prompt is more important",
+                "\"preprocessor": "seg_ufade20k",
+                "Hires upscale": "2",
+                "pixel perfect": "True",
+                "Hires upscaler": "8x_NMKD-Faces_160000_G",
+                "negativePrompt": "<neg-sketch-2> <neg-anime>, stippling, bad ugly deformed blurry boring, (anime, cartoon, drawing, painting)1.1, hard light, watermark logo text, (hands)1.1, (b&w, monochrome)1.1, closed eyes,",
+                "starting/ending": "(0, 1)",
+                "Denoising strength": "0.33",
+                "preprocessor params": "(512, 64, 64)\""
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/44ebd295-2ca8-48db-a7a7-5bd89f2eb2e6/width=450/790489.jpeg",
+            "nsfw": "Soft",
+            "width": 1152,
+            "height": 1536,
+            "hash": "UAA9f#=_039bEMR+X8S40gI;}?-U?FxZM|V@",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "576x768",
+                "seed": 2173308459,
+                "Model": "rmadartSD15_v70",
+                "steps": 50,
+                "hashes": {
+                    "vae": "df3c506e51",
+                    "model": "aeeda42e5f",
+                    "embed:bad-hands-5": "aa7651be15"
+                },
+                "prompt": "ChristineAlexis, \nwoman\nBeauty, luminous skin, striking eyes, lips, sculpted cheekbones, luscious locks, refined features, slender neck, figure, feminine elegance, studio lighting, fashion portraiture, editorial style, chic and sophisticated, modern minimalism, 4K resolution, high quality, captivating. (long wavy hair:1.5)",
+                "sampler": "UniPC",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "aeeda42e5f",
+                        "name": "rmadartSD15_v70",
+                        "type": "model"
+                    },
+                    {
+                        "hash": "b924833a0537",
+                        "name": "ChristineAlexis_v1.0",
+                        "type": "lora",
+                        "weight": null
+                    }
+                ],
+                "Model hash": "aeeda42e5f",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "AddNet Enabled": "True",
+                "AddNet Model 1": "ChristineAlexis_v1.0(b924833a0537)",
+                "Hires upscaler": "8x_NMKD-Faces_160000_G",
+                "negativePrompt": "((blurry)), duplicate, deformed, makeup, (cartoon:2.0), animated, render, missing limbs, close-up, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, blemishes, (moles:1.3), bad-hands-5, greyscale, monochrome, , hand, busty, breasts, logo, text, signature, nipples, (nsfw:1.55), nude",
+                "AddNet Module 1": "LoRA",
+                "AddNet Weight A 1": "1",
+                "AddNet Weight B 1": "1",
+                "Denoising strength": "0.45"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3035fc35-066a-417d-94db-d8605a4a8eb8/width=450/790483.jpeg",
+            "nsfw": "None",
+            "width": 864,
+            "height": 1152,
+            "hash": "URGj.[~9I.?Eoaoet6xt58of-UIoNHjZs.s.",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "432x576",
+                "seed": 3332374541,
+                "Model": "edgeOfRealism_eorV20Fp16NoVae",
+                "steps": 50,
+                "hashes": {
+                    "vae": "c6a580b13a",
+                    "model": "633a521b29",
+                    "embed:bad-hands-5": "aa7651be15"
+                },
+                "prompt": "ChristineAlexis,\n detailed eyes, detailed face, photo-referenced, sharp focused photography\n\"Mystical Library\": Set amid towering bookshelves filled with ancient tomes, Christine sits enthroned upon a velvet throne, dressed in a luxurious Victorian-era gown with feathered wings attached to her back. A pair of owl spectacles perched on her nose completes her librarian look.",
+                "sampler": "UniPC",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "633a521b29",
+                        "name": "edgeOfRealism_eorV20Fp16NoVae",
+                        "type": "model"
+                    },
+                    {
+                        "hash": "d4dbcb759d5b",
+                        "name": "ChristineAlexis_v1.1",
+                        "type": "lora",
+                        "weight": null
+                    },
+                    {
+                        "hash": "da15901cdf16",
+                        "name": "epiNoiseoffset_v2Pynoise",
+                        "type": "lora",
+                        "weight": null
+                    }
+                ],
+                "Model hash": "633a521b29",
+                "Hires upscale": "2",
+                "AddNet Enabled": "True",
+                "AddNet Model 1": "ChristineAlexis_v1.1(d4dbcb759d5b)",
+                "AddNet Model 2": "epiNoiseoffset_v2Pynoise(da15901cdf16)",
+                "Hires upscaler": "8x_NMKD-Faces_160000_G",
+                "negativePrompt": "((blurry)), duplicate, deformed, makeup, (cartoon:2.0), animated, render, missing limbs, close-up, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, blemishes, moles, bad-hands-5, (nsfw), greyscale, monochrome, nipples, hand, (surface),",
+                "AddNet Module 1": "LoRA",
+                "AddNet Module 2": "LoRA",
+                "AddNet Weight A 1": "1",
+                "AddNet Weight A 2": "0.65",
+                "AddNet Weight B 1": "1",
+                "AddNet Weight B 2": "0.65",
+                "Denoising strength": "0.45"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f14450c6-0aca-4c10-9b54-07fd95a584a7/width=450/790518.jpeg",
+            "nsfw": "None",
+            "width": 864,
+            "height": 1152,
+            "hash": "UMK1H|4nPq^kpy-pX:I=_Nt8DjofkXWVw^NG",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "432x576",
+                "seed": 1049182384,
+                "Model": "edgeOfRealism_eorV20Fp16NoVae",
+                "steps": 50,
+                "hashes": {
+                    "vae": "c6a580b13a",
+                    "model": "633a521b29",
+                    "embed:bad-hands-5": "aa7651be15"
+                },
+                "prompt": "ChristineAlexis,\n detailed eyes, detailed face, photo-referenced, sharp focused photography\nWoman, curly hair, almond-shaped eyes, button nose, freckles, full lips, hourglass figure, black tank top, denim shorts, standing on the beach, golden hour, natural light, Annie Leibovitz, portrait style, authenticity, vulnerability, raw beauty, color, texture, warmth, softness, feminine, gentle, intimate, dreamy, soft focus.",
+                "sampler": "UniPC",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "633a521b29",
+                        "name": "edgeOfRealism_eorV20Fp16NoVae",
+                        "type": "model"
+                    },
+                    {
+                        "hash": "d4dbcb759d5b",
+                        "name": "ChristineAlexis_v1.1",
+                        "type": "lora",
+                        "weight": null
+                    },
+                    {
+                        "hash": "da15901cdf16",
+                        "name": "epiNoiseoffset_v2Pynoise",
+                        "type": "lora",
+                        "weight": null
+                    }
+                ],
+                "Model hash": "633a521b29",
+                "Hires upscale": "2",
+                "AddNet Enabled": "True",
+                "AddNet Model 1": "ChristineAlexis_v1.1(d4dbcb759d5b)",
+                "AddNet Model 2": "epiNoiseoffset_v2Pynoise(da15901cdf16)",
+                "Hires upscaler": "8x_NMKD-Faces_160000_G",
+                "negativePrompt": "((blurry)), duplicate, deformed, makeup, (cartoon:2.0), animated, render, missing limbs, close-up, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, blemishes, moles, bad-hands-5, (nsfw), greyscale, monochrome, nipples, hand, (water surface visible),",
+                "AddNet Module 1": "LoRA",
+                "AddNet Module 2": "LoRA",
+                "AddNet Weight A 1": "1",
+                "AddNet Weight A 2": "0.65",
+                "AddNet Weight B 1": "1",
+                "AddNet Weight B 2": "0.65",
+                "Denoising strength": "0.45"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fbcc5895-d9f3-4299-b081-0e7913afd241/width=450/790643.jpeg",
+            "nsfw": "Soft",
+            "width": 864,
+            "height": 1152,
+            "hash": "UCBNi,4:DO%MTdVYt7ozujM_yXRjG^Z~wIWr",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "864x1152",
+                "seed": 3945983256,
+                "Model": "edgeOfRealism_eorV20Fp16NoVae",
+                "steps": 50,
+                "hashes": {
+                    "vae": "c6a580b13a",
+                    "model": "633a521b29",
+                    "embed:bad-hands-5": "aa7651be15"
+                },
+                "prompt": "ChristineAlexis,\n detailed eyes, detailed face, photo-referenced, sharp focused photography\n\"Ethereal Enchantment\": For a whimsical fairytale-inspired photo story, Christine enchants audiences as a magical nymph or forest sprite. Wearing flowing, ethereal ensembles adorned with intricate details, she floats amidst mystical settings, evoking a sense of otherworldliness and wonder.",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "hash": "633a521b29",
+                        "name": "edgeOfRealism_eorV20Fp16NoVae",
+                        "type": "model"
+                    },
+                    {
+                        "hash": "d4dbcb759d5b",
+                        "name": "ChristineAlexis_v1.1",
+                        "type": "lora",
+                        "weight": null
+                    },
+                    {
+                        "hash": "da15901cdf16",
+                        "name": "epiNoiseoffset_v2Pynoise",
+                        "type": "lora",
+                        "weight": null
+                    }
+                ],
+                "Model hash": "633a521b29",
+                "needsReview": "poi",
+                "AddNet Enabled": "True",
+                "AddNet Model 1": "ChristineAlexis_v1.1(d4dbcb759d5b)",
+                "AddNet Model 2": "epiNoiseoffset_v2Pynoise(da15901cdf16)",
+                "negativePrompt": "((blurry)), duplicate, deformed, makeup, (cartoon:2.0), animated, render, missing limbs, close-up, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, blemishes, moles, bad-hands-5, (nsfw), greyscale, monochrome, nipples,",
+                "AddNet Module 1": "LoRA",
+                "AddNet Module 2": "LoRA",
+                "AddNet Weight A 1": "1",
+                "AddNet Weight A 2": "0.65",
+                "AddNet Weight B 1": "1",
+                "AddNet Weight B 2": "0.65",
+                "Denoising strength": "0.3"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d04f659a-4d2b-431f-aa44-60962b9b0931/width=450/790481.jpeg",
+            "nsfw": "Soft",
+            "width": 864,
+            "height": 1152,
+            "hash": "UKGRk#-h9FxW~U-Oavt6X,o|-6M{x[%0I;Ip",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "432x576",
+                "seed": 145257446,
+                "Model": "edgeOfRealism_eorV20Fp16NoVae",
+                "steps": 50,
+                "hashes": {
+                    "vae": "c6a580b13a",
+                    "model": "633a521b29",
+                    "embed:bad-hands-5": "aa7651be15"
+                },
+                "prompt": "ChristineAlexis,\n detailed eyes, detailed face, photo-referenced, sharp focused photography\n\"Underwater Palace\": Surrounded by schools of colorful fish and elegant sea plants, Christine floats gracefully in a submerged palace chamber. Wearing a sparkling mermaid tail and bodysuit and a shell crown, she reaches out to touch a gleaming treasure chest resting",
+                "sampler": "UniPC",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "633a521b29",
+                        "name": "edgeOfRealism_eorV20Fp16NoVae",
+                        "type": "model"
+                    },
+                    {
+                        "hash": "d4dbcb759d5b",
+                        "name": "ChristineAlexis_v1.1",
+                        "type": "lora",
+                        "weight": null
+                    },
+                    {
+                        "hash": "da15901cdf16",
+                        "name": "epiNoiseoffset_v2Pynoise",
+                        "type": "lora",
+                        "weight": null
+                    }
+                ],
+                "Model hash": "633a521b29",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "AddNet Enabled": "True",
+                "AddNet Model 1": "ChristineAlexis_v1.1(d4dbcb759d5b)",
+                "AddNet Model 2": "epiNoiseoffset_v2Pynoise(da15901cdf16)",
+                "Hires upscaler": "8x_NMKD-Faces_160000_G",
+                "negativePrompt": "((blurry)), duplicate, deformed, makeup, (cartoon:2.0), animated, render, missing limbs, close-up, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, blemishes, moles, bad-hands-5, (nsfw), greyscale, monochrome, nipples, hand, (surface),",
+                "AddNet Module 1": "LoRA",
+                "AddNet Module 2": "LoRA",
+                "AddNet Weight A 1": "1",
+                "AddNet Weight A 2": "0.65",
+                "AddNet Weight B 1": "1",
+                "AddNet Weight B 2": "0.65",
+                "Denoising strength": "0.45"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2a1a9864-7d56-483e-8292-dc3f6bf581d3/width=450/790482.jpeg",
+            "nsfw": "None",
+            "width": 864,
+            "height": 1152,
+            "hash": "UAINHfRN3?^600]}D49u02%$^kO@0j0L_2ib",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "432x576",
+                "seed": 4252878299,
+                "Model": "edgeOfRealism_eorV20Fp16NoVae",
+                "steps": 50,
+                "hashes": {
+                    "vae": "c6a580b13a",
+                    "model": "633a521b29",
+                    "embed:bad-hands-5": "aa7651be15"
+                },
+                "prompt": "ChristineAlexis,\n detailed eyes, detailed face, photo-referenced, sharp focused photography\n\"Astral Embrace\": In the heart of a celestial observatory, ChristineAlexis appears as a star nymph, clad in a diaphanous ensemble with stargazing motifs. She embraces a giant telescope, her pose evoking a sense of being drawn towards unknown pleasures beyond Earth's boundaries. Moonbeams filter through the dome, casting soft shadows across her skin.",
+                "sampler": "UniPC",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "633a521b29",
+                        "name": "edgeOfRealism_eorV20Fp16NoVae",
+                        "type": "model"
+                    },
+                    {
+                        "hash": "d4dbcb759d5b",
+                        "name": "ChristineAlexis_v1.1",
+                        "type": "lora",
+                        "weight": null
+                    },
+                    {
+                        "hash": "da15901cdf16",
+                        "name": "epiNoiseoffset_v2Pynoise",
+                        "type": "lora",
+                        "weight": null
+                    }
+                ],
+                "Model hash": "633a521b29",
+                "Hires upscale": "2",
+                "AddNet Enabled": "True",
+                "AddNet Model 1": "ChristineAlexis_v1.1(d4dbcb759d5b)",
+                "AddNet Model 2": "epiNoiseoffset_v2Pynoise(da15901cdf16)",
+                "Hires upscaler": "8x_NMKD-Faces_160000_G",
+                "negativePrompt": "((blurry)), duplicate, deformed, makeup, (cartoon:2.0), animated, render, missing limbs, close-up, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, blemishes, moles, bad-hands-5, (nsfw), greyscale, monochrome, nipples, hand, (surface),",
+                "AddNet Module 1": "LoRA",
+                "AddNet Module 2": "LoRA",
+                "AddNet Weight A 1": "1",
+                "AddNet Weight A 2": "0.65",
+                "AddNet Weight B 1": "1",
+                "AddNet Weight B 2": "0.65",
+                "Denoising strength": "0.45"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b87deb9c-0a55-47a7-9c4e-8ceaa231f0ab/width=450/790486.jpeg",
+            "nsfw": "None",
+            "width": 864,
+            "height": 1152,
+            "hash": "UEEDPK4.^%IBWK4Ux@Ir008^%$t2%z_NMxwG",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "864x1152",
+                "seed": 4187064875,
+                "Model": "edgeOfRealism_eorV20Fp16NoVae",
+                "steps": 50,
+                "hashes": {
+                    "vae": "c6a580b13a",
+                    "model": "633a521b29",
+                    "embed:bad-hands-5": "aa7651be15"
+                },
+                "prompt": "ChristineAlexis,\n detailed eyes, detailed face, photo-referenced, sharp focused photography\n\"Floating Island Escape\": Amidst a cloudy blue sky, Christine stands on a drifting island wearing a billowing pastel-colored ballgown, seemingly untethered from gravity. The image evokes a sense of wonder and freedom. Style: Fine Art Photography, focusing on the smooth gradation of colors and the whimsical ambiance of the scene.",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "hash": "633a521b29",
+                        "name": "edgeOfRealism_eorV20Fp16NoVae",
+                        "type": "model"
+                    },
+                    {
+                        "hash": "d4dbcb759d5b",
+                        "name": "ChristineAlexis_v1.1",
+                        "type": "lora",
+                        "weight": null
+                    },
+                    {
+                        "hash": "da15901cdf16",
+                        "name": "epiNoiseoffset_v2Pynoise",
+                        "type": "lora",
+                        "weight": null
+                    }
+                ],
+                "Model hash": "633a521b29",
+                "AddNet Enabled": "True",
+                "AddNet Model 1": "ChristineAlexis_v1.1(d4dbcb759d5b)",
+                "AddNet Model 2": "epiNoiseoffset_v2Pynoise(da15901cdf16)",
+                "negativePrompt": "((blurry)), duplicate, deformed, makeup, (cartoon:2.0), animated, render, missing limbs, close-up, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, blemishes, moles, bad-hands-5, (nsfw), greyscale, monochrome, nipples, hand, (water surface visible),",
+                "AddNet Module 1": "LoRA",
+                "AddNet Module 2": "LoRA",
+                "AddNet Weight A 1": "1",
+                "AddNet Weight A 2": "0.65",
+                "AddNet Weight B 1": "1",
+                "AddNet Weight B 2": "0.65",
+                "Denoising strength": "0.3"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/be9bc7cc-9592-4cdf-8ce2-406af0cafad4/width=450/790485.jpeg",
+            "nsfw": "Soft",
+            "width": 864,
+            "height": 1152,
+            "hash": "UMI#V[~q00kWJW-;-pNFTLt7Mdj]?vNfROsm",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "432x576",
+                "seed": 1810902768,
+                "Model": "edgeOfRealism_eorV20Fp16NoVae",
+                "steps": 50,
+                "hashes": {
+                    "vae": "c6a580b13a",
+                    "model": "633a521b29",
+                    "embed:bad-hands-5": "aa7651be15"
+                },
+                "prompt": "ChristineAlexis,\n detailed eyes, detailed face, photo-referenced, sharp focused photography\n\"Enchanted Garden Party\": Christine dons a floral-themed cocktail dress adorned with delicate lace and a cropped jacket. In front of a blooming garden landscape, she poses elegantly next to a vintage fountain, holding a champagne glass with a twinkle in her eye. Photography Style: Photorealistic composition, capturing every detail of Christine's ensemble against the verdant setting.",
+                "sampler": "UniPC",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "633a521b29",
+                        "name": "edgeOfRealism_eorV20Fp16NoVae",
+                        "type": "model"
+                    },
+                    {
+                        "hash": "d4dbcb759d5b",
+                        "name": "ChristineAlexis_v1.1",
+                        "type": "lora",
+                        "weight": null
+                    },
+                    {
+                        "hash": "da15901cdf16",
+                        "name": "epiNoiseoffset_v2Pynoise",
+                        "type": "lora",
+                        "weight": null
+                    }
+                ],
+                "Model hash": "633a521b29",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "AddNet Enabled": "True",
+                "AddNet Model 1": "ChristineAlexis_v1.1(d4dbcb759d5b)",
+                "AddNet Model 2": "epiNoiseoffset_v2Pynoise(da15901cdf16)",
+                "Hires upscaler": "8x_NMKD-Faces_160000_G",
+                "negativePrompt": "((blurry)), duplicate, deformed, makeup, (cartoon:2.0), animated, render, missing limbs, close-up, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, blemishes, moles, bad-hands-5, (nsfw), greyscale, monochrome, nipples, hand, (water surface visible),",
+                "AddNet Module 1": "LoRA",
+                "AddNet Module 2": "LoRA",
+                "AddNet Weight A 1": "1",
+                "AddNet Weight A 2": "0.65",
+                "AddNet Weight B 1": "1",
+                "AddNet Weight B 2": "0.65",
+                "Denoising strength": "0.45"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1f306d6c-9671-4218-b1e0-244f5f23d8a8/width=450/790484.jpeg",
+            "nsfw": "None",
+            "width": 864,
+            "height": 1152,
+            "hash": "UIELjLt816?H~Ax^E3t70~Md#RM{4nM_eSIU",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "432x576",
+                "seed": 398168037,
+                "Model": "edgeOfRealism_eorV20Fp16NoVae",
+                "steps": 50,
+                "hashes": {
+                    "vae": "c6a580b13a",
+                    "model": "633a521b29",
+                    "embed:bad-hands-5": "aa7651be15"
+                },
+                "prompt": "ChristineAlexis,\n detailed eyes, detailed face, photo-referenced, sharp focused photography\n\"Dimensional Rift\": Against a swirling vortex portal, ChristineAlexis embodies a hybrid creature, part human, part extra-terrestrial. Her ethereal form is partially obscured by translucent, amniotic membranes, melding seamlessly into the dimensional rift. She seems to simultaneously draw energy from and emit it into the void, her eyes closed in rapture.",
+                "sampler": "UniPC",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "633a521b29",
+                        "name": "edgeOfRealism_eorV20Fp16NoVae",
+                        "type": "model"
+                    },
+                    {
+                        "hash": "d4dbcb759d5b",
+                        "name": "ChristineAlexis_v1.1",
+                        "type": "lora",
+                        "weight": null
+                    },
+                    {
+                        "hash": "da15901cdf16",
+                        "name": "epiNoiseoffset_v2Pynoise",
+                        "type": "lora",
+                        "weight": null
+                    }
+                ],
+                "Model hash": "633a521b29",
+                "Hires upscale": "2",
+                "AddNet Enabled": "True",
+                "AddNet Model 1": "ChristineAlexis_v1.1(d4dbcb759d5b)",
+                "AddNet Model 2": "epiNoiseoffset_v2Pynoise(da15901cdf16)",
+                "Hires upscaler": "8x_NMKD-Faces_160000_G",
+                "negativePrompt": "((blurry)), duplicate, deformed, makeup, (cartoon:2.0), animated, render, missing limbs, close-up, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, blemishes, moles, bad-hands-5, (nsfw), greyscale, monochrome, nipples, hand, (surface),",
+                "AddNet Module 1": "LoRA",
+                "AddNet Module 2": "LoRA",
+                "AddNet Weight A 1": "1",
+                "AddNet Weight A 2": "0.65",
+                "AddNet Weight B 1": "1",
+                "AddNet Weight B 2": "0.65",
+                "Denoising strength": "0.45"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/70764"
+}

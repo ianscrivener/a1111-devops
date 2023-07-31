@@ -1,0 +1,346 @@
+{
+    "id": 70303,
+    "modelId": 65656,
+    "name": "v1.0",
+    "createdAt": "2023-05-14T08:13:37.389Z",
+    "updatedAt": "2023-05-14T08:19:13.804Z",
+    "trainedWords": [
+        "mnstfc, skirt"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "stats": {
+        "downloadCount": 1781,
+        "ratingCount": 3,
+        "rating": 4.67
+    },
+    "model": {
+        "name": "bodycon skirts / pencil skirt - fc (lora)",
+        "type": "LORA",
+        "nsfw": false,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "mnstfc-fc-v3.safetensors",
+            "id": 49009,
+            "sizeKB": 3090.90625,
+            "type": "Model",
+            "metadata": {
+                "fp": null,
+                "size": null,
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-05-14T08:16:01.711Z",
+            "hashes": {
+                "AutoV1": "92E1F255",
+                "AutoV2": "4C6A27197C",
+                "SHA256": "4C6A27197CC82BF5A441C8BA5F60EF351BCA044D4125E7A4B3DACE528D3B8450",
+                "CRC32": "BDF67734",
+                "BLAKE3": "47B03F867D53257576E42B2681402862CA00E921F223A7D3F8E2A535D1391D53"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/70303"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5fd70c12-d68d-4ca5-b456-14f4184f3d34/width=450/785216.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UiJZb*~8^*xs%4$yNxWBN|n%I;afxtbujrj[",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2429772364,
+                "Model": "anime_fCAnime0.1c",
+                "steps": 15,
+                "hashes": {
+                    "model": "fd412d65b0"
+                },
+                "prompt": "midriff, mnstfc, skirt, bodycon skirt, <lora:mnstfc-fc-v3:1>, anime absurdres illustration, drawing, (lineart:0.6), stunning intricate full color portrait, wearing a black turtleneck, epic character composition, by ilya kuvshinov, alessio albi, nina masic, sharp focus, natural lighting, subsurface scattering, f2, 35mm, film grain",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fd412d65b0",
+                        "name": "anime_fCAnime0.1c",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fd412d65b0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, photo, DSLR, 3d, cell shading, octane render, cgi, unreal engine",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7a8ba263-b9c7-46d7-ae55-97aefe24cf8d/width=450/785221.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UKH1uZRmXmS#I:9FNdnh}[X3t8WAE4IoRP-o",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2064185510,
+                "Model": "fC_fCBlend1.0",
+                "steps": 15,
+                "hashes": {
+                    "model": "87eb06e2c1"
+                },
+                "prompt": "midriff, mnstfc, skirt, bodycon skirt, <lora:mnstfc-fc-v3:1>,photography, edited in Adobe Lightroom, High detail RAW color Photo of gorgeous woman, long_hair, (smiling:1.2), big smile, (yoga_shorts:1.1), (crop_top, tube_top:1.1), eos, skin_pores, 8k high definition, high detail eyes, highest quality, skin texture, masterpiece, best quality, 8k, perfect lighting, (sharp focus:1.2), HDR, beauty, ultra-detailed, amazing,",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "87eb06e2c1",
+                        "name": "fC_fCBlend1.0",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "87eb06e2c1",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, anime, illustration, 3d, octane render, drawing, cell shading, semi-realistic, cgi, sketch, cartoon",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/20f910f9-7f7d-4e0f-9b99-7aae81b930b1/width=450/785215.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UQMPzi~B.9Mx?Gxa%gWA?vx]X.Nb.9t,ITR5",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2429772364,
+                "Model": "anime_fCAnime0.1c",
+                "steps": 15,
+                "hashes": {
+                    "model": "fd412d65b0"
+                },
+                "prompt": "midriff, mnstfc, skirt, bodycon skirt, <lora:mnstfc-fc-v3:1>, anime absurdres illustration, drawing, (lineart:0.6), 1girl, solo, ass, breasts, thighs",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fd412d65b0",
+                        "name": "anime_fCAnime0.1c",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fd412d65b0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, photo, DSLR, 3d, cell shading, octane render, cgi, unreal engine",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9512e187-6ed5-4401-840c-9ec1356ceda7/width=450/785220.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UMG*.oIUOTRk%hE2RQWC}@NGIUs:%fs:IoR*",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2064185510,
+                "Model": "fC_fCBlend1.0",
+                "steps": 15,
+                "hashes": {
+                    "model": "87eb06e2c1"
+                },
+                "prompt": "midriff, mnstfc, skirt, bodycon skirt, <lora:mnstfc-fc-v3:1>,photography, edited in Adobe Lightroom, stunning intricate full color portrait, wearing a black turtleneck, epic character composition, by ilya kuvshinov, alessio albi, nina masic, sharp focus, natural lighting, subsurface scattering, f2, 35mm, film grain",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "87eb06e2c1",
+                        "name": "fC_fCBlend1.0",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "87eb06e2c1",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, anime, illustration, 3d, octane render, drawing, cell shading, semi-realistic, cgi, sketch, cartoon",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/663cde26-cf16-4919-8206-2a55ebd30964/width=450/785222.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "U9GR*P?c?[xt009ENyE1?Z4.JB-oEiIUwHxZ",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2064185510,
+                "Model": "fC_fCBlend1.0",
+                "steps": 15,
+                "hashes": {
+                    "model": "87eb06e2c1"
+                },
+                "prompt": "midriff, mnstfc, skirt, bodycon skirt, <lora:mnstfc-fc-v3:1>,photography, edited in Adobe Lightroom, ttpt-fc ,<lora:ttpt-fC-v1.5a:1>",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "87eb06e2c1",
+                        "name": "fC_fCBlend1.0",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "87eb06e2c1",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, anime, illustration, 3d, octane render, drawing, cell shading, semi-realistic, cgi, sketch, cartoon",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ca3d3b12-c1b9-455d-874e-bf86ad026673/width=450/785217.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UQG[f|~A$dD%=|r=%hxZ?G-nSio2Ip%1f*jX",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2429772364,
+                "Model": "anime_fCAnime0.1c",
+                "steps": 15,
+                "hashes": {
+                    "model": "fd412d65b0"
+                },
+                "prompt": "midriff, mnstfc, skirt, bodycon skirt, <lora:mnstfc-fc-v3:1>, anime absurdres illustration, drawing, (lineart:0.6), RAW photo, a 22-year-old-girl, upper body, selfie in a car, blue hoodie, inside a car, driving, lipstick, soft lighting, high quality, highres, sharp focus, extremely detailed, (sunlight on face), beautiful detailed eyes, masterpiece, cinematic lighting, dslr, Fujifilm XT3",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fd412d65b0",
+                        "name": "anime_fCAnime0.1c",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fd412d65b0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, photo, DSLR, 3d, cell shading, octane render, cgi, unreal engine",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b04d4686-6638-46bb-99b1-d6c476f88b35/width=450/785218.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UiLWCl~W-;ofsSWAXRW;%MoztStRx^xuofRj",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2429772364,
+                "Model": "anime_fCAnime0.1c",
+                "steps": 15,
+                "hashes": {
+                    "model": "fd412d65b0"
+                },
+                "prompt": "midriff, mnstfc, skirt, bodycon skirt, <lora:mnstfc-fc-v3:1>, anime absurdres illustration, drawing, (lineart:0.6), ttpt-fc ,<lora:ttpt-fC-v1.5a:1>",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fd412d65b0",
+                        "name": "anime_fCAnime0.1c",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fd412d65b0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, photo, DSLR, 3d, cell shading, octane render, cgi, unreal engine",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9151d9cc-57f1-470f-928e-82904e49ae12/width=450/785214.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UMMi81:Q|Hw~:c$tC4$*9b^HXWtJ,Lm_K1mp",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2429772364,
+                "Model": "anime_fCAnime0.1c",
+                "steps": 15,
+                "hashes": {
+                    "model": "fd412d65b0"
+                },
+                "prompt": "midriff, mnstfc, skirt, bodycon skirt, <lora:mnstfc-fc-v3:1>, anime absurdres illustration, drawing, (lineart:0.6), neon palette, <lora:neon_palette_offset:1>",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "neon_palette_offset",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "hash": "fd412d65b0",
+                        "name": "anime_fCAnime0.1c",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fd412d65b0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, photo, DSLR, 3d, cell shading, octane render, cgi, unreal engine",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/603f1a1b-9495-411f-8e76-5590f24c04a0/width=450/785219.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UjMPaz}s-WS~=hrWXkR,9]e?tRkVr{tRWTnN",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2429772364,
+                "Model": "anime_fCAnime0.1c",
+                "steps": 15,
+                "hashes": {
+                    "model": "fd412d65b0"
+                },
+                "prompt": "midriff, mnstfc, skirt, bodycon skirt, <lora:mnstfc-fc-v3:1>, anime absurdres illustration, drawing, (lineart:0.6), analog style, modelshoot style, portrait of woman by Flora Borsi, style by Flora Borsi, bold, bright colours, rainbow Mohawk haircut, ((Flora Borsi))",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fd412d65b0",
+                        "name": "anime_fCAnime0.1c",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fd412d65b0",
+                "Hires steps": "15",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, photo, DSLR, 3d, cell shading, octane render, cgi, unreal engine",
+                "Denoising strength": "0.5"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/70303"
+}

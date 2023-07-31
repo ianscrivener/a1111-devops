@@ -1,0 +1,383 @@
+{
+    "id": 58836,
+    "modelId": 54469,
+    "name": "v1.0",
+    "createdAt": "2023-04-30T11:09:58.995Z",
+    "updatedAt": "2023-04-30T11:33:15.432Z",
+    "trainedWords": [],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "stats": {
+        "downloadCount": 619,
+        "ratingCount": 0,
+        "rating": 0
+    },
+    "model": {
+        "name": "Lauren German",
+        "type": "LORA",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "Lauren_German.safetensors",
+            "id": 41799,
+            "sizeKB": 147569.9189453125,
+            "type": "Model",
+            "metadata": {
+                "fp": null,
+                "size": null,
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-04-30T11:15:41.377Z",
+            "hashes": {
+                "AutoV1": "1A916EB9",
+                "AutoV2": "BBF4060D07",
+                "SHA256": "BBF4060D07670147B51ACACA50077C01B212C86D01CC4566581F198A834D3704",
+                "CRC32": "F660DB86",
+                "BLAKE3": "0AD2DDAAB6C83A49B0323BEEAB3CAE18BBDDF25AAC37A14CD82E0755312113B4"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/58836"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/eb3a6d24-edc0-463f-3f03-9c05aa165500/width=450/641233.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UCCYmzIp57Ip-oRk%2WBE2ju%1WB~BWCE1s:",
+            "meta": {
+                "Size": "512x768",
+                "seed": 445190512,
+                "steps": 35,
+                "prompt": "<lora:Lauren_German:1>, <lora:rmadart3NoiseoffsetSD1_v10:1>, <lora:solarpunkai_v10:1> , sexual biomechanical hacker - shaman of the sisterhood of cables wearing cable - dress made of cables with biomechanical filigree, super haute couture highly detailed eye, focus on eyes and face, highly detailed lips, highly detailed skin, bokeh, lenseflare, by Emil Melmoth, Marcin Nagraba, Rebecca Millen, shot with Hasselblad X1D - 50c  (sharp focus on eyes)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Lauren_German",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "rmadart3NoiseoffsetSD1_v10",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "solarpunkai_v10",
+                        "type": "lora",
+                        "weight": 1
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "ControlNet Model": "control_v11p_sd15_openpose [cab727d4]",
+                "Face restoration": "GFPGAN",
+                "ControlNet Module": "none",
+                "ControlNet Weight": "1",
+                "ControlNet Enabled": "True",
+                "Denoising strength": "0.35",
+                "ControlNet Guidance End": "1",
+                "ControlNet Guidance Start": "0"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/75f9fa2d-c47a-42ab-4754-8109c7a09700/width=450/641241.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UEE.Op00TJ?H~W8_.8Io5RIo%NE1-;M{M{s:",
+            "meta": {
+                "Size": "512x768",
+                "seed": 454630857,
+                "steps": 35,
+                "prompt": "<lora:Lauren_German:1>, <lora:rmadart3NoiseoffsetSD1_v10:1>, <lora:solarpunkai_v10:1> , sexual biomechanical hacker - shaman of the sisterhood of cables wearing cable - dress made of cables with biomechanical filigree, super haute couture highly detailed eye, focus on eyes and face, highly detailed lips, highly detailed skin, bokeh, lenseflare, by Emil Melmoth, Marcin Nagraba, Rebecca Millen, shot with Hasselblad X1D - 50c  (sharp focus on eyes)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Lauren_German",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "rmadart3NoiseoffsetSD1_v10",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "solarpunkai_v10",
+                        "type": "lora",
+                        "weight": 1
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d917532e-141d-47d9-ace5-8042f5354c00/width=450/641252.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UPC?ZJM{%fof~pRjxuRj-;Rjt7NG?aM{s:oe",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2852590698,
+                "steps": 35,
+                "prompt": "<lora:Lauren_German:1>, <lora:epiNoiseoffset_v2:0.8> (apterus style:1.3), (dark shot:1.4), 80mm, soft light, sharp, exposure blend, medium shot, bokeh, (hdr:1.4), (film grain:1.23), high contrast, (cinematic, teal and orange:0.85), (muted colors, dim colors, soothing tones:1.3), low saturation, (hyperdetailed:1.2), (noir:0.9),(intricate details, hyperdetailed:1.15), modelshoot style, Close-up comic book illustration of a happy skinny woman, 30 years old, with short black hair, wearing fancy tech jacket standing in an airport, ((hands inside pocket)), dramatic lighting, minimalistic, flat colors, washed colors, dithering, lineart, (detailed background:1.3), old aircraft in background, (full body:1.2), (long legs), (depth of field:1.4), (detailed face:1.1), (photo realistic:1.3), symetrical, octane render, 35mm, bokeh, 9:16, (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15), (natural skin texture, hyperrealism, soft light, sharp:1.2), (detailed skin:1.2), (sharp focus on eyes)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Lauren_German",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "epiNoiseoffset_v2",
+                        "type": "lora",
+                        "weight": 0.8
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3f24c5f1-acd4-4948-ea4b-0864f0a7ef00/width=450/641254.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UODS:tM{t7t7~qayt7ofxuofxuofRjt7WBxu",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2852590699,
+                "steps": 35,
+                "prompt": "<lora:Lauren_German:1>, <lora:epiNoiseoffset_v2:0.8> (apterus style:1.3), (dark shot:1.4), 80mm, soft light, sharp, exposure blend, medium shot, bokeh, (hdr:1.4), (film grain:1.23), high contrast, (cinematic, teal and orange:0.85), (muted colors, dim colors, soothing tones:1.3), low saturation, (hyperdetailed:1.2), (noir:0.9),(intricate details, hyperdetailed:1.15), modelshoot style, Close-up comic book illustration of a happy skinny woman, 30 years old, with short black hair, wearing fancy tech jacket standing in an airport, ((hands inside pocket)), dramatic lighting, minimalistic, flat colors, washed colors, dithering, lineart, (detailed background:1.3), old aircraft in background, (full body:1.2), (long legs), (depth of field:1.4), (detailed face:1.1), (photo realistic:1.3), symetrical, octane render, 35mm, bokeh, 9:16, (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15), (natural skin texture, hyperrealism, soft light, sharp:1.2), (detailed skin:1.2), (sharp focus on eyes)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Lauren_German",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "epiNoiseoffset_v2",
+                        "type": "lora",
+                        "weight": 0.8
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/88524b83-7dec-4e1a-fa87-a25ae28e4400/width=450/641255.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UFC$[#9F?w%M00xuD%M{$%axM{xtE2ogs:of",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2852590700,
+                "steps": 35,
+                "prompt": "<lora:Lauren_German:1>, <lora:epiNoiseoffset_v2:0.8> (apterus style:1.3), (dark shot:1.4), 80mm, soft light, sharp, exposure blend, medium shot, bokeh, (hdr:1.4), (film grain:1.23), high contrast, (cinematic, teal and orange:0.85), (muted colors, dim colors, soothing tones:1.3), low saturation, (hyperdetailed:1.2), (noir:0.9),(intricate details, hyperdetailed:1.15), modelshoot style, Close-up comic book illustration of a happy skinny woman, 30 years old, with short black hair, wearing fancy tech jacket standing in an airport, ((hands inside pocket)), dramatic lighting, minimalistic, flat colors, washed colors, dithering, lineart, (detailed background:1.3), old aircraft in background, (full body:1.2), (long legs), (depth of field:1.4), (detailed face:1.1), (photo realistic:1.3), symetrical, octane render, 35mm, bokeh, 9:16, (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15), (natural skin texture, hyperrealism, soft light, sharp:1.2), (detailed skin:1.2), (sharp focus on eyes)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Lauren_German",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "epiNoiseoffset_v2",
+                        "type": "lora",
+                        "weight": 0.8
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/53aa66e0-7479-4056-6ffe-2d29211c1d00/width=450/641253.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UNE{X+4n_N%L?aIUo}IUD%xuMxM|Mxt7MxV@",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2852590701,
+                "steps": 35,
+                "prompt": "<lora:Lauren_German:1>, <lora:epiNoiseoffset_v2:0.8> (apterus style:1.3), (dark shot:1.4), 80mm, soft light, sharp, exposure blend, medium shot, bokeh, (hdr:1.4), (film grain:1.23), high contrast, (cinematic, teal and orange:0.85), (muted colors, dim colors, soothing tones:1.3), low saturation, (hyperdetailed:1.2), (noir:0.9),(intricate details, hyperdetailed:1.15), modelshoot style, Close-up comic book illustration of a happy skinny woman, 30 years old, with short black hair, wearing fancy tech jacket standing in an airport, ((hands inside pocket)), dramatic lighting, minimalistic, flat colors, washed colors, dithering, lineart, (detailed background:1.3), old aircraft in background, (full body:1.2), (long legs), (depth of field:1.4), (detailed face:1.1), (photo realistic:1.3), symetrical, octane render, 35mm, bokeh, 9:16, (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15), (natural skin texture, hyperrealism, soft light, sharp:1.2), (detailed skin:1.2), (sharp focus on eyes)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Lauren_German",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "epiNoiseoffset_v2",
+                        "type": "lora",
+                        "weight": 0.8
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0a12fe39-1299-4c95-3eb9-7e73a104fe00/width=450/641274.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "U1C6Z3~800D500_3804U00104T?v=]}@8x9u",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2580898885,
+                "steps": 35,
+                "prompt": "<lora:Lauren_German:1>, a young woman in the style of nocturne, dreamy atmosphere, dark cyan and red, i can't believe how beautiful this is, serene atmosphere, piles/stacks, flickering light, epic realistic, broken old boat in big storm, illustrated by herg, style of tin tin comics, pen and ink,art by greg rutkowski and artgerm, soft cinematic light,hdr, intricate, highly detailed, (depth of field:1.4), faded, (neutral colors:1.2), (hdr:1.4), (muted colors:1.2), hyperdetailed, (artstation:1.4), cinematic, warm lights, dramatic light, (intricate details:1.1), complex background, (rutkowski:0.66), (teal and orange:0.4), (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15) (sharp focus on eyes)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Lauren_German",
+                        "type": "lora",
+                        "weight": 1
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3031a1a8-61e4-46f9-f32a-8464c3850700/width=450/641273.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UFF}}_IT%#^*^%?as:oJR%?a9GIp~ps8xvE1",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2580898886,
+                "steps": 35,
+                "prompt": "<lora:Lauren_German:1>, a young woman in the style of nocturne, dreamy atmosphere, dark cyan and red, i can't believe how beautiful this is, serene atmosphere, piles/stacks, flickering light, epic realistic, broken old boat in big storm, illustrated by herg, style of tin tin comics, pen and ink,art by greg rutkowski and artgerm, soft cinematic light,hdr, intricate, highly detailed, (depth of field:1.4), faded, (neutral colors:1.2), (hdr:1.4), (muted colors:1.2), hyperdetailed, (artstation:1.4), cinematic, warm lights, dramatic light, (intricate details:1.1), complex background, (rutkowski:0.66), (teal and orange:0.4), (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15) (sharp focus on eyes)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Lauren_German",
+                        "type": "lora",
+                        "weight": 1
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/bd812824-6c31-43f0-94e9-0411da77fb00/width=450/641339.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UAEn*YW;?wve2sp056In%ixH^jwIruIoD%NG",
+            "meta": {
+                "Size": "512x768",
+                "seed": 4028278663,
+                "steps": 35,
+                "prompt": "<lora:Lauren_German:1>, a sexual pink, wears a pastel costume, in the style of anaglyph filter, patrick nagel, rainbowcore, robotic expressionism, perry rhodan, john trumbull, (masterpiece:1.5) (photorealistic:1.1) (bokeh) (best quality) (detailed) (intricate) (8k) (HDR) (wallpaper) (cinematic lighting) (sharp focus on eyes)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Lauren_German",
+                        "type": "lora",
+                        "weight": 1
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f0319bb7-1ad1-4c47-5c59-f0b68435d700/width=450/641376.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UOH1_L^*tRT0}:xZIqE1IUM{RPIV9uWXs:n$",
+            "meta": {
+                "Size": "512x768",
+                "seed": 4028278665,
+                "steps": 35,
+                "prompt": "<lora:Lauren_German:1>, a sexual pink, wears a pastel costume, in the style of anaglyph filter, patrick nagel, rainbowcore, robotic expressionism, perry rhodan, john trumbull, (masterpiece:1.5) (photorealistic:1.1) (bokeh) (best quality) (detailed) (intricate) (8k) (HDR) (wallpaper) (cinematic lighting) (sharp focus on eyes)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Lauren_German",
+                        "type": "lora",
+                        "weight": 1
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "GFPGAN",
+                "Denoising strength": "0.35"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/58836"
+}

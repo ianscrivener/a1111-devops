@@ -1,0 +1,410 @@
+{
+    "id": 63006,
+    "modelId": 48139,
+    "name": "v2.0",
+    "createdAt": "2023-05-05T11:12:15.112Z",
+    "updatedAt": "2023-05-05T11:29:46.765Z",
+    "trainedWords": [
+        "dark theme"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "<p>More details added<br />Blue saturation improved<br />All colors have been balanced</p>",
+    "stats": {
+        "downloadCount": 77815,
+        "ratingCount": 241,
+        "rating": 4.95
+    },
+    "model": {
+        "name": "LowRA",
+        "type": "LORA",
+        "nsfw": false,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "LowRA.safetensors",
+            "id": 44403,
+            "sizeKB": 73838.029296875,
+            "type": "Model",
+            "metadata": {
+                "fp": null,
+                "size": null,
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-05-05T11:25:49.086Z",
+            "hashes": {
+                "AutoV1": "2DCEB6E8",
+                "AutoV2": "348071DB54",
+                "SHA256": "348071DB544B7242C5EDCB3306160D83BCDE66395153C1DAF38A575C5CEFD66E",
+                "CRC32": "D8C98408",
+                "BLAKE3": "420B76F142608EF6374E982578746E0795716FB610A2E7D63E5C47065A8A4CEA"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/63006"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4f29cc2c-d1de-48ee-a31e-7858a823635b/width=450/693802.jpeg",
+            "nsfw": "Soft",
+            "width": 1280,
+            "height": 1536,
+            "hash": "UB9jcXof00o2D%j[%fae4nax?at7~qs:D%WB",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "640x768",
+                "seed": 3515335635,
+                "Model": "deliberate_v2",
+                "steps": 26,
+                "hashes": {
+                    "model": "9aba26abdf"
+                },
+                "prompt": "<lora:LowRA:0.6> redhead maid, mouth a bit opened, lightroom, pleasure look, maid white headdress, wet skin, detached collar, curly pixie haircut, small dark pantry, crowded cans shelfs, intricate, hdr, intricate details, hyperdetailed, cinematic",
+                "sampler": "DPM++ 2M",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "name": "lowra_v20",
+                        "type": "lora",
+                        "weight": 0.6
+                    },
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "Hires steps": "8",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x_NMKD-Siax_200k",
+                "negativePrompt": "(deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation",
+                "Denoising strength": "0.33"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/82e73369-a723-456c-869f-07e9abd48a19/width=450/693803.jpeg",
+            "nsfw": "None",
+            "width": 1280,
+            "height": 1536,
+            "hash": "U13+Zbof4Tx^O]%NMH4mI^tSroMvyFWCVqng",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "640x768",
+                "seed": 2757221325,
+                "Model": "deliberate_v2",
+                "steps": 25,
+                "hashes": {
+                    "model": "9aba26abdf"
+                },
+                "prompt": "<lora:LowRA:0.6> dark theme, rocks balancing",
+                "sampler": "DPM++ 2M",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "lowra_v20",
+                        "type": "lora",
+                        "weight": 0.6
+                    },
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "Hires steps": "8",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x_NMKD-Siax_200k",
+                "negativePrompt": "(deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation",
+                "Denoising strength": "0.55"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33e89d0c-2fee-4a34-9ff7-eea8f9f0e1a9/width=450/693801.jpeg",
+            "nsfw": "None",
+            "width": 1280,
+            "height": 1680,
+            "hash": "U36kCi01Z$TcNa=|9tw{00~VSKR5^+0y}sJ7",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "640x840",
+                "seed": 711065367,
+                "Model": "deliberate_v2",
+                "steps": 22,
+                "hashes": {
+                    "model": "9aba26abdf"
+                },
+                "prompt": "<lora:LowRA:0.6> dark, an old chieftainman, (astronaut outfit:1.2), feathers headdress, medium shot",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "lowra_v20",
+                        "type": "lora",
+                        "weight": 0.6
+                    },
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "Hires steps": "8",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x_NMKD-Siax_200k",
+                "negativePrompt": "(deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation",
+                "Denoising strength": "0.55"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8d8af832-0067-48d7-8830-b26ccb363749/width=450/693806.jpeg",
+            "nsfw": "None",
+            "width": 1280,
+            "height": 1536,
+            "hash": "U27BTQnh00T200xbxxIS9HXT%2$+x|IS?c-=",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "640x768",
+                "seed": 2490588977,
+                "Model": "deliberate_v2",
+                "steps": 22,
+                "hashes": {
+                    "model": "9aba26abdf"
+                },
+                "prompt": "<lora:LowRA:0.8> a tiny cabin, (tilt shift:1.2)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "lowra_v20",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "Hires steps": "8",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x_NMKD-Siax_200k",
+                "negativePrompt": "(deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation",
+                "Denoising strength": "0.45"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/85cbca23-85bf-4e4b-9e24-44fc257fc978/width=450/693810.jpeg",
+            "nsfw": "None",
+            "width": 1280,
+            "height": 1536,
+            "hash": "U47msW~A0303+]n%J-Sg0OEM}=?F5;Nb,:$i",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "640x768",
+                "seed": 3731322845,
+                "Model": "deliberate_v2",
+                "steps": 22,
+                "hashes": {
+                    "model": "9aba26abdf"
+                },
+                "prompt": "<lora:LowRA:0.6> burger, dark theme",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "name": "lowra_v20",
+                        "type": "lora",
+                        "weight": 0.6
+                    },
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "Hires steps": "8",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x_NMKD-Siax_200k",
+                "negativePrompt": "(deformed, distorted, disfigured), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation",
+                "Denoising strength": "0.36"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/48dc53a2-81fb-4d7e-a543-3946d27ec5e9/width=450/693807.jpeg",
+            "nsfw": "None",
+            "width": 1280,
+            "height": 1536,
+            "hash": "U25E+^00?b8_9GxZ%MIp00?I01~pE1-pIUWY",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "640x768",
+                "seed": 1421840128,
+                "Model": "deliberate_v2",
+                "steps": 22,
+                "hashes": {
+                    "model": "9aba26abdf"
+                },
+                "prompt": "<lora:LowRA:0.7> a photo of a solarpunk living room with lots of flowers and plants, dark theme, evening",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "lowra_v20",
+                        "type": "lora",
+                        "weight": 0.7
+                    },
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "Hires steps": "8",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x_NMKD-Siax_200k",
+                "negativePrompt": "(deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation",
+                "Denoising strength": "0.4"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ab7613f8-afe2-4e99-bcdf-abb3f33a4f90/width=450/693818.jpeg",
+            "nsfw": "None",
+            "width": 1280,
+            "height": 1536,
+            "hash": "U267[zNw9tR:PCR:-Wr:ca-T589wTMShoy$y",
+            "meta": {
+                "seed": 3135098381,
+                "steps": 22,
+                "prompt": "<lora:LowRA:0.8> \u041c\u0430\u0448\u0430 making extreme selfie on skyscraper, bird's eye view, from above, night, smiling",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "negativePrompt": "(deformed, distorted, disfigured), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dbe99394-f4ee-421e-970c-22870e528288/width=450/693800.jpeg",
+            "nsfw": "None",
+            "width": 1280,
+            "height": 1536,
+            "hash": "U14xY#M}00^*Ioa$X7IV00Io~WRQtQRk$*%M",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "640x768",
+                "seed": 921135546,
+                "Model": "deliberate_v2",
+                "steps": 24,
+                "hashes": {
+                    "model": "9aba26abdf"
+                },
+                "prompt": "<lora:LowRA:0.6> squirrel on a tree, hazelnut, cinematic, dark theme, rim light",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 6,
+                "resources": [
+                    {
+                        "name": "lowra_v20",
+                        "type": "lora",
+                        "weight": 0.6
+                    },
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "Hires steps": "20",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x_NMKD-Siax_200k",
+                "negativePrompt": "(deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2147413e-4db4-4dd0-8f86-70c50a1b22ba/width=450/693817.jpeg",
+            "nsfw": "None",
+            "width": 1280,
+            "height": 1536,
+            "hash": "U02=.U9F00-;MwNGo0t700^+_ND%E1oItRMx",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "640x768",
+                "seed": 1124475605,
+                "Model": "deliberate_v2",
+                "steps": 22,
+                "hashes": {
+                    "model": "9aba26abdf"
+                },
+                "prompt": "<lora:LowRA:0.7> 250 gto, motion shot, dark theme, (hdr:1.2)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "lowra_v20",
+                        "type": "lora",
+                        "weight": 0.7
+                    },
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "Hires steps": "8",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x_NMKD-Siax_200k",
+                "negativePrompt": "(deformed, distorted, disfigured), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation",
+                "Denoising strength": "0.4"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9e640eb4-a875-49b9-bc81-b6ec16cf3363/width=450/693814.jpeg",
+            "nsfw": "None",
+            "width": 1280,
+            "height": 1536,
+            "hash": "U24BnENG56^+v}IoEM$*I:xuxaIU9Zs:-VI:",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "640x768",
+                "seed": 818146396,
+                "Model": "deliberate_v2",
+                "steps": 26,
+                "hashes": {
+                    "model": "9aba26abdf"
+                },
+                "prompt": "<lora:LowRA:0.8> hdr, a redhead woman climbing on mountains, frightened, closeup, intricate details, hyperdetailed, cinematic, dark shot, muted colors, film grainy, soothing tones, muted colors, technicolor, (muddy:0.6)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 5,
+                "resources": [
+                    {
+                        "name": "lowra_v20",
+                        "type": "lora",
+                        "weight": 0.8
+                    },
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "Hires steps": "8",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x_NMKD-Siax_200k",
+                "negativePrompt": "(deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation",
+                "Denoising strength": "0.42"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/63006"
+}

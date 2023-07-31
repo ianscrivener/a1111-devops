@@ -1,0 +1,482 @@
+{
+    "id": 48200,
+    "modelId": 33208,
+    "name": "Astia 3.0  LoRA",
+    "createdAt": "2023-04-17T15:28:44.294Z",
+    "updatedAt": "2023-07-08T14:06:52.224Z",
+    "trainedWords": [],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "",
+    "stats": {
+        "downloadCount": 4518,
+        "ratingCount": 3,
+        "rating": 5
+    },
+    "model": {
+        "name": "LEOSAM's FilmGirl \u80f6\u7247\u98ce Film Grain LoRA & LoHA",
+        "type": "LORA",
+        "nsfw": false,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "Astia3.safetensors",
+            "id": 55726,
+            "sizeKB": 147567.2177734375,
+            "type": "Model",
+            "metadata": {
+                "fp": null,
+                "size": null,
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-05-26T01:46:24.615Z",
+            "hashes": {
+                "AutoV1": "66F81B90",
+                "AutoV2": "3BAED21E38",
+                "SHA256": "3BAED21E38BE20BE942D0F8F24856AA61ED9C98AF51CA5FF0210B3558F023395",
+                "CRC32": "D8F48C5A",
+                "BLAKE3": "4E48EFD469215131C8BDA33FDFB34AB04939873F573277E78859E1E3A49B647C"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/48200"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/61c80490-31c4-4ab1-4154-f71aa698fc00/width=450/524209.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1280,
+            "hash": "U9F$FY8_01004T00~qaeX8IV~VM{?vWBaeIU",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x640",
+                "seed": 3541668867,
+                "Model": "MoonMIX",
+                "steps": 30,
+                "hashes": {
+                    "model": "5d5c702650"
+                },
+                "prompt": "<lora:1girlmix:0.65>, mix4, <lora:cuteGirlMix4_v10:0.1>, complex 3d render ultra detailed of a beautiful porcelain woman cyborg, 1girl, natural skin texture, (realistic eye details:1.2), robotic parts, beautiful soft light, rim light, vibrant details, luxurious cyberpunk, hyperrealistic, anatomical, facial muscles, cable electric wires, microchip, elegant, beautiful background, octane render, APPLE style, 8k, best quality, masterpiece, illustration, an extremely delicate and beautiful, extremely detailed ,CG ,unity ,wallpaper, (realistic, photo-realistic:1.2),Amazing, finely detail, masterpiece,best quality,official art, extremely detailed CG unity 8k wallpaper, absurdres, incredibly absurdres, robot, silver halmet, full body, android, half classicism half surrealism aristocratic lady, doomsday wasteland, white ceramic and metal lace, (cleavage:0.6), high-tech prosthetics",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "1girlmix",
+                        "type": "lora",
+                        "weight": 0.65
+                    },
+                    {
+                        "name": "cuteGirlMix4_v10",
+                        "type": "lora",
+                        "weight": 0.1
+                    },
+                    {
+                        "hash": "5d5c702650",
+                        "name": "MoonMIX",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "5d5c702650",
+                "Hires steps": "24",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent (bicubic antialiased)",
+                "negativePrompt": "unreal eyes, illustration, 3d, sepia, painting, cartoons, sketch, (worst quality:1.5), (low quality:1.5), (normal quality:1.5), lowres, bad anatomy, bad hands, normal quality, ((monochrome)), ((grayscale:1.2)), futanari, full-package_futanari, penis_from_girl, newhalf, collapsed eyeshadow, multiple eyebrows, vaginas in breasts,holes on breasts, fleckles, stretched nipples, gigantic penis, nipples on buttocks, analog, analogphoto, signatre, logo,2 faces, bad_prompt_version2, EasyNegative",
+                "Denoising strength": "0.56"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5872e19d-ddc4-4bc4-848d-366833ed8974/width=450/913473.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UDHBxW?b00ITnxof~q%M0Nxvbxbc0k%MD+Rj",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x768",
+                "seed": 4178159877,
+                "Model": "majicmixRealistic_v4",
+                "steps": 27,
+                "hashes": {
+                    "model": "d819c8be6b"
+                },
+                "prompt": "young 1girl with braided hair and fluffy cat ears, dressed in Off-Shoulder Sundress, standing in a rustic farm setting. She has a soft, gentle smile, expressive eyes and sexy cleavage. The background features a charming barn, fields of golden wheat, and a clear blue sky. The composition should be bathed in the warm, golden hour light, with a gentle depth of field and soft bokeh to accentuate the pastoral serenity. Capture the image as if it were taken on an old-school 35mm film for added charm, looking at viewer",
+                "Version": "v1.2.1",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "d819c8be6b",
+                        "name": "majicmixRealistic_v4",
+                        "type": "model"
+                    },
+                    {
+                        "hash": "02a43b2138e1",
+                        "name": "Astia3",
+                        "type": "lora",
+                        "weight": null
+                    }
+                ],
+                "Model hash": "d819c8be6b",
+                "Hires steps": "22",
+                "Hires upscale": "2",
+                "AddNet Enabled": "True",
+                "AddNet Model 1": "Astia3(02a43b2138e1)",
+                "Hires upscaler": "Latent (bicubic antialiased)",
+                "negativePrompt": "cartoon, anime, sketches,(worst quality),(low quality), (deformed, distorted, disfigured), bad eyes, wrong nose, weird mouth, strange ears, bad anatomy, wrong anatomy, amputation, extra limb, missing limb, floating limbs, (bad teeth, mutated hands and fingers), disconnected limbs, mutation, ugly, disgusting, (bad_pictures, negative_hand-neg:1.2)",
+                "AddNet Module 1": "LoRA",
+                "AddNet Weight A 1": "0.65",
+                "AddNet Weight B 1": "0.65",
+                "Denoising strength": "0.58"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/68b1d84a-a363-4858-3bb7-dd86470a7c00/width=450/524206.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1280,
+            "hash": "UHG8}@00_NR4RPD%-=M_W=t7sSWWo~n$jZkC",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x640",
+                "seed": 653254153,
+                "Model": "MoonMIX",
+                "steps": 30,
+                "hashes": {
+                    "model": "5d5c702650"
+                },
+                "prompt": "<lora:1girlmix:0.65>, mix4, <lora:cuteGirlMix4_v10:0.1>, complex 3d render ultra detailed of a beautiful porcelain woman cyborg, 1girl, natural skin texture, (realistic eye details:1.2), robotic parts, beautiful soft light, rim light, vibrant details, luxurious cyberpunk, hyperrealistic, anatomical, facial muscles, cable electric wires, microchip, elegant, beautiful background, octane render, APPLE style, 8k, best quality, masterpiece, illustration, an extremely delicate and beautiful, extremely detailed ,CG ,unity ,wallpaper, (realistic, photo-realistic:1.2),Amazing, finely detail, masterpiece,best quality,official art, extremely detailed CG unity 8k wallpaper, absurdres, incredibly absurdres, robot, silver halmet, full body, android, half classicism half surrealism aristocratic lady, doomsday wasteland, white ceramic and metal lace, (cleavage:0.6)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "1girlmix",
+                        "type": "lora",
+                        "weight": 0.65
+                    },
+                    {
+                        "name": "cuteGirlMix4_v10",
+                        "type": "lora",
+                        "weight": 0.1
+                    },
+                    {
+                        "hash": "5d5c702650",
+                        "name": "MoonMIX",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "5d5c702650",
+                "Hires steps": "24",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent (bicubic antialiased)",
+                "negativePrompt": "unreal eyes, illustration, 3d, sepia, painting, cartoons, sketch, (worst quality:1.5), (low quality:1.5), (normal quality:1.5), lowres, bad anatomy, bad hands, normal quality, ((monochrome)), ((grayscale:1.2)), futanari, full-package_futanari, penis_from_girl, newhalf, collapsed eyeshadow, multiple eyebrows, vaginas in breasts,holes on breasts, fleckles, stretched nipples, gigantic penis, nipples on buttocks, analog, analogphoto, signatre, logo,2 faces, bad_prompt_version2, EasyNegative",
+                "Denoising strength": "0.56"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9f503500-d62c-470a-9c05-c9118a2eddb5/width=450/913627.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UDCP^h9FEetR00xuNGxZ57%M$MM{~qIARltR",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x768",
+                "seed": 3777202421,
+                "Model": "majicmixRealistic_v4",
+                "steps": 27,
+                "hashes": {
+                    "model": "d819c8be6b"
+                },
+                "prompt": "fashion photography portrait of woman avatar, 1girl in blue lush Alien Rainforest with flowers and birds, fantasy, octane render, hdr, Dolby Vision, (intricate details, hyperdetailed:1.2), (natural skin texture, hyperrealism, soft light:1.2), fluffy short hair, , sharp focus, night, necklace, Chinese mythology, cleavage, medium breasts, sci-fi headband, looking at viewer, best quality, perfect body",
+                "Version": "v1.2.1",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "Clip skip": "2",
+                "resources": [
+                    {
+                        "hash": "d819c8be6b",
+                        "name": "majicmixRealistic_v4",
+                        "type": "model"
+                    },
+                    {
+                        "hash": "02a43b2138e1",
+                        "name": "Astia3",
+                        "type": "lora",
+                        "weight": null
+                    }
+                ],
+                "Model hash": "d819c8be6b",
+                "Hires steps": "22",
+                "Hires upscale": "2",
+                "AddNet Enabled": "True",
+                "AddNet Model 1": "Astia3(02a43b2138e1)",
+                "Hires upscaler": "Latent (bicubic antialiased)",
+                "negativePrompt": "cartoon, anime, sketches,(worst quality),(low quality), (deformed, distorted, disfigured), bad eyes, wrong nose, weird mouth, strange ears, bad anatomy, wrong anatomy, amputation, extra limb, missing limb, floating limbs, (bad teeth, mutated hands and fingers), disconnected limbs, mutation, ugly, disgusting, (bad_pictures, negative_hand-neg:1.2)",
+                "AddNet Module 1": "LoRA",
+                "AddNet Weight A 1": "0.65",
+                "AddNet Weight B 1": "0.65",
+                "Denoising strength": "0.58"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/561095d3-c614-4df5-828f-11da45a1a400/width=450/524208.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1280,
+            "hash": "U6DSq0000g~U00~V9a$%AIIq?GE1_2D*xvxu",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x640",
+                "seed": 4053954905,
+                "Model": "MoonMIX",
+                "steps": 30,
+                "hashes": {
+                    "model": "5d5c702650"
+                },
+                "prompt": "<lora:1girlmix:0.65>, mix4, <lora:cuteGirlMix4_v10:0.1>, complex 3d render ultra detailed of a beautiful porcelain woman cyborg, 1girl, natural skin texture, (realistic eye details:1.2), robotic parts, beautiful soft light, rim light, vibrant details, luxurious cyberpunk, hyperrealistic, anatomical, facial muscles, cable electric wires, microchip, elegant, beautiful background, octane render, APPLE style, 8k, best quality, masterpiece, illustration, an extremely delicate and beautiful, extremely detailed ,CG ,unity ,wallpaper, (realistic, photo-realistic:1.2),Amazing, finely detail, masterpiece,best quality,official art, extremely detailed CG unity 8k wallpaper, absurdres, incredibly absurdres, robot, silver halmet, full body, android, metal lace, cleavage, Classicism noble lady",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "1girlmix",
+                        "type": "lora",
+                        "weight": 0.65
+                    },
+                    {
+                        "name": "cuteGirlMix4_v10",
+                        "type": "lora",
+                        "weight": 0.1
+                    },
+                    {
+                        "hash": "5d5c702650",
+                        "name": "MoonMIX",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "5d5c702650",
+                "Hires steps": "24",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent (bicubic antialiased)",
+                "negativePrompt": "unreal eyes, illustration, 3d, sepia, painting, cartoons, sketch, (worst quality:1.5), (low quality:1.5), (normal quality:1.5), lowres, bad anatomy, bad hands, normal quality, ((monochrome)), ((grayscale:1.2)), futanari, full-package_futanari, penis_from_girl, newhalf, collapsed eyeshadow, multiple eyebrows, vaginas in breasts,holes on breasts, fleckles, stretched nipples, gigantic penis, nipples on buttocks, analog, analogphoto, signatre, logo,2 faces, bad_prompt_version2, EasyNegative",
+                "Denoising strength": "0.56"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/84ede71d-dc70-4751-98c9-0c38f5b29100/width=450/517887.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1024,
+            "hash": "UBFFWy9ZB%RP00$l9as;R-E2n5In~p%KS1%M",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x512",
+                "seed": 1237885608,
+                "Model": "chillCP1234B",
+                "steps": 30,
+                "hashes": {
+                    "model": "49cbc4a6a0"
+                },
+                "prompt": "<lora:1girlmix:0.6>, 8k, 4k, (photorealistic:1.4), 1girl, highly detail face, realistic eyes, realistic skin, 18 years old, looking at viewer, outdoor, (perfect body:1.2), (realistic anatomy:1.2), (fluffy short hair:1.1), Portrait, realistic photo, RAW photo, 4k, film grain, (Cinematic Lighting:1.4), ray tracing, (perfect pose:1.2), hyper detail, intricate details, dolby vision, best quality",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "1girlmix",
+                        "type": "lora",
+                        "weight": 0.6
+                    },
+                    {
+                        "hash": "49cbc4a6a0",
+                        "name": "chillCP1234B",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "49cbc4a6a0",
+                "Hires steps": "24",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent (bicubic antialiased)",
+                "negativePrompt": "(unreal eyes:1.2), fake eyes, watermark, render, illustration, painting, sketch, cartoon, drawing, anime, deformed iris, worst quality, low quality, lowres, (monochrome), (grayscale), skin spots, acnes, skin blemishes, age spot, morbid, mutilated, mutated hands, bad anatomy, bad proportions, extra limbs, disfigured, missing arms, extra legs, (fused fingers:1.2), too many fingers, unclear eyes, bad hands, missing fingers, extra digit, ugly",
+                "Denoising strength": "0.55"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/506bf0c5-8d5f-4e24-7d31-c4e2ee59e300/width=450/517888.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1280,
+            "hash": "U6E_]f000f,o00%M^+xaT0%2VrWU~U0L_29a",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x640",
+                "seed": 2908061402,
+                "Model": "chillCP1234B",
+                "steps": 30,
+                "hashes": {
+                    "model": "5d5c702650"
+                },
+                "prompt": "<lora:1girlmix:0.7>, 4k, (photorealistic:1.2), 1girl, highly detail face, (realistic eye details:1.2), realistic skin, night, outdoor, (perfect body:1.2), (realistic anatomy:1.2), (fluffy short hair:1.1), half-body, realistic photo, RAW photo, Cinematic Lighting, hyper detail, best quality, masterpiece, DSLR, 24 Megapixels, Full Frame, Mix4, <lora:cuteGirlMix4_v10:0.2>, cleavage",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "1girlmix",
+                        "type": "lora",
+                        "weight": 0.7
+                    },
+                    {
+                        "name": "cuteGirlMix4_v10",
+                        "type": "lora",
+                        "weight": 0.2
+                    },
+                    {
+                        "hash": "5d5c702650",
+                        "name": "chillCP1234B",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "5d5c702650",
+                "Hires steps": "24",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent (bicubic antialiased)",
+                "negativePrompt": "(unreal eyes:1.2), fake eyes, watermark, render, illustration, painting, sketch, cartoon, drawing, anime, deformed iris, worst quality, low quality, lowres, (monochrome), (grayscale), skin spots, acnes, skin blemishes, age spot, morbid, mutilated, mutated hands, bad anatomy, bad proportions, extra limbs, disfigured, missing arms, extra legs, (fused fingers:1.2), too many fingers, unclear eyes, bad hands, missing fingers, extra digit, ugly, EasyNegative",
+                "Denoising strength": "0.55"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e3076f1-d797-4245-5fd5-5a62f60fe800/width=450/517886.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1280,
+            "hash": "UUI#fSNG-.M{xrbcbwxZROogogfk_4WAxtt6",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x640",
+                "seed": 3417978603,
+                "Model": "chillCP1234B",
+                "steps": 30,
+                "hashes": {
+                    "model": "5d5c702650"
+                },
+                "prompt": "<lora:1girlmix:0.4>, <lora:cuteGirlMix4_v10:0.2>, (8k, RAW photo, best quality, masterpiece:1.2), (realistic, photo-realistic:1.2), ultra-detailed, 1girl, highly detail face, (realistic eye details:1.2), realistic skin, cute, solo, beautiful detailed sky, night, sitting, dating, (nose blush), medium breasts, (collared shirt:1.1), bowtie, pleated skirt, (short hair:1.2), floating hair, Mix4",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "1girlmix",
+                        "type": "lora",
+                        "weight": 0.4
+                    },
+                    {
+                        "name": "cuteGirlMix4_v10",
+                        "type": "lora",
+                        "weight": 0.2
+                    },
+                    {
+                        "hash": "5d5c702650",
+                        "name": "chillCP1234B",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "5d5c702650",
+                "Hires steps": "24",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent (bicubic antialiased)",
+                "negativePrompt": "paintings, sketches, (worst quality:1.4), (low quality:1.4), lowres, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers,(watermark),(white letters), EasyNegative",
+                "Denoising strength": "0.55"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8e31aaea-c35d-466d-e3e7-f6d72aadcb00/width=450/517885.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1280,
+            "hash": "UJH_DDWAIR~UD#Ne-;Rk00V@IuMyO]$yIAoc",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x640",
+                "seed": 1144213229,
+                "Model": "chillCP1234B",
+                "steps": 30,
+                "hashes": {
+                    "model": "5d5c702650"
+                },
+                "prompt": "<lora:1girlmix:0.5>, <lora:cuteGirlMix4_v10:0.2>, (8k, RAW photo, best quality, masterpiece:1.2), (realistic, photo-realistic:1.2), ultra-detailed, 1girl, highly detail face, (realistic eye details:1.2), realistic skin, cute, solo, beautiful detailed sky, night, sitting, dating, (nose blush), medium breasts, (collared shirt:1.1), bowtie, pleated skirt, (short hair:1.2), floating hair, Mix4",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "1girlmix",
+                        "type": "lora",
+                        "weight": 0.5
+                    },
+                    {
+                        "name": "cuteGirlMix4_v10",
+                        "type": "lora",
+                        "weight": 0.2
+                    },
+                    {
+                        "hash": "5d5c702650",
+                        "name": "chillCP1234B",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "5d5c702650",
+                "Hires steps": "24",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent (bicubic antialiased)",
+                "negativePrompt": "paintings, sketches, (worst quality:1.4), (low quality:1.4), lowres, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers,(watermark),(white letters), EasyNegative",
+                "Denoising strength": "0.55"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1ec15b23-caf7-4e78-bb35-e5aab9806600/width=450/517884.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1280,
+            "hash": "UDHBlDZywXM|9E^+XUwu00xv%4NGpf9EITox",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x640",
+                "seed": 4131118224,
+                "Model": "chillCP1234B",
+                "steps": 30,
+                "hashes": {
+                    "model": "5d5c702650"
+                },
+                "prompt": "<lora:1girlmix:0.4>, <lora:cuteGirlMix4_v10:0.2>, (8k, RAW photo, best quality, masterpiece:1.2), (realistic, photo-realistic:1.2), ultra-detailed, 1girl, highly detail face, (realistic eye details:1.2), realistic skin, cute, solo, beautiful detailed sky, night, sitting, dating, (nose blush), medium breasts, (collared shirt:1.1), bowtie, pleated skirt, (short hair:1.2), floating hair, Mix4",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "1girlmix",
+                        "type": "lora",
+                        "weight": 0.4
+                    },
+                    {
+                        "name": "cuteGirlMix4_v10",
+                        "type": "lora",
+                        "weight": 0.2
+                    },
+                    {
+                        "hash": "5d5c702650",
+                        "name": "chillCP1234B",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "5d5c702650",
+                "Hires steps": "24",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent (bicubic antialiased)",
+                "negativePrompt": "paintings, sketches, (worst quality:1.4), (low quality:1.4), lowres, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers,(watermark),(white letters), EasyNegative",
+                "Denoising strength": "0.55"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/48200"
+}

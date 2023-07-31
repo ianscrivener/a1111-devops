@@ -1,0 +1,288 @@
+{
+    "id": 81984,
+    "modelId": 77206,
+    "name": "v1.0",
+    "createdAt": "2023-05-26T16:47:03.505Z",
+    "updatedAt": "2023-05-26T18:01:17.832Z",
+    "trainedWords": [
+        "Charlize-Theron"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "stats": {
+        "downloadCount": 286,
+        "ratingCount": 0,
+        "rating": 0
+    },
+    "model": {
+        "name": "Charlize Theron Lora",
+        "type": "LORA",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "Charlize-Theron.safetensors",
+            "id": 56130,
+            "sizeKB": 73840.0126953125,
+            "type": "Model",
+            "metadata": {
+                "fp": null,
+                "size": null,
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-05-26T16:56:50.223Z",
+            "hashes": {
+                "AutoV1": "CA3C5951",
+                "AutoV2": "3B95800E76",
+                "SHA256": "3B95800E76F5972B9E297D1975D0546D87B4682B168065A6FCCF213D2961293D",
+                "CRC32": "FE286D1D",
+                "BLAKE3": "44367412F6DD20233208DEF88D795C4ABB1C27CA04FFD98E43F75A3FBDF2ECED"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/81984"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ba41d6a0-64e8-4c47-85d9-695e7ffd442f/width=450/922077.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UDD*IafU}s-V5T^ONeI=NFWA9u=t^2Ip$zIp",
+            "meta": {
+                "VAE": "vae-ft-mse-840000-ema.vae",
+                "Size": "512x768",
+                "seed": 249605495,
+                "Model": "dreamshaper_6BakedVae",
+                "steps": 25,
+                "hashes": {
+                    "model": "b76cc78ad9"
+                },
+                "prompt": "best quality, masterpiece, RAW photo, 8k, photo of Charlize-Theron, (explosion of supernova flames, fire corona, halo of flames:1.5), intricate layered gothic black gown, (natural lighting, fire light, dark shadows, crimson light:1.2), (black and red night sky, mist and fog:1.1), (large red blood moon background:1.1), solo, 1girl, fantasy style, concept art, sharp focus, soft contour, professional photography, fine-art photography, rule of thirds, macro photography, HDR, <lora:Charlize-Theron:0.7>",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "Clip skip": "1",
+                "resources": [
+                    {
+                        "hash": "b76cc78ad9",
+                        "name": "dreamshaper_6BakedVae",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "b76cc78ad9",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x_Remacri",
+                "negativePrompt": "EasyNegative, bad anatomy, extra fingers, watermark, (worst quality, low quality:1.4),",
+                "Denoising strength": "0.35",
+                "Token merging ratio hr": "0.4"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6604e181-013b-4060-9581-526268b8a365/width=450/921648.jpeg",
+            "nsfw": "Soft",
+            "width": 896,
+            "height": 1344,
+            "hash": "UjIOeAxux]tR~qt7bIjZ%NWBWBs:W=M{WBRj",
+            "meta": {
+                "RNG": "CPU",
+                "Size": "512x768",
+                "seed": 477695267,
+                "Model": "revAnimated_v122",
+                "steps": 25,
+                "hashes": {
+                    "model": "4199bcdd14"
+                },
+                "prompt": "masterpiece, best quality, 1girl, photo of Charlize-Theron with long hair in beautiful black dress , white high heels, in a rocky beach, detailed background, light and shadow contrast, rule of third, depth of field, sharp focus, foreground background, depth and dimension <lora:Charlize-Theron:0.7>",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "4199bcdd14",
+                        "name": "revAnimated_v122",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "4199bcdd14",
+                "needsReview": "poi",
+                "Hires upscale": "1.75",
+                "Hires upscaler": "4x_Remacri",
+                "negativePrompt": "EasyNegative, bad anatomy, extra fingers, watermark, (worst quality, low quality:1.4),",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/be896bda-f659-4ba8-8c60-17f49937a601/width=450/922139.jpeg",
+            "nsfw": "Soft",
+            "width": 896,
+            "height": 1344,
+            "hash": "UDHwu$t700t7~ToK={t7WAt6$*M|-pS40LRj",
+            "meta": {
+                "RNG": "CPU",
+                "Size": "512x768",
+                "seed": 904793443,
+                "Model": "revAnimated_v122",
+                "steps": 25,
+                "hashes": {
+                    "model": "4199bcdd14"
+                },
+                "prompt": "1girl, photo of Charlize-Theron in a modern elegant ball gown, jewelry , regal expression, a luxurious modern palace background, with clean lines, high ceilings, and extravagant chandeliers, captivating portrait <lora:Charlize-Theron:0.7>",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "4199bcdd14",
+                        "name": "revAnimated_v122",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "4199bcdd14",
+                "needsReview": "poi",
+                "Hires upscale": "1.75",
+                "Hires upscaler": "4x_Remacri",
+                "negativePrompt": "EasyNegative, bad anatomy, extra fingers, watermark, (worst quality, low quality:1.4),",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8f4d67e1-1c7f-432a-9a60-fdd712232deb/width=450/921649.jpeg",
+            "nsfw": "None",
+            "width": 896,
+            "height": 1344,
+            "hash": "UMFON1-DEQ-p~CIoIn%1M_R%M_axNxt7XRI:",
+            "meta": {
+                "RNG": "CPU",
+                "Size": "512x768",
+                "seed": 3994504857,
+                "Model": "revAnimated_v122",
+                "steps": 25,
+                "hashes": {
+                    "model": "4199bcdd14"
+                },
+                "prompt": "1girl, photo of Charlize-Theron (photorealistic:1.4), cyberpunk style, pink hair, blue jacket, cyberpunk, neon lights, captivating <lora:Charlize-Theron:0.7>",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "resources": [
+                    {
+                        "hash": "4199bcdd14",
+                        "name": "revAnimated_v122",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "4199bcdd14",
+                "Hires upscale": "1.75",
+                "Hires upscaler": "4x_Remacri",
+                "negativePrompt": "EasyNegative, bad anatomy, extra fingers, watermark, (worst quality, low quality:1.4),",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/2b1caef9-588f-4b12-91e2-5030b1292cb2/width=450/921760.jpeg",
+            "nsfw": "Soft",
+            "width": 512,
+            "height": 768,
+            "hash": "UAGa]~9F9u~V9ba~E2-o9at7VYyDNes.$$D*",
+            "meta": {
+                "VAE": "vae-ft-mse-840000-ema.vae",
+                "Size": "512x768",
+                "seed": 3273021651,
+                "Model": "revAnimated_v122",
+                "steps": 25,
+                "hashes": {
+                    "model": "4199bcdd14"
+                },
+                "prompt": "photo of Charlize-Theron dressed as a sexy teacher in a classroom, (very short hair:1.2), captivating, detailed environment <lora:Charlize-Theron:0.7>",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7.5,
+                "Clip skip": "1",
+                "resources": [
+                    {
+                        "hash": "4199bcdd14",
+                        "name": "revAnimated_v122",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "4199bcdd14",
+                "needsReview": "poi",
+                "negativePrompt": "EasyNegative, bad anatomy, extra fingers, watermark, (worst quality, low quality:1.4),",
+                "Denoising strength": "0.5",
+                "Token merging ratio hr": "0.4"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/da97b998-c40c-40ef-a6a1-9c7b043e01e2/width=450/921771.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UAAJ7y-pR+-o~p=|o|oz}[%L%2xaTc%1tQt7",
+            "meta": {
+                "VAE": "vae-ft-mse-840000-ema.vae",
+                "Size": "512x768",
+                "seed": 477695270,
+                "Model": "deliberate_v2",
+                "steps": 25,
+                "hashes": {
+                    "model": "9aba26abdf"
+                },
+                "prompt": "photo of Charlize-Theron, a woman as a movie star, modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (waist chain), ((movie premiere gala)), ((standing on the red carpet)), ((paparazzi in the background)), (looking at viewer), (detailed pupils:1.2), (elegant black dress:1.2), dimly lit<lora:Charlize-Theron:0.7>",
+                "sampler": "Euler a",
+                "cfgScale": 7.5,
+                "Clip skip": "1",
+                "resources": [
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x_Remacri",
+                "negativePrompt": "EasyNegative, bad anatomy, extra fingers, watermark, (worst quality, low quality:1.4), sfw",
+                "Denoising strength": "0.5",
+                "Token merging ratio hr": "0.4"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6659a7e2-4284-4047-863b-afc642e87c7c/width=450/922078.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "U7IXpoE-00.80e%2TzR.00wG~qs+_3t24TV@",
+            "meta": {
+                "VAE": "vae-ft-mse-840000-ema.vae",
+                "Size": "512x768",
+                "seed": 477695267,
+                "Model": "deliberate_v2",
+                "steps": 25,
+                "hashes": {
+                    "model": "9aba26abdf"
+                },
+                "prompt": "picture of Charlize-Theron, a woman (wearing a tight white t-shirt:1.2), (wearing jeans), (big breasts), modelshoot style, (extremely detailed CG unity 8k wallpaper), photo of the most beautiful artwork in the world, professional majestic oil painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski, (leather belt), ((in a supermarket)), (looking at viewer), (detailed eyes:1.2) <lora:Charlize-Theron:0.65>",
+                "sampler": "Euler a",
+                "cfgScale": 7.5,
+                "Clip skip": "1",
+                "resources": [
+                    {
+                        "hash": "9aba26abdf",
+                        "name": "deliberate_v2",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "9aba26abdf",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x_Remacri",
+                "negativePrompt": "EasyNegative, bad anatomy, extra fingers, watermark, (worst quality, low quality:1.4), sfw",
+                "Denoising strength": "0.5",
+                "Token merging ratio hr": "0.4"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/81984"
+}

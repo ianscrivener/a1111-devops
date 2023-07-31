@@ -1,0 +1,378 @@
+{
+    "id": 74290,
+    "modelId": 57287,
+    "name": "v2.0",
+    "createdAt": "2023-05-18T18:51:30.440Z",
+    "updatedAt": "2023-06-11T00:19:57.064Z",
+    "trainedWords": [
+        "cropped-fc"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "stats": {
+        "downloadCount": 3104,
+        "ratingCount": 4,
+        "rating": 5
+    },
+    "model": {
+        "name": "Crop Tops - fC",
+        "type": "LORA",
+        "nsfw": false,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "cropped-fc-v2.safetensors",
+            "id": 51367,
+            "sizeKB": 4942.90625,
+            "type": "Model",
+            "metadata": {
+                "fp": null,
+                "size": null,
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-05-18T18:56:28.137Z",
+            "hashes": {
+                "AutoV1": "8E07FC5E",
+                "AutoV2": "F7CB00A655",
+                "SHA256": "F7CB00A655004ECE4C33FA2338411919051669FB9B2D110DC125D408612966B3",
+                "CRC32": "06DC9474",
+                "BLAKE3": "3D680AD490E9A229181DB613F204A4BE0D7A1D6B1F6C31F2A64044D336513927"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/74290"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ea99d39e-fdac-425d-bb1e-7115fd54e2e5/width=450/830564.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UIHUz*?I?tE1Tykr-pt8_MM|oNRj-qi^NaWB",
+            "meta": {
+                "Size": "512x768",
+                "seed": 285959660,
+                "Model": "fC_fCAnime-Pruned",
+                "steps": 14,
+                "hashes": {
+                    "model": "a874494078"
+                },
+                "prompt": "sidewalk, city, blue sky, from below, underboobs, woman, cropped-fc,  <lora:cropped-fc-v2:1>, huge breasts,, btpt-fc, <lora:btpt-fC_v1.2a:1>, cropped sweater, midriff, sweater, 1girl, detailed face, illustrated",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "a874494078",
+                        "name": "fC_fCAnime-Pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "a874494078",
+                "Hires steps": "14",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "nipples, nsfw, bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, cleavage, child",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/594e93c0-da87-41c1-97e0-f264c6b9cfab/width=450/830600.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UIKU7p?b9FE2S$gOo}x]X2pJ_2S%}=WCkqxF",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2042064947,
+                "Model": "anime_starlike_v10",
+                "steps": 14,
+                "hashes": {
+                    "model": "bac58fca78"
+                },
+                "prompt": "sidewalk, tokyo, sky, from below, underboobs, woman, cropped-fc,  <lora:cropped-fc-v2:1>, huge breasts, btpt-fc, <lora:btpt-fC_v1.2a:1>, yellow tshirt, midriff, 1girl, detailed face, illustrated, anime absurdres illustration, drawing, (lineart:0.6)",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "bac58fca78",
+                        "name": "anime_starlike_v10",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "bac58fca78",
+                "Hires steps": "14",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "nipples, nsfw, bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, cleavage, child, photo, DSLR, 3d, cell shading, octane render, cgi, unreal engine",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/c4c0bfa4-5985-46c6-af9d-e77b999a0674/width=450/830556.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UPIzt{IV~Vt6-oWX-Us:-okDEMWB%1M|WVRk",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3340662996,
+                "Model": "fC_fCAnime-Pruned",
+                "steps": 14,
+                "hashes": {
+                    "model": "a874494078"
+                },
+                "prompt": "woman, cropped-fc,  <lora:cropped-fc-v2:1>, huge breasts,, btpt-fc, <lora:btpt-fC_v1.2a:1>, cropped sweater, midriff, sweater, 1girl, detailed face, hanging laterns, illustrated",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "a874494078",
+                        "name": "fC_fCAnime-Pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "a874494078",
+                "Hires steps": "14",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "nipples, nsfw, bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, cleavage, child",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/54acf97c-0f1d-40b6-8ad5-0c72dfc9e8cc/width=450/830481.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "URKT-:Mx?^M{?bM_ozo0ENM{xtt7^+xaR+R+",
+            "meta": {
+                "Size": "512x768",
+                "seed": 430445758,
+                "Model": "fC_fCBlend-Pruned",
+                "steps": 14,
+                "hashes": {
+                    "model": "6fd2315ea6"
+                },
+                "prompt": "underboob, woman, cropped-fc,  <lora:cropped-fc-v2:1>,braless, bodycon shirt, bodycon skirt, vivid blonde hair, close-up portrait of beautiful smiling woman, snow-covered mountain",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "6fd2315ea6",
+                        "name": "fC_fCBlend-Pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6fd2315ea6",
+                "Hires steps": "14",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "nipples, nsfw, bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, cleavage, child",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/5ea0a101-4ce4-4356-83c7-31965553039a/width=450/830583.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UJKdJ3gMO[~A_KxmtlEMPW%E?9ob-WxCtRSO",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2641154371,
+                "Model": "fC_fCAnime-Pruned",
+                "steps": 14,
+                "hashes": {
+                    "model": "a874494078"
+                },
+                "prompt": "sidewalk, tokyo, sky, from below, underboobs, woman, cropped-fc,  <lora:cropped-fc-v2:1>, huge breasts, btpt-fc, <lora:btpt-fC_v1.2a:1>, yellow tshirt, midriff, 1girl, detailed face, illustrated",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "a874494078",
+                        "name": "fC_fCAnime-Pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "a874494078",
+                "Hires steps": "14",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "nipples, nsfw, bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, cleavage, child",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/cb73f5fd-a897-4881-b1dc-9c8c27b63ea0/width=450/830482.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "U7Jj@,0g.8gN~Ang4m4o$+sp%gx]000K^*~B",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2399954414,
+                "Model": "fC_fCBlend-Pruned",
+                "steps": 14,
+                "hashes": {
+                    "model": "6fd2315ea6"
+                },
+                "prompt": "woman, cropped-fc,  <lora:cropped-fc-v2:1>,underboob, braless, bodycon shirt, bodycon skirt, park, sky, trees, vivid blonde hair",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "6fd2315ea6",
+                        "name": "fC_fCBlend-Pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6fd2315ea6",
+                "Hires steps": "14",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "nipples, nsfw, bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, cleavage, child",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1fc4180b-8a20-4714-bc65-eea640f3c1f1/width=450/830480.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "USKdoLXn?w%gNGITD*Rj9FIA%hWB~qxu%gX9",
+            "meta": {
+                "Size": "512x768",
+                "seed": 948222203,
+                "Model": "fC_fCBlend-Pruned",
+                "steps": 14,
+                "hashes": {
+                    "model": "6fd2315ea6"
+                },
+                "prompt": "outdoors, snow, from below, underboob, woman, cropped-fc,  <lora:cropped-fc-v2:1>,braless, cropped tank top, bodycon skirt, vivid blonde hair, close-up portrait of beautiful smiling woman, snow-covered mountain, bare shoulders, sleeveless",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "6fd2315ea6",
+                        "name": "fC_fCBlend-Pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6fd2315ea6",
+                "Hires steps": "14",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "nipples, nsfw, bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, cleavage, child",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4c275a1a-c736-4a59-a1cf-ded60297cf2d/width=450/830546.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UUIXN,Q,-;-T~WiwkqRjNgwItRRPT0V[W=-U",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1228102397,
+                "Model": "fC_fCAnime-Pruned",
+                "steps": 14,
+                "hashes": {
+                    "model": "a874494078"
+                },
+                "prompt": "woman, cropped-fc,  <lora:cropped-fc-v2:1>, cleavage, sports bra, detailed face, colorful clothing, park, sky, trees",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "a874494078",
+                        "name": "fC_fCAnime-Pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "a874494078",
+                "Hires steps": "14",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "nipples, nsfw, bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, cleavage, child",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/12fcedab-4b8d-4123-86c7-3009953c1c2b/width=450/830487.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UNHL6ryE=|tm~CkWJ.x]yYbvi^og-pbIR*s:",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2053107060,
+                "Model": "fC_fCBlend-Pruned",
+                "steps": 14,
+                "hashes": {
+                    "model": "6fd2315ea6"
+                },
+                "prompt": "outdoors, from below, underboob, woman, cropped-fc,  <lora:cropped-fc-v2:1>,braless, cropped tank top, leggings, ocean, vivid brown hair, toned",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "6fd2315ea6",
+                        "name": "fC_fCBlend-Pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "6fd2315ea6",
+                "Hires steps": "14",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "nipples, nsfw, bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, cleavage, child",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/f6a35472-c193-45f3-acb4-2b4ada833108/width=450/830542.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UGBVkS4:~ANHx[58t7WB9v={Ips.9H?ZE2oy",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1228102397,
+                "Model": "fC_fCAnime-Pruned",
+                "steps": 14,
+                "hashes": {
+                    "model": "a874494078"
+                },
+                "prompt": "woman, cropped-fc,  <lora:cropped-fc-v2:1>, dark, rim lighting, two tone lighting, dimly lit, low key,  ,<lora:epi_noiseoffset2:1>",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "epi_noiseoffset2",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "hash": "a874494078",
+                        "name": "fC_fCAnime-Pruned",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "a874494078",
+                "Hires steps": "14",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "nipples, nsfw, bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger, cleavage, child",
+                "Denoising strength": "0.5"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/74290"
+}

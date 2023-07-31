@@ -1,0 +1,256 @@
+{
+    "id": 19492,
+    "modelId": 10332,
+    "name": "InniePussy1 v2",
+    "createdAt": "2023-03-06T17:01:07.747Z",
+    "updatedAt": "2023-06-22T16:20:58.047Z",
+    "trainedWords": [],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "<ul><li><p>Big improvements to overall look, consistency</p></li><li><p>Big improvements for txt2img use</p></li><li><p>Lowered issues with double butthole (still not perfect, but better)</p></li><li><p>Renamed file from 'sd v s gp2 i' to 'GodPussy2 Innie'</p></li><li><p>Used a mix of Photoshop and SD to improve training process</p><ul><li><p>Create a LoRA, generate images with LoRA, choose best images, Photoshop if needed, retrain new LoRA with those images, repeat</p></li></ul></li></ul>",
+    "stats": {
+        "downloadCount": 29947,
+        "ratingCount": 12,
+        "rating": 5
+    },
+    "model": {
+        "name": "Realistic Vaginas - Innie Pussy 1",
+        "type": "LORA",
+        "nsfw": true,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "GodPussy2 Innie.safetensors",
+            "id": 16268,
+            "sizeKB": 147571.0439453125,
+            "type": "Model",
+            "metadata": {
+                "fp": "fp16",
+                "size": "full",
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-03-06T17:06:01.664Z",
+            "hashes": {
+                "AutoV1": "07B7072F",
+                "AutoV2": "93CCA98B69",
+                "SHA256": "93CCA98B698419FF1CDDB37778429B6E1E8394A5EB656C7D786E00D084953C99",
+                "CRC32": "51DC96C3",
+                "BLAKE3": "760EAD8DDA66FAB6B5E65EC6CF244F0318F473F3BF596AA6ABB21C5AE81CABE0"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/19492"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/34530f72-8e66-456e-c853-b356f0c60e00/width=450/209529.jpeg",
+            "nsfw": "X",
+            "width": 800,
+            "height": 1200,
+            "hash": "UHHAz;?H~VEMI:X8X8xu0fWrE2NH-pt7t7NH",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "400x600",
+                "seed": 342831156,
+                "Model": "lazymixRealAmateur_v10",
+                "steps": 20,
+                "prompt": "symmetrical photo, a nude woman, spreading legs, detailed pussy, <lora:GodPussy2 Innie:0.4>, laying on bed, (high detailed skin:1.3), (skin pores), detailed pussy, (skinny:1.3), (dark brown hair), grainy, colorized, instagram, tik tok, (detailed face), detailed eyes, detailed iris, 4k, <lora:thatsMyBush_v10:0.15>",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "thatsMyBush_v10",
+                        "type": "lora",
+                        "weight": 0.15
+                    },
+                    {
+                        "hash": "e83ba7f048",
+                        "name": "lazymixRealAmateur_v10",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "e83ba7f048",
+                "Hires upscale": "2",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "tattoos, childlike, deformed hands, deformed legs, deformed arms, face cropped out of view, head out of frame, blurry, art, painting, rendering, drawing, sketch, hand up on her head, unmatching eye color, heterochromia, cross eyes, ((ugly)), ((duplicate)), (morbid), ((mutilated)), (mutated), (deformed), (disfigured), (extra limbs), (malformed limbs), (missing arms), (missing legs), (extra arms), (extra legs), (fused fingers), (too many fingers), long neck, low quality, worst quality",
+                "Denoising strength": "0.2"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/ca9df658-34f2-41f4-6771-25a88cf2a200/width=450/209761.jpeg",
+            "nsfw": "X",
+            "width": 1200,
+            "height": 1800,
+            "hash": "UDKd9:0KysE19GVso}M{.mj=a~xZ-UD%RkRj",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "600x900",
+                "seed": 342831156,
+                "Model": "lazymixRealAmateur_v10",
+                "steps": 20,
+                "prompt": "symmetrical photo, a nude woman, spreading legs, detailed pussy, <lora:GodPussy2 Innie:0.4>, laying on bed, (high detailed skin:1.3), (skin pores), detailed pussy, (skinny:1.3), (dark brown hair), grainy, colorized, instagram, tik tok, (detailed face), detailed eyes, detailed iris, 4k, <lora:thatsMyBush_v10:0.15>",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "name": "thatsMyBush_v10",
+                        "type": "lora",
+                        "weight": 0.15
+                    },
+                    {
+                        "hash": "e83ba7f048",
+                        "name": "lazymixRealAmateur_v10",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "e83ba7f048",
+                "negativePrompt": "tattoos, childlike, deformed hands, deformed legs, deformed arms, face cropped out of view, head out of frame, blurry, art, painting, rendering, drawing, sketch, hand up on her head, unmatching eye color, heterochromia, cross eyes, ((ugly)), ((duplicate)), (morbid), ((mutilated)), (mutated), (deformed), (disfigured), (extra limbs), (malformed limbs), (missing arms), (missing legs), (extra arms), (extra legs), (fused fingers), (too many fingers), long neck, low quality, worst quality",
+                "Denoising strength": "0",
+                "SD upscale overlap": "64",
+                "SD upscale upscaler": "None"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/87526fcb-6ec9-47d6-c5b4-4f9f9e3b9000/width=450/204676.jpeg",
+            "nsfw": "X",
+            "width": 2000,
+            "height": 3000,
+            "hash": "U4Gk8#~p00v~00xaX6bu00NZxVIp?Gt7r=Rj",
+            "meta": null
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d2bfbc1c-e408-4ffe-ea5d-b3d0f4464e00/width=450/204675.jpeg",
+            "nsfw": "X",
+            "width": 1024,
+            "height": 1024,
+            "hash": "UEL.xa%1jYxaXRxtt7R+e.R%t7of~Vs.WBof",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "512x512",
+                "seed": 1306407460,
+                "Model": "lazymixRealAmateur_v10",
+                "steps": 20,
+                "prompt": "close up, pussy, <lora:GodPussy2 Innie:1>",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "e83ba7f048",
+                        "name": "lazymixRealAmateur_v10",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "e83ba7f048",
+                "negativePrompt": "deformed"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/26712685-e4d4-4140-92f2-dce11df9eb00/width=450/209507.jpeg",
+            "nsfw": "X",
+            "width": 800,
+            "height": 1200,
+            "hash": "UHHAz;?H~VEMI:X8X8xu0fWrE2NH-pt7t7NH",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "400x600",
+                "seed": 342831156,
+                "Model": "lazymixRealAmateur_v10",
+                "steps": 20,
+                "prompt": "symmetrical photo, a nude woman, spreading legs, detailed pussy, <lora:GodPussy2 Innie:0.4>, laying on bed, (high detailed skin:1.3), (skin pores), detailed pussy, (skinny:1.3), (dark brown hair), grainy, colorized, instagram, tik tok, (detailed face), detailed eyes, detailed iris, 4k, <lora:thatsMyBush_v10:0.15>",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "thatsMyBush_v10",
+                        "type": "lora",
+                        "weight": 0.15
+                    },
+                    {
+                        "hash": "e83ba7f048",
+                        "name": "lazymixRealAmateur_v10",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "e83ba7f048",
+                "Hires upscale": "2",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "tattoos, childlike, deformed hands, deformed legs, deformed arms, face cropped out of view, head out of frame, blurry, art, painting, rendering, drawing, sketch, hand up on her head, unmatching eye color, heterochromia, cross eyes, ((ugly)), ((duplicate)), (morbid), ((mutilated)), (mutated), (deformed), (disfigured), (extra limbs), (malformed limbs), (missing arms), (missing legs), (extra arms), (extra legs), (fused fingers), (too many fingers), long neck, low quality, worst quality",
+                "Denoising strength": "0.2"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0e3d7d11-d4c6-464c-a33b-519b466a3300/width=450/209506.jpeg",
+            "nsfw": "X",
+            "width": 800,
+            "height": 1200,
+            "hash": "UGJ@5ro$_24:_NI@tQIo9w={$*oJ$*RjxDWW",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "400x600",
+                "seed": 3828837632,
+                "Model": "lazymixRealAmateur_v10",
+                "steps": 20,
+                "prompt": "symmetrical photo, a nude white woman, spreading legs, detailed pussy, <lora:GodPussy2 Innie:0.3>, laying on bed, (high detailed skin:1.3), (skin pores), detailed pussy, (skinny:1.3), (dark brown hair), grainy, colorized, instagram, tik tok, (detailed face), detailed eyes, detailed iris, 4k, <lora:thatsMyBush_v10:0.15>",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "thatsMyBush_v10",
+                        "type": "lora",
+                        "weight": 0.15
+                    },
+                    {
+                        "hash": "e83ba7f048",
+                        "name": "lazymixRealAmateur_v10",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "e83ba7f048",
+                "Hires upscale": "2",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "tattoos, childlike, deformed hands, deformed legs, deformed arms, face cropped out of view, head out of frame, blurry, art, painting, rendering, drawing, sketch, hand up on her head, unmatching eye color, heterochromia, cross eyes, ((ugly)), ((duplicate)), (morbid), ((mutilated)), (mutated), (deformed), (disfigured), (extra limbs), (malformed limbs), (missing arms), (missing legs), (extra arms), (extra legs), (fused fingers), (too many fingers), long neck, low quality, worst quality",
+                "Denoising strength": "0.2"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/4207f183-dc76-4dc1-7853-f6a8a2928000/width=450/209505.jpeg",
+            "nsfw": "X",
+            "width": 800,
+            "height": 1200,
+            "hash": "UPKv$|~U?GE2yYt7%M-nFzE2R.ay?bWBofM|",
+            "meta": {
+                "ENSD": "31337",
+                "Size": "400x600",
+                "seed": 3015027027,
+                "Model": "lazymixRealAmateur_v10",
+                "steps": 20,
+                "prompt": "symmetrical photo, a nude asian woman, spreading legs, detailed pussy, <lora:GodPussy2 Innie:0.3>, laying on bed, (high detailed skin:1.3), (skin pores), detailed pussy, (skinny:1.3), (dark brown hair), grainy, colorized, instagram, tik tok, (detailed face), detailed eyes, detailed iris, 4k, <lora:thatsMyBush_v10:0.15>",
+                "sampler": "DPM++ SDE Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "thatsMyBush_v10",
+                        "type": "lora",
+                        "weight": 0.15
+                    },
+                    {
+                        "hash": "e83ba7f048",
+                        "name": "lazymixRealAmateur_v10",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "e83ba7f048",
+                "Hires upscale": "2",
+                "Hires upscaler": "ESRGAN_4x",
+                "negativePrompt": "tattoos, childlike, deformed hands, deformed legs, deformed arms, face cropped out of view, head out of frame, blurry, art, painting, rendering, drawing, sketch, hand up on her head, unmatching eye color, heterochromia, cross eyes, ((ugly)), ((duplicate)), (morbid), ((mutilated)), (mutated), (deformed), (disfigured), (extra limbs), (malformed limbs), (missing arms), (missing legs), (extra arms), (extra legs), (fused fingers), (too many fingers), long neck, low quality, worst quality",
+                "Denoising strength": "0.3"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/19492"
+}

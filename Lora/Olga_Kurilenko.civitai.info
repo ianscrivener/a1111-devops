@@ -1,0 +1,370 @@
+{
+    "id": 59991,
+    "modelId": 55597,
+    "name": "v1.0",
+    "createdAt": "2023-05-01T18:17:09.911Z",
+    "updatedAt": "2023-05-01T18:37:37.000Z",
+    "trainedWords": [],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "stats": {
+        "downloadCount": 468,
+        "ratingCount": 2,
+        "rating": 3
+    },
+    "model": {
+        "name": "Olga Kurilenko",
+        "type": "LORA",
+        "nsfw": false,
+        "poi": true
+    },
+    "files": [
+        {
+            "name": "Olga_Kurilenko.safetensors",
+            "id": 42530,
+            "sizeKB": 147569.9150390625,
+            "type": "Model",
+            "metadata": {
+                "fp": null,
+                "size": null,
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-05-01T18:20:47.481Z",
+            "hashes": {
+                "AutoV1": "EBC5CB66",
+                "AutoV2": "2FB3A277AA",
+                "SHA256": "2FB3A277AA1D1A63018D2D4D0E37DE4F037A877FD1149E79CC2ADDBB174F3F90",
+                "CRC32": "892F2030",
+                "BLAKE3": "CF1D12358FC4B93B0940EF1228CABDEACDF9CE9626EAD7CA600E35B2F4474089"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/59991"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d4241b05-76da-42c1-45cc-5c2c4e955600/width=450/654646.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UCD]C:~q0g%2?a%L?GjY0LRj$$V@R,ofM|NG",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3995101019,
+                "steps": 35,
+                "prompt": "<lora:Olga_Kurilenko:1>, <lora:epiNoiseoffset_v2:0.8> (apterus style:1.3), (dark shot:1.4), 80mm, soft light, sharp, exposure blend, medium shot, bokeh, (hdr:1.4), (film grain:1.23), high contrast, (cinematic, teal and orange:0.85), (muted colors, dim colors, soothing tones:1.3), low saturation, (hyperdetailed:1.2), (noir:0.9),(intricate details, hyperdetailed:1.15), modelshoot style, Close-up comic book illustration of a happy skinny woman, 30 years old, with short black hair, wearing fancy tech jacket standing in an airport, ((hands inside pocket)), dramatic lighting, minimalistic, flat colors, washed colors, dithering, lineart, (detailed background:1.3), old aircraft in background, (full body:1.2), (long legs), (depth of field:1.4), (detailed face:1.1), (photo realistic:1.3), symetrical, octane render, 35mm, bokeh, 9:16, (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15), (natural skin texture, hyperrealism, soft light, sharp:1.2), (detailed skin:1.2), (detailed skin:1.2),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Olga_Kurilenko",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "epiNoiseoffset_v2",
+                        "type": "lora",
+                        "weight": 0.8
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "ControlNet Model": "control_v11p_sd15_openpose [cab727d4]",
+                "Face restoration": "CodeFormer",
+                "ControlNet Module": "none",
+                "ControlNet Weight": "1",
+                "ControlNet Enabled": "True",
+                "Denoising strength": "0.35",
+                "ControlNet Guidance End": "1",
+                "ControlNet Guidance Start": "0"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/035a0f5f-432e-4b94-1f1b-861c446e1000/width=450/654659.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UA8|nv-U56S$}?-oI=IpaJ%2%2jYE+R*=_-o",
+            "meta": {
+                "Size": "512x768",
+                "seed": 432961653,
+                "steps": 35,
+                "prompt": "<lora:Olga_Kurilenko:1>, <lora:epiNoiseoffset_v2:0.8> (apterus style:1.3), (dark shot:1.4), 80mm, soft light, sharp, exposure blend, medium shot, bokeh, (hdr:1.4), (film grain:1.23), high contrast, (cinematic, teal and orange:0.85), (muted colors, dim colors, soothing tones:1.3), low saturation, (hyperdetailed:1.2), (noir:0.9),(intricate details, hyperdetailed:1.15), modelshoot style, Close-up comic book illustration of a happy skinny woman, 30 years old, with short black hair, wearing fancy tech jacket standing in an airport, ((hands inside pocket)), dramatic lighting, minimalistic, flat colors, washed colors, dithering, lineart, (detailed background:1.3), old aircraft in background, (full body:1.2), (long legs), (depth of field:1.4), (detailed face:1.1), (photo realistic:1.3), symetrical, octane render, 35mm, bokeh, 9:16, (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15), (natural skin texture, hyperrealism, soft light, sharp:1.2), (detailed skin:1.2), (detailed skin:1.2),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Olga_Kurilenko",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "epiNoiseoffset_v2",
+                        "type": "lora",
+                        "weight": 0.8
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "ControlNet Model": "control_v11p_sd15_openpose [cab727d4]",
+                "Face restoration": "CodeFormer",
+                "ControlNet Module": "none",
+                "ControlNet Weight": "1",
+                "ControlNet Enabled": "True",
+                "Denoising strength": "0.35",
+                "ControlNet Guidance End": "1",
+                "ControlNet Guidance Start": "0"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/9043531c-6bb4-4220-0e55-86739b070800/width=450/654656.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "U89s|}XTKP%N~ANH9^%2wH%14:$%9aRjs9f5",
+            "meta": {
+                "Size": "512x768",
+                "seed": 371490635,
+                "steps": 35,
+                "prompt": "<lora:Olga_Kurilenko:1>, <lora:epiNoiseoffset_v2:0.8> (apterus style:1.3), (dark shot:1.4), 80mm, soft light, sharp, exposure blend, medium shot, bokeh, (hdr:1.4), (film grain:1.23), high contrast, (cinematic, teal and orange:0.85), (muted colors, dim colors, soothing tones:1.3), low saturation, (hyperdetailed:1.2), (noir:0.9),(intricate details, hyperdetailed:1.15), modelshoot style, Close-up comic book illustration of a happy skinny woman, 30 years old, with short black hair, wearing fancy tech jacket standing in an airport, ((hands inside pocket)), dramatic lighting, minimalistic, flat colors, washed colors, dithering, lineart, (detailed background:1.3), old aircraft in background, (full body:1.2), (long legs), (depth of field:1.4), (detailed face:1.1), (photo realistic:1.3), symetrical, octane render, 35mm, bokeh, 9:16, (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15), (natural skin texture, hyperrealism, soft light, sharp:1.2), (detailed skin:1.2), (detailed skin:1.2),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Olga_Kurilenko",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "epiNoiseoffset_v2",
+                        "type": "lora",
+                        "weight": 0.8
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "ControlNet Model": "control_v11p_sd15_openpose [cab727d4]",
+                "Face restoration": "CodeFormer",
+                "ControlNet Module": "none",
+                "ControlNet Weight": "1",
+                "ControlNet Enabled": "True",
+                "Denoising strength": "0.35",
+                "ControlNet Guidance End": "1",
+                "ControlNet Guidance Start": "0"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/7679c706-be46-4b16-46e7-cfc6a2741800/width=450/654658.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "U6C6_i014.~q4T%1T|IAIAWB4n=_pID*^*S5",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2651640063,
+                "steps": 35,
+                "prompt": "<lora:Olga_Kurilenko:0.9>, a young woman in the style of nocturne, dreamy atmosphere, dark cyan and red, i can't believe how beautiful this is, serene atmosphere, piles/stacks, flickering light, epic realistic, broken old boat in big storm, illustrated by herg, style of tin tin comics, pen and ink,art by greg rutkowski and artgerm, soft cinematic light,hdr, intricate, highly detailed, (depth of field:1.4), faded, (neutral colors:1.2), (hdr:1.4), (muted colors:1.2), hyperdetailed, (artstation:1.4), cinematic, warm lights, dramatic light, (intricate details:1.1), complex background, (rutkowski:0.66), (teal and orange:0.4), (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15) (detailed skin:1.2),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Olga_Kurilenko",
+                        "type": "lora",
+                        "weight": 0.9
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "CodeFormer",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/b1fdf125-53f6-4535-2651-4379cd64ba00/width=450/654655.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UTDm8Z~qkWNG.8%gtRoffkbHj@jYozWBWBoL",
+            "meta": {
+                "Size": "512x768",
+                "seed": 91574955,
+                "steps": 35,
+                "prompt": "<lora:Olga_Kurilenko:0.9>, a young woman in the style of nocturne, dreamy atmosphere, dark cyan and red, i can't believe how beautiful this is, serene atmosphere, piles/stacks, flickering light, epic realistic, broken old boat in big storm, illustrated by herg, style of tin tin comics, pen and ink,art by greg rutkowski and artgerm, soft cinematic light,hdr, intricate, highly detailed, (depth of field:1.4), faded, (neutral colors:1.2), (hdr:1.4), (muted colors:1.2), hyperdetailed, (artstation:1.4), cinematic, warm lights, dramatic light, (intricate details:1.1), complex background, (rutkowski:0.66), (teal and orange:0.4), (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15) (detailed skin:1.2),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Olga_Kurilenko",
+                        "type": "lora",
+                        "weight": 0.9
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "CodeFormer",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e48d7a9b-621c-467a-73b1-479eda3d9600/width=450/654657.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UAC?P[S59u%LIoo}~p^*I@?aIU4:M{xaRjIU",
+            "meta": {
+                "Size": "512x768",
+                "seed": 682853298,
+                "steps": 35,
+                "prompt": "<lora:Olga_Kurilenko:0.95>, a young woman in the style of nocturne, dreamy atmosphere, dark cyan and red, i can't believe how beautiful this is, serene atmosphere, piles/stacks, flickering light, epic realistic, broken old boat in big storm, illustrated by herg, style of tin tin comics, pen and ink,art by greg rutkowski and artgerm, soft cinematic light,hdr, intricate, highly detailed, (depth of field:1.4), faded, (neutral colors:1.2), (hdr:1.4), (muted colors:1.2), hyperdetailed, (artstation:1.4), cinematic, warm lights, dramatic light, (intricate details:1.1), complex background, (rutkowski:0.66), (teal and orange:0.4), (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15) (detailed skin:1.2),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Olga_Kurilenko",
+                        "type": "lora",
+                        "weight": 0.95
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "Face restoration": "CodeFormer",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/32007b18-6e84-44f4-df25-617c2343bc00/width=450/654654.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UGDlyS_3%z.8~p%MtRt7tlxtM{Rj?aozD*j[",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2340687825,
+                "steps": 35,
+                "prompt": "<lora:Olga_Kurilenko:0.95>, a young woman in the style of nocturne, dreamy atmosphere, dark cyan and red, i can't believe how beautiful this is, serene atmosphere, piles/stacks, flickering light, epic realistic, broken old boat in big storm, illustrated by herg, style of tin tin comics, pen and ink,art by greg rutkowski and artgerm, soft cinematic light,hdr, intricate, highly detailed, (depth of field:1.4), faded, (neutral colors:1.2), (hdr:1.4), (muted colors:1.2), hyperdetailed, (artstation:1.4), cinematic, warm lights, dramatic light, (intricate details:1.1), complex background, (rutkowski:0.66), (teal and orange:0.4), (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15) (detailed skin:1.2),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Olga_Kurilenko",
+                        "type": "lora",
+                        "weight": 0.95
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "ControlNet Model": "control_v11p_sd15_openpose [cab727d4]",
+                "Face restoration": "CodeFormer",
+                "ControlNet Module": "none",
+                "ControlNet Weight": "1",
+                "ControlNet Enabled": "True",
+                "Denoising strength": "0.35",
+                "ControlNet Guidance End": "1",
+                "ControlNet Guidance Start": "0"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3a3a5359-2c70-4be6-737e-7ba552760400/width=450/654728.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UCC6AL9u01~CT0WBoext4:xa-pIV9us:-UIo",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3842688921,
+                "steps": 35,
+                "prompt": "<lora:Olga_Kurilenko:1>, <lora:rmadart3NoiseoffsetSD1_v10:1> Futuristic young woman, in a Sexual ((white)) Porsche suit, by gesaffelstein, action pose, epic scene, lots of fine detail, movie style, photography, natural textures, natural light, natural blur, photorealism, cinematic rendering, ray tracing, highest quality, highest detail, Cinematic, Blur Effect, Long Exposure, 8K, Ultra-HD, Natural Lighting, Moody Lighting, Cinematic Lighting, hyper-realistic, vibrant, 8k, detailed, ultra detail (detailed skin:1.2),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Olga_Kurilenko",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "rmadart3NoiseoffsetSD1_v10",
+                        "type": "lora",
+                        "weight": 1
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "ControlNet Model": "control_v11p_sd15_openpose [cab727d4]",
+                "Face restoration": "CodeFormer",
+                "ControlNet Module": "none",
+                "ControlNet Weight": "1",
+                "ControlNet Enabled": "True",
+                "Denoising strength": "0.35",
+                "ControlNet Guidance End": "1",
+                "ControlNet Guidance Start": "0"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/a03675ef-edb3-4e77-317d-28131f8d8700/width=450/654802.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "U5DR~M}?024:0M0MD*xF0g^*rqkCIBbcjs?G",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2522591133,
+                "steps": 35,
+                "prompt": "<lora:Olga_Kurilenko:1>, <lora:rmadart3NoiseoffsetSD1_v10:1> Futuristic young woman, in a Sexual ((white)) Porsche suit, by gesaffelstein, action pose, epic scene, lots of fine detail, movie style, photography, natural textures, natural light, natural blur, photorealism, cinematic rendering, ray tracing, highest quality, highest detail, Cinematic, Blur Effect, Long Exposure, 8K, Ultra-HD, Natural Lighting, Moody Lighting, Cinematic Lighting, hyper-realistic, vibrant, 8k, detailed, ultra detail (detailed skin:1.2),",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 3.5,
+                "resources": [
+                    {
+                        "name": "Olga_Kurilenko",
+                        "type": "lora",
+                        "weight": 1
+                    },
+                    {
+                        "name": "rmadart3NoiseoffsetSD1_v10",
+                        "type": "lora",
+                        "weight": 1
+                    }
+                ],
+                "Model hash": "1dd56f8b12",
+                "needsReview": "poi",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "(bad-hands-5 bad-image-v2-39000 bad_prompt_version2 ng_deepnegative_v1_75t), ((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck",
+                "ControlNet Model": "control_v11p_sd15_openpose [cab727d4]",
+                "Face restoration": "CodeFormer",
+                "ControlNet Module": "none",
+                "ControlNet Weight": "1",
+                "ControlNet Enabled": "True",
+                "Denoising strength": "0.35",
+                "ControlNet Guidance End": "1",
+                "ControlNet Guidance Start": "0"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/59991"
+}

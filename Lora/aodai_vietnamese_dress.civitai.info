@@ -1,0 +1,371 @@
+{
+    "id": 29085,
+    "modelId": 23699,
+    "name": "aodaimong_v2",
+    "createdAt": "2023-03-25T19:12:04.350Z",
+    "updatedAt": "2023-03-26T22:07:50.357Z",
+    "trainedWords": [
+        "aodaimong",
+        "khongbra",
+        "posing for photo",
+        "holding a cloth",
+        "<lora:aodaimong_v2>"
+    ],
+    "baseModel": "SD 1.5",
+    "earlyAccessTimeFrame": 0,
+    "description": "<p>Some improvements to textures and poses. See description for more details. </p>",
+    "stats": {
+        "downloadCount": 10816,
+        "ratingCount": 6,
+        "rating": 5
+    },
+    "model": {
+        "name": "NSFW aodai",
+        "type": "LORA",
+        "nsfw": true,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "aodaimong_v2.safetensors",
+            "id": 24031,
+            "sizeKB": 147573.7646484375,
+            "type": "Model",
+            "metadata": {
+                "fp": "fp16",
+                "size": "full",
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-03-25T19:16:32.599Z",
+            "hashes": {
+                "AutoV1": "E391A49B",
+                "AutoV2": "8B08A4E777",
+                "SHA256": "8B08A4E7771DA2A49EBCF377DC2DE659D81932B134B98C2354D3E811480650FD",
+                "CRC32": "EC5113FB",
+                "BLAKE3": "ECC7A79843BD19F84BE205C5B2F00AB8D18FA3F5B6553DF7E673E16357D6DBA0"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/29085"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/603fdf16-7286-4fa9-f160-fc44dbe1f200/width=450/328329.jpeg",
+            "nsfw": "Soft",
+            "width": 1440,
+            "height": 1440,
+            "hash": "UEKKsM~p0f=|EfNF-=R44n$*t8E1Rin$M|NF",
+            "meta": {
+                "Size": "720x720",
+                "seed": 894497515,
+                "Model": "chilloutmix_NiPrunedFp32Fix",
+                "steps": 40,
+                "hashes": {
+                    "model": "fc2511737a"
+                },
+                "prompt": "(RAW photo:1.4), (photorealistic:1.7),(intricate details:1.2),(masterpiece:1.3),(best quality:1.4), (ultra highres:1.2), <lora:aodaimong_v10:0.7>, ((blue aodaimong)), 1girl, ((solo)), front lighting, perfect female figure, clean, pale skin, smile, huge breasts, intricate details, hoop earrings, khongbra:0.8, bangs, straight hair, long hair, black hair, black eyes, posing for a photo, holding a cloth, glasses",
+                "sampler": "DPM++ SDE",
+                "cfgScale": 7,
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "name": "thaohuyen_v2",
+                        "type": "lora",
+                        "weight": 0.5
+                    },
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_NiPrunedFp32Fix",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "negativePrompt": "signature, watermark, airbrush, photoshop, plastic doll, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, masculine, obese, fat, out of frame,",
+                "Face restoration": "CodeFormer",
+                "Denoising strength": "0.2"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e4f2c680-d337-4a6f-60e8-0417f33e1700/width=450/328328.jpeg",
+            "nsfw": "Soft",
+            "width": 2048,
+            "height": 2048,
+            "hash": "UJH{Qa~VF3Kk02j?tRofogWYxE%2xvaeofaK",
+            "meta": {
+                "Size": "512x512",
+                "seed": 3419891778,
+                "Model": "chilloutmix_NiPrunedFp32Fix",
+                "steps": 30,
+                "hashes": {
+                    "model": "fc2511737a"
+                },
+                "prompt": "<lora:aodaimong_v2:0.7>, ((white aodaimong)), khongbra, standing, pureerosface_v1",
+                "sampler": "Euler a",
+                "cfgScale": 7,
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_NiPrunedFp32Fix",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "negativePrompt": "signature, watermark, airbrush,  photoshop, plastic doll,  (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, masculine, obese, fat, out of frame,",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/e073459b-d2c7-494e-93ab-2887b0688000/width=450/328327.jpeg",
+            "nsfw": "Soft",
+            "width": 720,
+            "height": 720,
+            "hash": "UBGktM^+00~q004.?GR501?H_3E1IU%M-;Io",
+            "meta": {
+                "Size": "720x720",
+                "seed": 3246513952,
+                "Model": "chilloutmix_NiPrunedFp32Fix",
+                "steps": 40,
+                "hashes": {
+                    "model": "fc2511737a"
+                },
+                "prompt": "(RAW photo:1.4), (photorealistic:1.7),(intricate details:1.2),(masterpiece:1.3),(best quality:1.4), (ultra highres:1.2), <lora:aodaimong_v10:0.7>, ((black aodaimong)), front lighting, slim body, perfect female figure, clean, pale skin, smile, huge breasts, intricate details, hoop earrings, khongbra:0.8, bangs, straight hair, short hair, ((blonde hair)), black eyes, posing for a photo, holding a cloth, (detailed clothes features), skin tight, (shiny skin),(slender girl),(slim girl), (1girl,solo), <lora:virtualgirlRin_v30:0.7>, hoop earings, bang, smiling",
+                "sampler": "DPM++ SDE",
+                "cfgScale": 7,
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "name": "virtualgirlRin_v30",
+                        "type": "lora",
+                        "weight": 0.7
+                    },
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_NiPrunedFp32Fix",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "negativePrompt": "signature, watermark, airbrush,  photoshop, plastic doll,  (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, masculine, obese, fat, out of frame,",
+                "Face restoration": "CodeFormer",
+                "Denoising strength": "0.2"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1de2bcd0-d946-407a-8676-2b2fe0dcc400/width=450/328326.jpeg",
+            "nsfw": "Soft",
+            "width": 720,
+            "height": 720,
+            "hash": "UsMtEoxu_Nt6?bofRjR*xakCNGjFt7ayoLof",
+            "meta": {
+                "Size": "720x720",
+                "seed": 1232644272,
+                "Model": "chilloutmix_NiPrunedFp32Fix",
+                "steps": 40,
+                "hashes": {
+                    "model": "fc2511737a"
+                },
+                "prompt": "(RAW photo:1.4), (photorealistic:1.7),(intricate details:1.2),(masterpiece:1.3),(best quality:1.4), (ultra highres:1.2), <lora:aodaimong_v10:0.8>, ((black aodaimong)), front lighting, slim body, perfect female figure, clean, pale skin, smile, huge breasts, intricate details, hoop earrings, khongbra:0.8, bangs, straight hair, twintails, ((blonde hair)), posing for a photo, holding a cloth, (detailed clothes features), skin tight, (shiny skin),(slender girl),(slim girl), (1girl,solo), bangs, earrings , smiling, looking at viewer, <lora:vyvanLeAsianInstagram_v2:0.7>",
+                "sampler": "DPM++ SDE",
+                "cfgScale": 7,
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "name": "vyvanLeAsianInstagram_v2",
+                        "type": "lora",
+                        "weight": 0.7
+                    },
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_NiPrunedFp32Fix",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "negativePrompt": "signature, watermark, airbrush,  photoshop, plastic doll,  (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, masculine, obese, fat, out of frame,",
+                "Face restoration": "CodeFormer",
+                "Denoising strength": "0.3"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/971a9ce4-dfab-4347-071e-330e9cf0ac00/width=450/328325.jpeg",
+            "nsfw": "Soft",
+            "width": 720,
+            "height": 720,
+            "hash": "UQLp,dR5.m%M%#kWspn*IpkBRkRPtRofe=WV",
+            "meta": {
+                "Size": "720x720",
+                "seed": 2141603775,
+                "Model": "chilloutmix_NiPrunedFp32Fix",
+                "steps": 40,
+                "hashes": {
+                    "model": "fc2511737a"
+                },
+                "prompt": "(RAW photo:1.4), (photorealistic:1.7),(intricate details:1.2),(masterpiece:1.3),(best quality:1.4), (ultra highres:1.2), <lora:aodaimong_v10:0.8>, ((pink aodaimong)), dynamic lighting, slim body, perfect female figure, clean, pale skin, smile, intricate details, earrings, flower on head, khongbra:0.8, bangs, twintails:1.1, ((purple hair)), posing for a photo, holding a cloth, (detailed clothes features), skin tight, (shiny skin), (slender girl),(slim girl), (1girl,solo), bangs, earrings , <lora:Korean-doll-likeness:0.5>",
+                "sampler": "DPM++ SDE",
+                "cfgScale": 7,
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_NiPrunedFp32Fix",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "negativePrompt": "signature, watermark, airbrush,  photoshop, plastic doll,  (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, masculine, obese, fat, out of frame,",
+                "Face restoration": "CodeFormer",
+                "Denoising strength": "0.1"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/6b3d696b-eb83-47cd-0c8f-7981f0f2ca00/width=450/328324.jpeg",
+            "nsfw": "Soft",
+            "width": 720,
+            "height": 720,
+            "hash": "USK0vo_2_MNa.SX8s:xGx]t7RQoMtQofjFa}",
+            "meta": {
+                "Size": "720x720",
+                "seed": 1052437782,
+                "Model": "chilloutmix_NiPrunedFp32Fix",
+                "steps": 40,
+                "hashes": {
+                    "model": "fc2511737a"
+                },
+                "prompt": "(RAW photo:1.4), (photorealistic:1.7),(intricate details:1.2),(masterpiece:1.3),(best quality:1.4), (ultra highres:1.2), <lora:aodaimong_v10:0.8>, ((red aodaimong)), dynamic lighting, slim body, perfect female figure, clean, pale skin, smile, intricate details, earrings, flower on head, khongbra:0.8, bangs, twintails:1.1, kneeling, holding a cloth, (detailed clothes features), skin tight, (shiny skin), (slender girl),(slim girl), (1girl,solo), bangs, earrings ,  <lora:Japanese-doll-likeness:1>, looking at viewer",
+                "sampler": "DPM++ SDE",
+                "cfgScale": 7,
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_NiPrunedFp32Fix",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "negativePrompt": "signature, watermark, airbrush,  photoshop, plastic doll,  (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, masculine, obese, fat, out of frame,",
+                "Face restoration": "CodeFormer",
+                "Denoising strength": "0.2"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fce3e4a2-0e08-4c5d-4104-f77b229f5c00/width=450/328323.jpeg",
+            "nsfw": "None",
+            "width": 2048,
+            "height": 2048,
+            "hash": "U9DcBtsoM{x]_NR,IUs9~qo0E2NG_NjEE1tR",
+            "meta": {
+                "Size": "720x720",
+                "seed": 752718297,
+                "Model": "chilloutmix_NiPrunedFp32Fix",
+                "steps": 40,
+                "hashes": {
+                    "model": "fc2511737a"
+                },
+                "prompt": "(RAW photo:1.4), (photorealistic:1.7),(intricate details:1.2),(masterpiece:1.3),(best quality:1.4), (ultra highres:1.2), <lora:aodaimong_v10:0.7>, ((black latex aodaimong:1.4)), dynamic lighting, slim body, perfect female figure, clean, pale skin, smile, intricate details, earrings, flower on head:, khongbra:1, bangs, (twintails:1.1), arms behind head, (detailed clothes features), skin tight, (shiny skin), (slender girl),(slim girl), (1girl,solo), night city background, busy sidewalk,<lora:virtualgirlAim_v30:0.7>, earrings, bangs",
+                "sampler": "DPM++ SDE",
+                "cfgScale": 7,
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "name": "virtualgirlAim_v30",
+                        "type": "lora",
+                        "weight": 0.7
+                    },
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_NiPrunedFp32Fix",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "negativePrompt": "signature, watermark, airbrush,  photoshop, plastic doll,  (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, masculine, obese, fat, out of frame,",
+                "Face restoration": "CodeFormer",
+                "Denoising strength": "0.35"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/14448e9c-91b6-467b-bb6a-9680f3ce3400/width=450/328322.jpeg",
+            "nsfw": "None",
+            "width": 2048,
+            "height": 2048,
+            "hash": "U9Ex#A~X5%9u-=r^wg%N^iwIIvtm^+$*s=XT",
+            "meta": {
+                "Size": "720x720",
+                "seed": 3762232266,
+                "Model": "chilloutmix_NiPrunedFp32Fix",
+                "steps": 40,
+                "hashes": {
+                    "model": "fc2511737a"
+                },
+                "prompt": "(RAW photo:1.4), (photorealistic:1.7),(intricate details:1.2),(masterpiece:1.3),(best quality:1.4), (ultra highres:1.2), <lora:aodaimong_v10:0.7>, ((purple latex aodaimong:1.1)), dynamic lighting, slim body, perfect female figure, clean, pale skin, smile, intricate details, earrings, flower on head:, khongbra:1, bangs, (twintails:1.1), arms behind head, (detailed clothes features), skin tight, (shiny skin), (slender girl),(slim girl), (1girl,solo), night city background, busy sidewalk, sharp focus, <lora:virtualgirlRen_v10:0.7>, earrings, bang, smile, looking at viewer",
+                "sampler": "DPM++ SDE",
+                "cfgScale": 7,
+                "Mask blur": "4",
+                "resources": [
+                    {
+                        "name": "virtualgirlRen_v10",
+                        "type": "lora",
+                        "weight": 0.7
+                    },
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_NiPrunedFp32Fix",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "negativePrompt": "signature, watermark, airbrush,  photoshop, plastic doll,  (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, masculine, obese, fat, out of frame,",
+                "Face restoration": "CodeFormer",
+                "Denoising strength": "0.4"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/dcc9442a-754a-41db-68d8-e28feb146400/width=450/337140.jpeg",
+            "nsfw": "None",
+            "width": 1024,
+            "height": 1024,
+            "hash": "UBN,e]tRyD?bD$tR~qD%9FIAxuRPt6Ri-;t6",
+            "meta": {
+                "Size": "512x512",
+                "seed": 4268104818,
+                "Model": "chilloutmix_NiPrunedFp32Fix",
+                "steps": 30,
+                "hashes": {
+                    "model": "fc2511737a"
+                },
+                "prompt": "(RAW photo), (photorealistic),(intricate details:1.2),(masterpiece:1.3),(best quality), (ultra highres), <lora:aodaimong_v10:0.7>, ((white aodaimong)), 1girl, ((solo)), front lighting, perfect female figure, clean, pale skin, smiling, huge breasts, intricate details, hoop earrings, bangs, straight hair, long hair, curly hair, ((blonde hair)), black eyes, hand on breast, glasses, looking at viewer",
+                "sampler": "DPM++ SDE",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "name": "aodaimong_v10",
+                        "type": "lora",
+                        "weight": 0.7
+                    },
+                    {
+                        "name": "thaohuyen_v3",
+                        "type": "lora",
+                        "weight": 0.2
+                    },
+                    {
+                        "hash": "fc2511737a",
+                        "name": "chilloutmix_NiPrunedFp32Fix",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fc2511737a",
+                "Hires upscale": "2",
+                "Hires upscaler": "Latent",
+                "negativePrompt": "signature, watermark, airbrush,  photoshop, plastic doll,  (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, masculine, obese, fat, out of frame,",
+                "Face restoration": "CodeFormer",
+                "Denoising strength": "0.7"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/29085"
+}

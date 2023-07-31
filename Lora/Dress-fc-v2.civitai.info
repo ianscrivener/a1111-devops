@@ -1,0 +1,364 @@
+{
+    "id": 69136,
+    "modelId": 54274,
+    "name": "v2.0",
+    "createdAt": "2023-05-12T23:10:52.078Z",
+    "updatedAt": "2023-05-28T06:53:28.761Z",
+    "trainedWords": [
+        "ckrdress-fc",
+        "cleavage, choker"
+    ],
+    "baseModel": "Other",
+    "earlyAccessTimeFrame": 0,
+    "description": null,
+    "stats": {
+        "downloadCount": 1549,
+        "ratingCount": 1,
+        "rating": 5
+    },
+    "model": {
+        "name": "bodycon minidress - fC \u7d27\u8eab\u8ff7\u4f60\u88d9",
+        "type": "LORA",
+        "nsfw": false,
+        "poi": false
+    },
+    "files": [
+        {
+            "name": "ckrdress-fc-v2.safetensors",
+            "id": 48338,
+            "sizeKB": 147573.9013671875,
+            "type": "Model",
+            "metadata": {
+                "fp": null,
+                "size": null,
+                "format": "SafeTensor"
+            },
+            "pickleScanResult": "Success",
+            "pickleScanMessage": "No Pickle imports",
+            "virusScanResult": "Success",
+            "scannedAt": "2023-05-12T23:16:19.321Z",
+            "hashes": {
+                "AutoV1": "BC5D3574",
+                "AutoV2": "7B9ED113AC",
+                "SHA256": "7B9ED113ACD80D62BF3FAF22395D753BE8D693B1B02AA54CA6A944ABB12DF8DF",
+                "CRC32": "9186DC25",
+                "BLAKE3": "C6481EFD827255471AE9A45E5021EFEB6422507F16424FB316D22FD61081780F"
+            },
+            "primary": true,
+            "downloadUrl": "https://civitai.com/api/download/models/69136"
+        }
+    ],
+    "images": [
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/56f67807-7acf-4bb4-9adc-452bb6101bea/width=450/771630.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UWI43XKPs@kE#RR9RO#S}rW?%0I@s:V|%1$y",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2813905291,
+                "Model": "anime_fCAnime0.1c",
+                "steps": 20,
+                "hashes": {
+                    "model": "fd412d65b0"
+                },
+                "prompt": "1girl, choker, cleavage, ckrdress-fc <lora:ckrdress-fc-v2:1>, full body, analog style, modelshoot style, portrait of woman by Flora Borsi, style by Flora Borsi, bold, bright colours, rainbow Mohawk haircut, ((Flora Borsi))",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fd412d65b0",
+                        "name": "anime_fCAnime0.1c",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fd412d65b0",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/09794a59-316a-473f-a5f9-72e4a6297c75/width=450/771634.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UJJt-+xtyZ%N00M|E1R+9G%2D%E1~VjYNyWX",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1677284562,
+                "Model": "anime_fCAnime0.1c",
+                "steps": 20,
+                "hashes": {
+                    "model": "fd412d65b0"
+                },
+                "prompt": "1girl, choker, cleavage, ckrdress-fc <lora:ckrdress-fc-v2:1>, full body, close-up portrait of beautiful smiling woman with freckles, snow-covered mountain, full body, 16mm, 35mm, vivid colors, high quality, white balance, kodak film, high detail",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fd412d65b0",
+                        "name": "anime_fCAnime0.1c",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fd412d65b0",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/0ffd6989-99f4-4297-bd8a-30159ee53ead/width=450/771519.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UHLzKs-A_M~o^*S$ocIpNc$$IpaK-:OERjn,",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1807058898,
+                "Model": "fC_fCBlend1.0",
+                "steps": 20,
+                "hashes": {
+                    "model": "87eb06e2c1"
+                },
+                "prompt": "1girl, ckrdress-fc <lora:ckrdress-fc-v2:1>, full body, analog style, modelshoot style, portrait of woman by Flora Borsi, style by Flora Borsi, bold, bright colours, rainbow Mohawk haircut, ((Flora Borsi))",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "87eb06e2c1",
+                        "name": "fC_fCBlend1.0",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "87eb06e2c1",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/92c5f4e8-e50e-4fae-b39a-817d0c3bb0b5/width=450/771631.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UGE_z7t75RM{~Vof%1jYxuWBa}s:IAa}ELWC",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2605945539,
+                "Model": "anime_fCAnime0.1c",
+                "steps": 20,
+                "hashes": {
+                    "model": "fd412d65b0"
+                },
+                "prompt": "1girl, choker, cleavage, ckrdress-fc <lora:ckrdress-fc-v2:1>, full body, 1girl, supermodel, woman, oversized hoodie, large ass, auburn long hair, masterpiece, best quality, shoes, full body,white background, studio, looking away, covered by hood",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fd412d65b0",
+                        "name": "anime_fCAnime0.1c",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fd412d65b0",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/17fbfd1b-c16d-42a1-817e-509982d3c9bf/width=450/771718.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "U3Eer*t-1U5=00$%01jE0dn54mn3^5JU%e9u",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3993700307,
+                "Model": "anime_fCAnime0.1c",
+                "steps": 20,
+                "hashes": {
+                    "model": "fd412d65b0"
+                },
+                "prompt": "1girl, choker, cleavage, ckrdress-fc <lora:ckrdress-fc-v2:1>, full body, bodycon minidress, heels, choker, bodycon minidress,  breasts, face, eyes, vibrant black hair, masterpiece, best quality, full body, bending forwards, realistic, looking up at viewer, looking down at subject, heels, hands, fingers, arms down at side",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fd412d65b0",
+                        "name": "anime_fCAnime0.1c",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fd412d65b0",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8a2ab0fd-e4de-4035-98f3-4e02c7acf474/width=450/771721.jpeg",
+            "nsfw": "X",
+            "width": 1024,
+            "height": 1536,
+            "hash": "U9Iz;.9D000a00].0fCh}==@moPCcsIp0wDj",
+            "meta": {
+                "Size": "512x768",
+                "seed": 1423302765,
+                "Model": "anime_fCAnime0.1c",
+                "steps": 20,
+                "hashes": {
+                    "model": "fd412d65b0"
+                },
+                "prompt": "1girl, choker, cleavage, ckrdress-fc <lora:ckrdress-fc-v2:1>, full body, bodycon minidress, heels, analog style, modelshoot style, portrait of woman by Flora Borsi, style by Flora Borsi, bold, bright colours, rainbow Mohawk haircut, ((Flora Borsi))",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fd412d65b0",
+                        "name": "anime_fCAnime0.1c",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fd412d65b0",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/33852297-05fb-4ad7-abe0-c247e99c96cd/width=450/771520.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UFEV$]9b4,~V?7IA.9%h=;R:NLkC0g-;-4t6",
+            "meta": {
+                "Size": "512x768",
+                "seed": 2530436109,
+                "Model": "fC_fCBlend1.0",
+                "steps": 20,
+                "hashes": {
+                    "model": "87eb06e2c1"
+                },
+                "prompt": "1girl, ckrdress-fc <lora:ckrdress-fc-v2:0.8>, full body, RAW photo, a 22-year-old-girl, upper body, selfie in a car, blue hoodie, inside a car, driving, lipstick, soft lighting, high quality, highres, sharp focus, extremely detailed, (sunlight on face), beautiful detailed eyes, masterpiece, cinematic lighting, dslr, Fujifilm XT3",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "87eb06e2c1",
+                        "name": "fC_fCBlend1.0",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "87eb06e2c1",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/1d4d56ff-c654-46d8-96b1-2aa01f8a6268/width=450/771632.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UPCiUE4:kUs:ozxZo#NG~B9uxuoJEL%1%1NG",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3670065169,
+                "Model": "anime_fCAnime0.1c",
+                "steps": 20,
+                "hashes": {
+                    "model": "fd412d65b0"
+                },
+                "prompt": "1girl, choker, cleavage, ckrdress-fc <lora:ckrdress-fc-v2:1>, full body, RAW photo, a 22-year-old-girl, upper body, selfie in a car, blue hoodie, inside a car, driving, lipstick, soft lighting, high quality, highres, sharp focus, extremely detailed, (sunlight on face), beautiful detailed eyes, masterpiece, cinematic lighting, dslr, Fujifilm XT3",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "fd412d65b0",
+                        "name": "anime_fCAnime0.1c",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "fd412d65b0",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/babf38cb-3d1b-4437-8ea6-46ccfe69b9d4/width=450/771719.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UAFh;l9u*0%$00xX00R+I:rqvyWYEMWC=_NF",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3553371096,
+                "Model": "anime_fCAnime0.1a",
+                "steps": 20,
+                "hashes": {
+                    "model": "3e18a1f0b8"
+                },
+                "prompt": "1girl, choker, cleavage, ckrdress-fc <lora:ckrdress-fc-v2:1>, full body, bodycon minidress, heels, choker, bodycon minidress,  breasts, face, eyes, vibrant black hair, masterpiece, best quality, full body, bending forwards, realistic, looking up at viewer, looking down at subject, heels, hands, fingers, arms down at side",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "3e18a1f0b8",
+                        "name": "anime_fCAnime0.1a",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "3e18a1f0b8",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger",
+                "Denoising strength": "0.5"
+            }
+        },
+        {
+            "url": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8b41b7e3-b140-49b1-a3f0-125aaccdac40/width=450/771527.jpeg",
+            "nsfw": "Soft",
+            "width": 1024,
+            "height": 1536,
+            "hash": "UFFq,o~C0#Jo0eI;xubb57xaxFNFRPM{D*Io",
+            "meta": {
+                "Size": "512x768",
+                "seed": 3752997526,
+                "Model": "fC_fCBlend1.0",
+                "steps": 20,
+                "hashes": {
+                    "model": "87eb06e2c1"
+                },
+                "prompt": "1girl, choker, cleavage, ckrdress-fc <lora:ckrdress-fc-v2:1>, full body, RAW photo, a 22-year-old-girl, upper body, selfie in a car, blue hoodie, inside a car, driving, lipstick, soft lighting, high quality, highres, sharp focus, extremely detailed, (sunlight on face), beautiful detailed eyes, masterpiece, cinematic lighting, dslr, Fujifilm XT3",
+                "sampler": "DPM++ 2M Karras",
+                "cfgScale": 7,
+                "resources": [
+                    {
+                        "hash": "87eb06e2c1",
+                        "name": "fC_fCBlend1.0",
+                        "type": "model"
+                    }
+                ],
+                "Model hash": "87eb06e2c1",
+                "Hires upscale": "2",
+                "Hires upscaler": "4x-UltraSharp",
+                "negativePrompt": "bad-hands-5, badhandv4, easynegative, By bad artist, monotone, low quality, close up, cropped, greyscale, watermark, hands, finger",
+                "Denoising strength": "0.5"
+            }
+        }
+    ],
+    "downloadUrl": "https://civitai.com/api/download/models/69136"
+}
