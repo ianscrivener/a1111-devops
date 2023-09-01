@@ -12,3 +12,4 @@ wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/scrip
 
 wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/scripts/a1111_vae.sh | bash
 
+wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/scripts/a1111_controlnet.sh | bash
