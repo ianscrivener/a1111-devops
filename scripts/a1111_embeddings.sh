@@ -6,4 +6,3 @@ if [[ -n "$SD_embeddings" ]]; then
 else
     cd /workspace/stable-diffusion-webui/embeddings || return
 fi
-
