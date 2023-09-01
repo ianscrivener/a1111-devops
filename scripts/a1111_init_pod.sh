@@ -1,4 +1,5 @@
 apt update
+apt upgrade -y
 apt install unzip nano git-lfs aria2 jq python3 python3-pip git unzip -y
 # pip install --upgrade pip setuptools wheel
 
@@ -22,15 +23,15 @@ ln -s /workspace/a1111_outputs /workspace/stable-diffusion-webui/outputs
 cd /workspace/stable-diffusion-webui
 rm -rf embeddings
 wget https://github.com/ianscrivener/a1111-devops/raw/main/data/embeddings.zip
-unzip embeddings.zip
+unzip -o embeddings.zip
 
 
 # fetch various A111 setting files
 cd /workspace/stable-diffusion-webui
 rm params.txt && wget https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/data/params.txt
-rm ui-config.json && wget https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/data/ui-config.json
-rm styles.csv && wget https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/data/styles.csv
-rm sd-webui-state.json && wget https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/data/sd-webui-state.json
+rm -f ui-config.json && wget https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/data/ui-config.json
+rm -f styles.csv && wget https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/data/styles.csv
+rm -f sd-webui-state.json && wget https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/data/sd-webui-state.json
 
 
 # get updated webui-user.sh
