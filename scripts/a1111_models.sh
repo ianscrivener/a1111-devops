@@ -9,19 +9,15 @@ fi
 
 rm *.txt
 
-# Downlaod SD models
-# wget https://civitai.com/api/download/models/15236 -O Deliberate_v2.safetensors
-
-# wget https://civitai.com/api/download/models/84576 -O reliberate.safetensors
-
+wget https://civitai.com/api/download/models/134065 -O epiCRealism_Pure_Evolution_v5.safetensors
+wget https://civitai.com/api/download/models/90072 -O Photon.safetensors
 wget https://civitai.com/api/download/models/130072 -O Realistic_Vision_v5.safetensors
-
-# wget https://civitai.com/api/download/models/90072 -O photo.safetensors
-
 wget https://civitai.com/api/download/models/105035 -O epiCRealism_v3.safetensors
 wget https://civitai.com/api/download/models/105262 -O epiCRealism_v3_inpainting.safetensors
 
 # wget https://civitai.com/api/download/models/127742 -O epiCRealism_v4.safetensors
+# wget https://civitai.com/api/download/models/15236 -O Deliberate_v2.safetensors
+# wget https://civitai.com/api/download/models/84576 -O reliberate.safetensors
 
 
 
