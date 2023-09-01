@@ -1,0 +1,26 @@
+﻿name,prompt,negative_prompt
+NEG_1,,"((ugly eyes, deformed iris, deformed pupils, fused lips and teeth, mutation, mutilated, deformity, disfigured, deformed, fused fingers, too many fingers, extra limbs, extra fingers, missing arms, missing legs, extra arms, bad proportions, malformed limbs, extra legs, mutated hands, bad hands, bad anatomy, deformed pussy, strange hands, missing hands)),
+dehydrated, cloned face, sleepy, closed-eyes,
+airbrush, airbrushed, photoshop, photoshopped, plastic doll, plastic skin, plastic,
+poorly detailed, smudged,
+fake boobs, implants, fake tits,
+overexposed, oversaturated, burnt image,
+(un-detailed skin, semi-realistic, cgi, 3d, render, cg, sketch, cartoon, drawing, anime:1.2),
+blender, moe, loli, chibi, big head, pencil, doll, letters, signature, watermark, low quality, lowres, jpeg artifact,
+head wear, masculine, obese, fat, crippled, crooked, broken, distorted, erased, cut, sloppy, hideous, pixelated, aliasing, sloppy, broken, fuzzy, cheap, oldschool, poor quality,pixelated, old, granny, hideous, deformed, mutant, butchered, gore, artifacts, (logo), (username), ((disfigured)), text, "
++dynamic_pose,((dynamic pose)),
++dynamic_comp,((dynamic composition)),
++photo_quality,"(RAW photo, 4K, Fujifilm XT3) ",
+-NEG_no_headwear,,"hat, headware, scarf"
+85mm_bokeh," 85mm, f/1.8, bokeh, (vignette effect:1.2), film grain,",
+Lift Skirt,"gorgeous 22 year old Italian woman, (smile:0.6), denim skirt, white lycra bikini top, pussy focus, pussy close-up, hands,  <lora:add_detail:0.8> (low angle), ((dynamic composition)), ((dynamic pose)) <lora:epiCRealismHelper:1> <lora:skirtlift-v4:0.8> <lora:PussyFromBelow:0.8>",
+⭐️ NEG 4x TIs,,"BadPrompt-v2 FastNegative-v2 BadHand NegativeHand <lora:CyberRealistic_Negative-neg:1>, man, cock, erection, penis, tattoo, tgirl"
+Indian woman 1,"(at night), RAW color photo, a gorgeous 26 year old nude Indian fashion model, amazing beautiful face, long wavy hair, sexy (smile), slim waist, looking at viewer, studio, GQ Magazine, (dark, shadowy), extreme detail, clarity, Fujifilm XT3, cinematic lighting,  (dynamic pose), ((dynamic composition)) <lora:add_detail:1.0>",
+Indian woman 2,"(at night), RAW color photo, a gorgeous 26 year old nude Indian fashion model, amazing beautiful face, long wavy hair, sexy (smile), slim waist, looking at viewer, studio, GQ Magazine, (dark, shadowy), extreme detail, clarity, Fujifilm XT3, cinematic lighting,  (dynamic pose), ((dynamic composition)) <lora:add_detail:1.0>",
+Mountain River Girl,"gorgeous mid shot portrait, RAW photo of (Margot Robbie:0.4) (Alessandra Ambrosio:0.6), (head size: 1.1), (long torso:0.8), (naked), ((blonde)), (large breasts:1.0), (saggy breasts:0.3), 4K, bloom, soft lighting, 8k uhd, dslr, film grain, (Fujifilm XT3, 85mm, f/1.8),  (vignette effect:1.2), pubic hair, (smile:0.7), bokeh, beside a mountain river, ",
+-NEG large nips & areola,,"(large nipples, large areola)"
+EpicRealism Helper,<lora:epiCRealismHelper:1>,
+My Gal ,"((Gal Gadot:0.9), (Anne Hathaway:0.55), (Margot Robbie:0.7), (Jennifer Lawrence:0.8), (large like anime eyes:1.1), messy hair,flirting gaze, ultra detailed face, ultra detailed skin)",
+⭐️ NEG TIs,,"FastNegative-v2 <lora:CyberRealistic_Negative-neg:1>, man, cock, erection, penis, tattoo, tgirl"
+⭐️ NEG Bad Hands,,BadHand NegativeHand
+NEG_NEW,,"Asian, Japanese, Korean, Chinese, bad-handv4, blurry, logo, watermark, signature, cropped, out of frame, worst quality, low quality, jpeg artifacts, poorly lit, overexposed, underexposed, glitch, error, out of focus, (semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, digital art, anime, manga:1.3), amateur, (poorly drawn hands, poorly drawn face:1.2), deformed iris, deformed pupils, morbid, duplicate, mutilated, extra fingers, mutated hands, poorly drawn eyes, mutation, deformed, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, incoherent,"
