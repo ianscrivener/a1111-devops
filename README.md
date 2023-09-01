@@ -4,7 +4,7 @@
 
 ```bash
 
-bash -c './start.sh && wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/scripts/a1111_init_pod.sh | bash'
+bash -c './start.sh && wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/runpod_a1111.sh | bash'
 
 ```
 
