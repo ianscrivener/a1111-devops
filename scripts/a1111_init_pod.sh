@@ -11,10 +11,12 @@ export SD_esrgan="/workspace/stable-diffusion-webui/models/ESRGAN"
 
 env | grep SD_
 
+
 # output directories
 mkdir -p /workspace/a1111_outputs
 rm -rf /workspace/stable-diffusion-webui/outputs
 ln -s /workspace/a1111_outputs /workspace/stable-diffusion-webui/outputs
+
 
 # fetch and unzip embeddings
 cd /workspace/stable-diffusion-webui
@@ -25,8 +27,14 @@ unzip embeddings.zip
 
 # fetch various A111 setting files
 cd /workspace/stable-diffusion-webui
-
 rm params.txt && wget https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/data/params.txt
 rm ui-config.json && wget https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/data/ui-config.json
 rm styles.csv && wget https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/data/styles.csv
 rm sd-webui-state.json && wget https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/data/sd-webui-state.json
+
+
+# get updated webui-user.sh
+# cd /workspace/stable-diffusion-webui
+# mv webui-user.sh webui-user.sh.bak
+# wget https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/data/webui-user.sh
+# chmod +x webui-user.sh
