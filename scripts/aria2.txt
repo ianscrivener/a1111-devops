@@ -1,0 +1,44 @@
+aria2
+--dir=<DIR>
+--input-file=<FILE>
+--max-concurrent-downloads=32>
+--continue=true
+--max-connection-per-server=4
+--out=<FILE>
+
+ aria2c -ifiles.txt -j2
+
+# models
+http://server/file.iso http://mirror/file.iso
+  dir=/iso_images
+  out=file.img
+http://foo/bar
+
+################################################
+# VAE
+https://civitai.com/api/download/models/80869
+    dir=/workspace/stable-diffusion-webui/models/VAE
+    out=vae-ft-mse-840000-ema-pruned.safetensors
+#
+################################################
+# ESRGAN
+https://huggingface.co/lokCX/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth
+    dir=/workspace/stable-diffusion-webui/models/ESRGAN
+#
+################################################
+
+
+
+
+# Downloads the URIs listed in FILE.
+# You can specify multiple sources for a single entity by
+# putting multiple URIs on a single line separated by the
+# TAB character. Additionally, options can be specified
+# after each URI line. Option lines must start with one or
+# more white space characters (SPACE or TAB) and must only
+# contain one option per line. Input files can use gzip compression.
+# When FILE is specified as -, aria2 will read the input from
+# stdin. See the Input File subsection for details.
+# See https://aria2.github.io/manual/en/html/aria2c.html#id2
+
+

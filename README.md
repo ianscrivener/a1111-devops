@@ -1,6 +1,13 @@
 # Automatic11111 Stable Diffusion cloud-init launcher
 
- #cloud-config
+### Runpod "Docker Command"
+
+```bash
+wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/scripts/a1111_init_pod.sh | bash
+```
+
+### cloud-config
+
 package_upgrade: true
 packages:
   - git
@@ -9,7 +16,13 @@ runcmd:
   - git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
   - cd stable-diffusion-webui
   - pip3 install -r requirements.txt
+  - wget -qO- https://raw.githubusercontent.com/ianscrivener/a1111-devops/main/scripts/a1111_init_pod.sh | bash
 
+
+
+---
+
+---
 
 
 ```
