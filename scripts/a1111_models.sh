@@ -10,6 +10,7 @@ fi
 rm *.txt
 
 wget https://civitai.com/api/download/models/134065 -O epiCRealism_Pure_Evolution_v5.safetensors
+wget https://civitai.com/api/download/models/134361 -O epiCRealism_Pure_Evolution_v5_inpainting.safetensors
 wget https://civitai.com/api/download/models/90072 -O Photon.safetensors
 wget https://civitai.com/api/download/models/130072 -O Realistic_Vision_v5.safetensors
 wget https://civitai.com/api/download/models/105035 -O epiCRealism_v3.safetensors
@@ -36,20 +37,9 @@ wget https://civitai.com/api/download/models/105262 -O epiCRealism_v3_inpainting
 
 
 
-#wget https://civitai.com/api/download/models/9901 -O refined-WRAP8.safetensors
-#wget https://huggingface.co/SG161222/Realistic_Vision_V1.4_Fantasy.ai/resolve/main/Realistic_Vision_V1.4.ckpt
-#wget https://huggingface.co/SG161222/Realistic_Vision_V1.4_Fantasy.ai/resolve/main/Realistic_Vision_V1.4-inpainting.ckpt
 #wget https://civitai.com/api/download/models/6514 -O GrapeLikeDreamFruit.safetensors
-#wget https://civitai.com/api/download/models/96 -O Openjourney.safetensors
 #wget https://civitai.com/api/download/models/2483 -O Portait_Plus_.safetensors
 #wget https://civitai.com/api/download/models/1344 -O Analog_Diffusion.safetensors
 #wget https://civitai.com/api/download/models/9901 -O refined-WRAP8.safetensors
-#wget https://civitai.com/api/download/models/15236 -O Deliberate_v2.safetensors
-#wget https://huggingface.co/SG161222/Realistic_Vision_V1.4_Fantasy.ai/resolve/main/Realistic_Vision_V1.4.ckpt
-#wget https://huggingface.co/SG161222/Realistic_Vision_V1.4_Fantasy.ai/resolve/main/Realistic_Vision_V1.4-inpainting.ckpt
-#wget https://civitai.com/api/download/models/6514 -O GrapeLikeDreamFruit.safetensors
-#wget https://civitai.com/api/download/models/96 -O Openjourney.safetensors
-#wget https://civitai.com/api/download/models/2483 -O Portait_Plus_.safetensors
-#wget https://civitai.com/api/download/models/1344 -O Analog_Diffusion.safetensors
 
 
