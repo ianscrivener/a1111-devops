@@ -18,6 +18,10 @@ wget https://civitai.com/api/download/models/12873 -O "innievag.safetensors"
 wget https://civitai.com/api/download/models/100301 -O "ButterflyPussy1_v1.safetensors"
 wget https://civitai.com/api/download/models/17355 -O "airoticart_vulvdet1-LORA.safetensors"
 
+
+wget https://huggingface.co/casque/detailed_eye-10/resolve/main/detailed_eye-10.safetensors
+
+
 cd ../
 mkdir Breasts
 cd Breasts
