@@ -25,5 +25,6 @@ ln -s /workspace/a1111_outputs /workspace/stable-diffusion-webui/outputs
 # git pull origin v1.6.0
 
 
+# add SSH  key
 
 

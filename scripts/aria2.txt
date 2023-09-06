@@ -1,30 +1,54 @@
+ aria2c -ifiles.txt -j2
+
+ 
+`aria2c -c -s 16 -x 16 -k 1M -j 1 -i dl.txt`
+  -c, --continue [true|false]                 true 
+  -s, --split=<N>
+  -x, --max-connection-per-server=<NUM>       
+  -k, --min-split-size=<SIZE>                 
+  -j, --max-concurrent-downloads=<N>          24
+  -i, --input-file=<FILE>
+
+
+
+
+aria2 -d ./aria_dl/ -x 16 -j 16 -i ./aria_list_of_files.txt
+-j streams
+-i input file
+
+
+
+
 aria2
 --dir=<DIR>
 --input-file=<FILE>
---max-concurrent-downloads=32>
+--max-concurrent-downloads=32
 --continue=true
 --max-connection-per-server=4
 --out=<FILE>
 
  aria2c -ifiles.txt -j2
 
-# models
-http://server/file.iso http://mirror/file.iso
+################################################
+
+http://server/file.iso
   dir=/iso_images
   out=file.img
-http://foo/bar
+  allow-overwrite=true
+  split=3
+  http-accept-gzip=true
 
 ################################################
 # VAE
 https://civitai.com/api/download/models/80869
     dir=/workspace/stable-diffusion-webui/models/VAE
     out=vae-ft-mse-840000-ema-pruned.safetensors
-#
+
 ################################################
 # ESRGAN
 https://huggingface.co/lokCX/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth
     dir=/workspace/stable-diffusion-webui/models/ESRGAN
-#
+
 ################################################
 
 
