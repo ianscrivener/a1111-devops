@@ -1,6 +1,7 @@
- aria2c -ifiles.txt -j2
+ aria2c -ifiles.txt 
 
- 
+
+
 `aria2c -c -s 16 -x 16 -k 1M -j 1 -i dl.txt`
   -c, --continue [true|false]                 true 
   -s, --split=<N>

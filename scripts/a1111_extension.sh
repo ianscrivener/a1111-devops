@@ -18,3 +18,10 @@ git clone https://github.com/namkazt/sd-webui-prompt-history
 git clone https://github.com/hako-mikan/sd-webui-regional-prompter.git
 git clone https://github.com/s0md3v/sd-webui-roop
 git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111.git
+git clone https://github.com/KohakuBlueleaf/a1111-sd-webui-lycoris
+git clone https://github.com/ArtVentureX/sd-webui-agent-scheduler.git
+git clone https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111
+git clone https://github.com/adieyal/sd-dynamic-prompts.git
+git clone https://github.com/continue-revolution/sd-webui-segment-anything.git
+
+

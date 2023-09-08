@@ -1,0 +1,5 @@
+hospital
+railroad tracks
+flower shop
+bus interior
+train interior

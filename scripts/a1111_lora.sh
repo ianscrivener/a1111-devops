@@ -19,6 +19,13 @@ wget https://civitai.com/api/download/models/100301 -O "ButterflyPussy1_v1.safet
 wget https://civitai.com/api/download/models/17355 -O "airoticart_vulvdet1-LORA.safetensors"
 
 
+wget https://civitai.com/api/download/models/146638 -O "fapp9.safetensors"
+
+
+
+cd ../
+mkdir Real_Skin_EyesBreasts
+cd BreaReal_Skin_EyesBreastssts
 wget https://huggingface.co/casque/detailed_eye-10/resolve/main/detailed_eye-10.safetensors
 
 
@@ -26,7 +33,7 @@ cd ../
 mkdir Breasts
 cd Breasts
 wget https://civitai.com/api/download/models/8653 -O "bralessv2.safetensors"
-
+wget https://civitai.com/models/115894/openbra -O "openbra.safetensors"
 
 cd ../
 mkdir Negative
@@ -36,8 +43,8 @@ wget https://civitai.com/api/download/models/77173 -O "unrealistic.safetensors"
 wget https://civitai.com/api/download/models/77169 -O "bad_dream.afetensors"
 
 cd ../
-mkdir ImageStyle
-cd ImageStyle
+mkdir Photo_Style
+cd Photo_Style
 wget https://civitai.com/api/download/models/62833 -O "add_detail.safetensors"
 wget https://civitai.com/api/download/models/63006 -O "LowRA.safetensors"
 wget https://civitai.com/api/download/models/16576 -O "epi_noiseoffset2.safetensors"
