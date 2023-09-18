@@ -9,9 +9,8 @@ fi
 
 # mkdir Pussy
 # cd Pussy
-# wget https://civitai.com/api/download/models/122371 -O "GodPussy2.safetensors"
-# wget https://civitai.com/api/download/models/122754 -O "GodPussy2-inpainting.safetensors"
-# wget https://civitai.com/api/download/models/63354 -O "MS_Real_POVPussyFromBelow_Lite.safetensors"
+wget https://civitai.com/api/download/models/122371 -O "GodPussy2.safetensors"
+wget https://civitai.com/api/download/models/122754 -O "GodPussy2-inpainting.safetensors"
 # wget https://civitai.com/api/download/models/63354 -O "MS_Real_POVPussyFromBelow_Lite.safetensors"
 # wget https://civitai.com/api/download/models/19492 -O "GodPussy2_Innie.safetensors"
 # wget https://civitai.com/api/download/models/12873 -O "innievag.safetensors"
@@ -50,7 +49,6 @@ cd Photo_Style
 wget https://civitai.com/api/download/models/62833 -O "add_detail.safetensors"
 wget https://civitai.com/api/download/models/63006 -O "LowRA.safetensors"
 wget https://civitai.com/api/download/models/16576 -O "epi_noiseoffset2.safetensors"
-wget https://civitai.com/api/download/models/158148 -O "frog_perspective.safetensors"
 
 
 
@@ -59,6 +57,7 @@ mkdir Cameras
 cd Cameras
 wget https://civitai.com/api/download/models/30574 -O "fisheye2.safetensors"
 wget https://civitai.com/api/download/models/148129 -O "Wide-angle-upward.safetensors"
+wget https://civitai.com/api/download/models/158148 -O "frog_perspective.safetensors"
 
 
 

@@ -9,7 +9,7 @@ fi
 
 
 # fetch and unzip embeddings
-# cd /workspace/stable-diffusion-webui
+
 
 rm -rf embeddings
 wget https://github.com/ianscrivener/a1111-devops/raw/main/data/embeddings.zip
