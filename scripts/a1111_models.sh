@@ -11,8 +11,8 @@ rm *.txt
 
 wget https://civitai.com/api/download/models/134065 -O epiCRealism_Pure_Evolution_v5.safetensors
 wget https://civitai.com/api/download/models/134361 -O epiCRealism_Pure_Evolution_v5_inpainting.safetensors
-wget https://civitai.com/api/download/models/90072 -O Photon.safetensors
-wget https://civitai.com/api/download/models/130072 -O Realistic_Vision_v5.safetensors
+# wget https://civitai.com/api/download/models/90072 -O Photon.safetensors
+# wget https://civitai.com/api/download/models/130072 -O Realistic_Vision_v5.safetensors
 wget https://civitai.com/api/download/models/105035 -O epiCRealism_v3.safetensors
 wget https://civitai.com/api/download/models/105262 -O epiCRealism_v3_inpainting.safetensors
 

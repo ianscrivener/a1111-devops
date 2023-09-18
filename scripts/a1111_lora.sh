@@ -7,18 +7,18 @@ else
     cd /workspace/stable-diffusion-webui/models/Lora || return
 fi
 
-mkdir Pussy
-cd Pussy
-wget https://civitai.com/api/download/models/122371 -O "GodPussy2.safetensors"
-wget https://civitai.com/api/download/models/122754 -O "GodPussy2-inpainting.safetensors"
-wget https://civitai.com/api/download/models/63354 -O "MS_Real_POVPussyFromBelow_Lite.safetensors"
-wget https://civitai.com/api/download/models/63354 -O "MS_Real_POVPussyFromBelow_Lite.safetensors"
-wget https://civitai.com/api/download/models/19492 -O "GodPussy2_Innie.safetensors"
-wget https://civitai.com/api/download/models/12873 -O "innievag.safetensors"
-wget https://civitai.com/api/download/models/100301 -O "ButterflyPussy1_v1.safetensors"
-wget https://civitai.com/api/download/models/17355 -O "airoticart_vulvdet1-LORA.safetensors"
+# mkdir Pussy
+# cd Pussy
+# wget https://civitai.com/api/download/models/122371 -O "GodPussy2.safetensors"
+# wget https://civitai.com/api/download/models/122754 -O "GodPussy2-inpainting.safetensors"
+# wget https://civitai.com/api/download/models/63354 -O "MS_Real_POVPussyFromBelow_Lite.safetensors"
+# wget https://civitai.com/api/download/models/63354 -O "MS_Real_POVPussyFromBelow_Lite.safetensors"
+# wget https://civitai.com/api/download/models/19492 -O "GodPussy2_Innie.safetensors"
+# wget https://civitai.com/api/download/models/12873 -O "innievag.safetensors"
+# wget https://civitai.com/api/download/models/100301 -O "ButterflyPussy1_v1.safetensors"
+# wget https://civitai.com/api/download/models/17355 -O "airoticart_vulvdet1-LORA.safetensors"
 
-wget https://civitai.com/api/download/models/146638 -O "fapp9.safetensors"
+# wget https://civitai.com/api/download/models/146638 -O "fapp9.safetensors"
 
 
 
@@ -28,13 +28,13 @@ cd Real_Skin_Eyes
 wget https://huggingface.co/casque/detailed_eye-10/resolve/main/detailed_eye-10.safetensors
 
 
-cd ../
-mkdir Breasts
-cd Breasts
-wget https://civitai.com/api/download/models/8653 -O "bralessv2.safetensors"
-wget https://civitai.com/models/115894/openbra -O "openbra.safetensors"
-wget https://civitai.com/api/download/models/87262 -O "BreastHelper.safetensors"
-wget https://civitai.com/api/download/models/53641 -O "DropTop.safetensors"
+# cd ../
+# mkdir Breasts
+# cd Breasts
+# wget https://civitai.com/api/download/models/8653 -O "bralessv2.safetensors"
+# wget https://civitai.com/models/115894/openbra -O "openbra.safetensors"
+# wget https://civitai.com/api/download/models/87262 -O "BreastHelper.safetensors"
+# wget https://civitai.com/api/download/models/53641 -O "DropTop.safetensors"
 
 cd ../
 mkdir Negative
