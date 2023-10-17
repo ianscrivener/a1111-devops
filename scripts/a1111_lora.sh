@@ -59,6 +59,9 @@ wget https://civitai.com/api/download/models/30574 -O "fisheye2.safetensors"
 wget https://civitai.com/api/download/models/148129 -O "Wide-angle-upward.safetensors"
 wget https://civitai.com/api/download/models/158148 -O "frog_perspective.safetensors"
 
+# https://civitai.com/models/150603/waterline-over-under-split-shot-underwater-photography
+wget https://civitai.com/api/download/models/168316 -O "above_below_water.safetensors.safetensors"
+
 
 
 # wget xxxx -O "xxxx.safetensors"
