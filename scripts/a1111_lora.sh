@@ -10,15 +10,14 @@ fi
 # mkdir Pussy
 # cd Pussy
 wget https://civitai.com/api/download/models/122371 -O "GodPussy2.safetensors"
-wget https://civitai.com/api/download/models/122754 -O "GodPussy2-inpainting.safetensors"
+# wget https://civitai.com/api/download/models/122754 -O "GodPussy2-inpainting.safetensors"
 # wget https://civitai.com/api/download/models/63354 -O "MS_Real_POVPussyFromBelow_Lite.safetensors"
 # wget https://civitai.com/api/download/models/19492 -O "GodPussy2_Innie.safetensors"
 # wget https://civitai.com/api/download/models/12873 -O "innievag.safetensors"
-# wget https://civitai.com/api/download/models/100301 -O "ButterflyPussy1_v1.safetensors"
+wget https://civitai.com/api/download/models/100301 -O "ButterflyPussy1_v1.safetensors"
 # wget https://civitai.com/api/download/models/17355 -O "airoticart_vulvdet1-LORA.safetensors"
 
-# wget https://civitai.com/api/download/models/146638 -O "fapp9.safetensors"
-
+wget https://civitai.com/api/download/models/146638 -O "fapp9.safetensors"
 
 
 cd ../
@@ -68,8 +67,6 @@ wget https://civitai.com/api/download/models/168316 -O "above_below_water.safete
 # wget xxxx -O "xxxx.safetensors"
 # wget xxxx -O "xxxx.safetensors"
 # wget xxxx -O "xxxx.safetensors"
-
-
 # wget xxxx -O "xxxx.safetensors"
 
 
