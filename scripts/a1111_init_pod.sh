@@ -28,3 +28,8 @@ ln -s /workspace/a1111_outputs /workspace/stable-diffusion-webui/outputs
 # add SSH  key
 
 
+# get and unzip settings
+cd /workspace/stable-diffusion-webui
+wget https://github.com/ianscrivener/a1111-devops/raw/main/data/Archive.zip
+unzip -oqq Archive.zip
+rm Archive.zip
